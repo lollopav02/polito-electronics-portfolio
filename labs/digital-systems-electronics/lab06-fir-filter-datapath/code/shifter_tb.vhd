@@ -1,0 +1,44 @@
+LIBRARY ieee;
+USE ieee.std_LOGIC_1164.all;
+USE ieee.numeric_std.all;
+
+ENTITY shifter_tb IS
+END ENTITY;
+
+ARCHITECTURE behav OF shifter_tb IS
+	COMPONENT shifter IS
+	PORT(data_in: IN signed(10 downto 0);
+				sel: IN unsigned(1 downto 0);
+			data_out: OUT signed(10 downto 0));
+	END COMPONENT;
+	
+	SIGNAL DIN,DOUT: SIGNED(10 DOWNTO 0);
+	SIGNAL SELECTOR: UNSIGNED(1 DOWNTO 0);
+	
+	BEGIN
+	PROCESS
+	BEGIN
+	
+	DIN<="11110101010";
+	SELECTOR<="00";
+	WAIT FOR 20 NS;
+	SELECTOR<="01";
+	WAIT FOR 20 NS;
+	SELECTOR<="11";
+	WAIT FOR 20 NS;
+	SELECTOR<="10";
+	WAIT FOR 20 NS;
+	DIN<="00010101111";
+	SELECTOR<="00";
+	WAIT FOR 20 NS;
+	SELECTOR<="01";
+	WAIT FOR 20 NS;
+	SELECTOR<="11";
+	WAIT FOR 20 NS;
+	SELECTOR<="10";
+	wait;
+	
+	
+	end process;
+	dut:shifter PORT MAP(DIN,SELECTOR,DOUT);
+	END ARCHITECTURE;

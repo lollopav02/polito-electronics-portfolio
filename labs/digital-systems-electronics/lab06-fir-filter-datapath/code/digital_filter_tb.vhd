@@ -1,0 +1,63 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.numeric_std.all;
+
+ENTITY digital_filter_tb IS
+END ENTITY;
+
+ARCHITECTURE behaviour OF digital_filter_tb IS
+	
+	COMPONENT digital_filter IS
+	PORT(CLK, START: IN STD_LOGIC;
+		  DATA_INPUT: IN SIGNED(7 DOWNTO 0);
+		  DONE: OUT STD_LOGIC);
+	END COMPONENT;
+
+	SIGNAL CK, GO, ENDED: STD_LOGIC;
+	SIGNAL DATAIN: SIGNED(7 DOWNTO 0);
+	
+	BEGIN
+	
+	clock: PROCESS
+	BEGIN
+	CK <='1';
+	WAIT FOR 5 ns;
+	CK<='0';
+	WAIT FOR 5 ns;
+	END PROCESS;
+	
+	starter: PROCESS
+	BEGIN
+	GO <= '0';
+	WAIT FOR 5 NS;
+	GO <= '1';
+	WAIT FOR 60000 NS;
+	GO <= '1';
+	WAIT;
+	END PROCESS;
+	
+	
+	data_insert: PROCESS
+	BEGIN
+
+	WAIT FOR 30 NS;
+	DATAIN <= "00011110";
+	WAIT FOR 10 ns;
+	DATAIN <= "00101100";
+	WAIT FOR 10 NS;
+	DATAIN <= "11000100";
+	WAIT FOR 10 ns;
+	DATAIN <= "11100000";
+	WAIT FOR 10 ns;
+	DATAIN <= "11010101";
+	WAIT FOR 10 ns;
+	DATAIN <= "00001010";
+	WAIT FOR 10 ns;
+	DATAIN <= "11111110";
+	WAIT FOR 10 ns;
+	
+	END PROCESS;
+	
+	DUT: digital_filter PORT MAP(CK, GO, DATAIN, ENDED);
+	
+END ARCHITECTURE;

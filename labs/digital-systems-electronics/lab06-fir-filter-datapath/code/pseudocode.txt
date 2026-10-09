@@ -1,0 +1,52 @@
+main{
+in: data_in, ck, start, full_A, full_B;
+out: address_A, address_B, data_out, end;
+
+if(start'event and start = 1){
+	for(i=0; i<1024; i++){
+		address_A<=i;
+		--data entering mem_A will be placed in sequential addresses, in order
+	}
+	full_A<=1;
+
+} elsif(full_A = 1){
+	for(i=0; i<1024; i++){
+		address_B<=i;
+		if(address_B = 0){
+			data_out<= sum(shifted_data(address_B, 0), 0, 0, 0);
+		} elsif(address_B = 1){
+			data_out<= sum(shifted_data(address_B, 0), shifted_data(address_B-1, 1), 0, 0);
+		} elsif(address_B = 2) {
+			data_out<= sum(shifted_data(address_B, 0), shifted_data(address_B-1, 1), shifted_data(address_B-2, 2), 0);
+		} else {
+			data_out<= sum(shifted_data(address_B, 0), shifted_data(address_B-1, 1), shifted_data(address_B-2, 2), shifted_data(address_B-3, 3));
+	}
+	full_B<=1;
+
+} elsif(full_B=1){
+	end<=1;
+}
+}
+
+sum {
+in: addend1, addend2, addend3, addend4;
+out:sum;	
+
+tmp1<=addend1+addend2;
+tmp2<=tmp1+addend3;
+sum<=tmp2+addend4;	
+}
+
+shifted_data {
+in: data_in, selection;
+out: shifted_data;
+
+if(selection=0){shifted_data=data_in*(-0.5);}
+elsif(selection=1){shifted_data=data_in*(-2);}
+elsif(selection=2){shifted_data=data_in*4;}
+else{shifted_data=data_in*0.25;}
+
+}
+
+--we'll keep the addresses with two different counters, one for absolute position and one for relative position
+--we'll need to execute the operations on 11 bits to avoid any loss of information. we'll need one input and one output bit adjuster.

@@ -1,0 +1,12 @@
+RX value: 255
+TX value: 0
+Status value: 96
+Control value: 128
+Divisor value: 434
+
+Real divisor: 434, calculated divisor: 433
+Divisor for new baudrate: 20832
+
+
+47973456789!
+0000000001100000

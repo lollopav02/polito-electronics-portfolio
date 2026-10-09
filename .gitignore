@@ -1,0 +1,56 @@
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+desktop.ini
+__MACOSX/
+*.swp
+*~
+
+# --- Keil uVision (LandTiger) ---
+Objects/
+Listings/
+DebugConfig/
+*.uvguix.*
+*.bak
+*.dep
+*.crf
+*.o
+*.d
+*.axf
+*.htm
+*.lnp
+*.map
+*.sct
+*.iex
+*.__i
+*._ip
+EventRecorderStub.scvd
+JLinkLog.txt
+
+# --- Intel Quartus / ModelSim ---
+db/
+incremental_db/
+output_files/
+simulation/
+work/
+greybox_tmp/
+*.qws
+*.rpt
+*.summary
+*.smsg
+*.wlf
+transcript
+
+# --- STM32CubeIDE ---
+Debug/
+Release/
+.metadata/
+.settings/
+
+# --- MATLAB ---
+*.asv
+
+# --- Host test binaries ---
+projects/tetris-landtiger/tests/test_logic
+projects/tetris-landtiger/tests/fuzz
+*.exe

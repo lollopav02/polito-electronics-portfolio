@@ -1,0 +1,35 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.numeric_std.all;
+
+ENTITY es4 IS
+	PORT(SW: IN UNSIGNED(7 DOWNTO 0);
+		  HEX0, HEX1, HEX2, HEX3: OUT STD_LOGIC_VECTOR(6 DOWNTO 0));
+END ENTITY;
+
+ARCHITECTURE struct OF es4 IS
+
+	COMPONENT multiplier IS 
+		PORT(A, B: IN UNSIGNED(3 DOWNTO 0);
+			  RES: OUT UNSIGNED(7 DOWNTO 0));
+	END COMPONENT;
+	
+	COMPONENT display IS
+		PORT(m: IN UNSIGNED(3 downto 0);
+			  h: OUT STD_LOGIC_VECTOR(6 downto 0));
+	END COMPONENT;
+	
+	SIGNAL A, B: UNSIGNED(3 DOWNTO 0);
+	SIGNAL RES: UNSIGNED(7 DOWNTO 0);
+	
+	BEGIN 
+	A <= UNSIGNED(SW(3 DOWNTO 0));
+	B <= UNSIGNED(SW(7 DOWNTO 4));
+	
+	mult: multiplier PORT MAP(A, B, RES);
+	h0: display PORT MAP (A, HEX0);
+	h1: display PORT MAP (B, HEX1);
+	h2: display PORT MAP (RES(7 DOWNTO 4), HEX3);
+	h3: display PORT MAP (RES(3 DOWNTO 0), HEX2);
+	
+END ARCHITECTURE;
