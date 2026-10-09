@@ -66,4 +66,3 @@ outside the course environment.
 
 **Lorenzo Pavone**, Samuele Martello, Matteo Scardovi.
 
-<!-- TODO: one or two sentences on your own contribution -->

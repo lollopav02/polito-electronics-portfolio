@@ -4,10 +4,6 @@ A complete Tetris game in bare-metal C for the LandTiger development board
 (ARM Cortex-M3 NXP LPC1768) with a 240×320 LCD, joystick, push-buttons, potentiometer and speaker.  
 *Course: Computer Architectures — Politecnico di Torino, 2025/26.*
 
-<!-- TODO: record a short video of the board, convert it to GIF and add it here:
-![Gameplay](docs/demo.gif)
--->
-
 ## Features
 
 - Seven tetrominoes with clockwise rotation and wall kicks, line clears, score, high score
@@ -84,4 +80,3 @@ that sound works, added key debouncing and incremental rendering, and wrote the 
 ## Author
 
 **Lorenzo Pavone**
-<!-- TODO: add teammates if this was a group project -->

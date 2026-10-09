@@ -4,10 +4,10 @@ Design, electromagnetic simulation, fabrication and measurement of a maximally f
 low-pass filter on a microstrip PCB.  
 *Course: Guiding Electromagnetic Systems — Politecnico di Torino, June 2026.*
 
-<!-- TODO: add a photo of the prototype and the S21 comparison plot, e.g.
-![Prototype](docs/img/prototype.jpg)
-![S21 simulated vs measured](docs/img/s21.png)
--->
+<p>
+  <img src="docs/img/20260605_113125.jpg" width="49%" alt="Prototype and measurement setup">
+  <img src="docs/img/20260605_113129.jpg" width="49%" alt="Prototype and measurement setup">
+</p>
 
 ## Specifications
 
@@ -60,11 +60,18 @@ docs/img/                                  photos of the prototype and measureme
 ```
 
 `compare_simulation_measurement.m` needs the RF Toolbox (`sparameters`) and the exported data
-files `S11_measurements_AWR.txt`, `S21_measurements_AWR.txt` and `S_Analyzer.s2p` in the same folder.
-<!-- TODO: add the measurement files to matlab/ if you still have them -->
+files `S11_measurements_AWR.txt`, `S21_measurements_AWR.txt` and `S_Analyzer.s2p` in the same
+folder; the measurement data are not included in this repository.
+
+## Gallery
+
+| | |
+|---|---|
+| ![](docs/img/Screenshot_2026_05_04_17_14_08_50_f541918c7893c52dbd1ee5d319333948.jpg) | ![](docs/img/photo_2026-06-05_17-49-39.jpg) |
+| ![](docs/img/photo_2026-06-05_17-49-40.jpg) | ![](docs/img/photo_2026-06-06_07-57-29.jpg) |
+| ![](docs/img/photo_2026-06-06_07-58-34.jpg) | ![](docs/img/photo_2026-06-06_08-01-18.jpg) |
 
 ## Team
 
 Jyotiraditya Satpathy, Matteo Scardovi, **Lorenzo Pavone**, Samuele Martello, Andrea Lanzilotto.
 
-<!-- TODO: one or two sentences on your own contribution -->
