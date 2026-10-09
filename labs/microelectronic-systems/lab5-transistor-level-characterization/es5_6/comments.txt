@@ -1,0 +1,5 @@
+The setup simulation in ffdSU.png reveals timing delays in iterations 17 through 41 and 56 through 72, which we have highlighted in the 
+ffdSU_Violations.png file where the curves shift right because input data changes too close to the 1.8 ns clock edge. Similarly, the hold 
+simulation in ffdH.png shows failures in iterations 36 through 41 and 80 through 82, as highlighted in ffdH_Violations.png, where voltage 
+loops fail to reach the stable 1.2 V level. These issues occur because the data changes too soon after the 1.8 ns clock edge, corrupting 
+the master latch and preventing proper output settling.

@@ -1,0 +1,6 @@
+The ALU design uses a total area of 11563.55 square micrometers and consists of 5175 combinational cells and no sequential cells (which is correct, 
+because it's combinational). 
+This large area is due to the multiplication operator, which requires a significant number of logic gates compared 
+to simpler bitwise functions. The timing report shows that the multiplier also defines the critical path of the circuit. Because carry 
+signals must propagate through many logic levels during multiplication, this operation determines the maximum delay. 
+In contrast, logical shifts and bitwise operations are much faster as they involve simpler wiring.

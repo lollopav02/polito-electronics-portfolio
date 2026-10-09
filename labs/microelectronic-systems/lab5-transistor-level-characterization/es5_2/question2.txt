@@ -1,0 +1,7 @@
+Varying the load from 0.05 fF to 50 fF changes how the gate behaves over time: at 50 fF the current needed to charge and discharge 
+the load gets much bigger and lasts longer. This makes the output take longer to change with a delay of 209.0 ps for a High-to-Low 
+signal and a fall time of 296.5 ps. During this change the current going to ground helps get rid of the stored charge in the capacitor.
+The current surge is very high because it has to discharge the capacitors. At the time the PMOS transistors stay partially on for a longer time and his 
+increases the short-circuit current, so it makes the supply current wider peaking at around -70 uA.
+When the load is small at 0.05 fF, short-circuit current is the main issue. With a 50 fF load moving the charge becomes the main focus causing 
+longer conduction and bigger current peaks. The loads charge and discharge dictate the energy usage with current peaks, across the power rails.

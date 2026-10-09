@@ -1,0 +1,696 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 10
+        -max_paths 10
+Design : BOOTHMUL_N8
+Version: W-2024.09-SP2
+Date   : Tue Apr  7 19:37:52 2026
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: A[0] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N8        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  U942/ZN (INV_X1)                                        0.08       0.08 r
+  U937/ZN (NAND2_X1)                                      0.05       0.13 f
+  U934/ZN (NOR2_X1)                                       0.06       0.19 r
+  U933/ZN (AOI21_X1)                                      0.04       0.23 f
+  U932/ZN (INV_X1)                                        0.06       0.29 r
+  U845/ZN (NOR2_X1)                                       0.04       0.33 f
+  U844/Z (XOR2_X1)                                        0.05       0.38 r
+  U843/ZN (OAI21_X1)                                      0.04       0.42 f
+  U827/ZN (NAND2_X1)                                      0.06       0.48 r
+  U823/ZN (NOR2_X1)                                       0.04       0.52 f
+  U803/ZN (OAI21_X1)                                      0.05       0.56 r
+  U802/ZN (INV_X1)                                        0.02       0.58 f
+  U801/ZN (AOI21_X1)                                      0.06       0.65 r
+  U781/ZN (AOI21_X1)                                      0.03       0.68 f
+  U780/ZN (INV_X1)                                        0.03       0.71 r
+  U779/ZN (OAI21_X1)                                      0.04       0.74 f
+  U777/Z (XOR2_X1)                                        0.07       0.82 f
+  U776/Z (XOR2_X1)                                        0.07       0.89 f
+  U775/Z (MUX2_X1)                                        0.08       0.97 f
+  add_39_I4/A[5] (BOOTHMUL_N8_DW01_add_9)                 0.00       0.97 f
+  add_39_I4/U1_5/S (FA_X1)                                0.13       1.10 f
+  add_39_I4/SUM[5] (BOOTHMUL_N8_DW01_add_9)               0.00       1.10 f
+  U774/Z (MUX2_X1)                                        0.08       1.18 f
+  add_39_I5/A[5] (BOOTHMUL_N8_DW01_add_7)                 0.00       1.18 f
+  add_39_I5/U1_5/CO (FA_X1)                               0.11       1.29 f
+  add_39_I5/U1_6/CO (FA_X1)                               0.09       1.38 f
+  add_39_I5/U1_7/CO (FA_X1)                               0.09       1.47 f
+  add_39_I5/U1_8/CO (FA_X1)                               0.09       1.56 f
+  add_39_I5/U1_9/CO (FA_X1)                               0.09       1.65 f
+  add_39_I5/U1_10/CO (FA_X1)                              0.09       1.74 f
+  add_39_I5/U1_11/CO (FA_X1)                              0.09       1.83 f
+  add_39_I5/U1_12/CO (FA_X1)                              0.09       1.92 f
+  add_39_I5/U1_13/CO (FA_X1)                              0.09       2.01 f
+  add_39_I5/U1_14/CO (FA_X1)                              0.09       2.10 f
+  add_39_I5/U1_15/S (FA_X1)                               0.10       2.21 f
+  add_39_I5/SUM[15] (BOOTHMUL_N8_DW01_add_7)              0.00       2.21 f
+  U666/Z (MUX2_X1)                                        0.08       2.29 f
+  add_39_I6/A[15] (BOOTHMUL_N8_DW01_add_5)                0.00       2.29 f
+  add_39_I6/U1_15/S (FA_X1)                               0.13       2.41 f
+  add_39_I6/SUM[15] (BOOTHMUL_N8_DW01_add_5)              0.00       2.41 f
+  U665/Z (MUX2_X1)                                        0.08       2.49 f
+  add_39_I7/A[15] (BOOTHMUL_N8_DW01_add_3)                0.00       2.49 f
+  add_39_I7/U1_15/S (FA_X1)                               0.13       2.62 f
+  add_39_I7/SUM[15] (BOOTHMUL_N8_DW01_add_3)              0.00       2.62 f
+  U664/Z (MUX2_X1)                                        0.08       2.70 f
+  add_39_I8/A[15] (BOOTHMUL_N8_DW01_add_1)                0.00       2.70 f
+  add_39_I8/U1_15/S (FA_X1)                               0.13       2.83 f
+  add_39_I8/SUM[15] (BOOTHMUL_N8_DW01_add_1)              0.00       2.83 f
+  U663/Z (MUX2_X1)                                        0.06       2.89 f
+  P[15] (out)                                             0.00       2.89 f
+  data arrival time                                                  2.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N8        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  U942/ZN (INV_X1)                                        0.08       0.08 r
+  U937/ZN (NAND2_X1)                                      0.05       0.13 f
+  U934/ZN (NOR2_X1)                                       0.06       0.19 r
+  U933/ZN (AOI21_X1)                                      0.04       0.23 f
+  U932/ZN (INV_X1)                                        0.06       0.29 r
+  U845/ZN (NOR2_X1)                                       0.04       0.33 f
+  U844/Z (XOR2_X1)                                        0.05       0.38 r
+  U843/ZN (OAI21_X1)                                      0.04       0.42 f
+  U827/ZN (NAND2_X1)                                      0.06       0.48 r
+  U823/ZN (NOR2_X1)                                       0.04       0.52 f
+  U803/ZN (OAI21_X1)                                      0.05       0.56 r
+  U802/ZN (INV_X1)                                        0.02       0.58 f
+  U801/ZN (AOI21_X1)                                      0.06       0.65 r
+  U781/ZN (AOI21_X1)                                      0.03       0.68 f
+  U780/ZN (INV_X1)                                        0.03       0.71 r
+  U779/ZN (OAI21_X1)                                      0.04       0.74 f
+  U777/Z (XOR2_X1)                                        0.07       0.82 f
+  U776/Z (XOR2_X1)                                        0.07       0.89 f
+  U775/Z (MUX2_X1)                                        0.08       0.97 f
+  add_39_I4/A[5] (BOOTHMUL_N8_DW01_add_9)                 0.00       0.97 f
+  add_39_I4/U1_5/S (FA_X1)                                0.13       1.10 f
+  add_39_I4/SUM[5] (BOOTHMUL_N8_DW01_add_9)               0.00       1.10 f
+  U774/Z (MUX2_X1)                                        0.08       1.18 f
+  add_39_I5/A[5] (BOOTHMUL_N8_DW01_add_7)                 0.00       1.18 f
+  add_39_I5/U1_5/CO (FA_X1)                               0.11       1.29 f
+  add_39_I5/U1_6/CO (FA_X1)                               0.09       1.38 f
+  add_39_I5/U1_7/CO (FA_X1)                               0.09       1.47 f
+  add_39_I5/U1_8/CO (FA_X1)                               0.09       1.56 f
+  add_39_I5/U1_9/CO (FA_X1)                               0.09       1.65 f
+  add_39_I5/U1_10/CO (FA_X1)                              0.09       1.74 f
+  add_39_I5/U1_11/CO (FA_X1)                              0.09       1.83 f
+  add_39_I5/U1_12/CO (FA_X1)                              0.09       1.92 f
+  add_39_I5/U1_13/CO (FA_X1)                              0.09       2.01 f
+  add_39_I5/U1_14/CO (FA_X1)                              0.09       2.10 f
+  add_39_I5/U1_15/S (FA_X1)                               0.10       2.21 f
+  add_39_I5/SUM[15] (BOOTHMUL_N8_DW01_add_7)              0.00       2.21 f
+  U666/Z (MUX2_X1)                                        0.08       2.29 f
+  add_39_I6/A[15] (BOOTHMUL_N8_DW01_add_5)                0.00       2.29 f
+  add_39_I6/U1_15/S (FA_X1)                               0.13       2.41 f
+  add_39_I6/SUM[15] (BOOTHMUL_N8_DW01_add_5)              0.00       2.41 f
+  U665/Z (MUX2_X1)                                        0.08       2.49 f
+  add_39_I7/A[15] (BOOTHMUL_N8_DW01_add_3)                0.00       2.49 f
+  add_39_I7/U1_15/S (FA_X1)                               0.13       2.62 f
+  add_39_I7/SUM[15] (BOOTHMUL_N8_DW01_add_3)              0.00       2.62 f
+  U664/Z (MUX2_X1)                                        0.08       2.70 f
+  add_39_I8/A[15] (BOOTHMUL_N8_DW01_add_1)                0.00       2.70 f
+  add_39_I8/U1_15/S (FA_X1)                               0.13       2.83 f
+  add_39_I8/SUM[15] (BOOTHMUL_N8_DW01_add_1)              0.00       2.83 f
+  U663/Z (MUX2_X1)                                        0.06       2.89 f
+  P[15] (out)                                             0.00       2.89 f
+  data arrival time                                                  2.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N8        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  U942/ZN (INV_X1)                                        0.08       0.08 r
+  U937/ZN (NAND2_X1)                                      0.05       0.13 f
+  U934/ZN (NOR2_X1)                                       0.06       0.19 r
+  U933/ZN (AOI21_X1)                                      0.04       0.23 f
+  U932/ZN (INV_X1)                                        0.06       0.29 r
+  U845/ZN (NOR2_X1)                                       0.04       0.33 f
+  U844/Z (XOR2_X1)                                        0.05       0.38 r
+  U843/ZN (OAI21_X1)                                      0.04       0.42 f
+  U827/ZN (NAND2_X1)                                      0.06       0.48 r
+  U823/ZN (NOR2_X1)                                       0.04       0.52 f
+  U803/ZN (OAI21_X1)                                      0.05       0.56 r
+  U802/ZN (INV_X1)                                        0.02       0.58 f
+  U801/ZN (AOI21_X1)                                      0.06       0.65 r
+  U781/ZN (AOI21_X1)                                      0.03       0.68 f
+  U780/ZN (INV_X1)                                        0.03       0.71 r
+  U779/ZN (OAI21_X1)                                      0.04       0.74 f
+  U777/Z (XOR2_X1)                                        0.07       0.82 f
+  U776/Z (XOR2_X1)                                        0.07       0.89 f
+  U775/Z (MUX2_X1)                                        0.08       0.97 f
+  add_39_I4/A[5] (BOOTHMUL_N8_DW01_add_9)                 0.00       0.97 f
+  add_39_I4/U1_5/S (FA_X1)                                0.13       1.10 f
+  add_39_I4/SUM[5] (BOOTHMUL_N8_DW01_add_9)               0.00       1.10 f
+  U774/Z (MUX2_X1)                                        0.08       1.18 f
+  add_39_I5/A[5] (BOOTHMUL_N8_DW01_add_7)                 0.00       1.18 f
+  add_39_I5/U1_5/CO (FA_X1)                               0.11       1.29 f
+  add_39_I5/U1_6/CO (FA_X1)                               0.09       1.38 f
+  add_39_I5/U1_7/CO (FA_X1)                               0.09       1.47 f
+  add_39_I5/U1_8/CO (FA_X1)                               0.09       1.56 f
+  add_39_I5/U1_9/CO (FA_X1)                               0.09       1.65 f
+  add_39_I5/U1_10/CO (FA_X1)                              0.09       1.74 f
+  add_39_I5/U1_11/CO (FA_X1)                              0.09       1.83 f
+  add_39_I5/U1_12/CO (FA_X1)                              0.09       1.92 f
+  add_39_I5/U1_13/CO (FA_X1)                              0.09       2.01 f
+  add_39_I5/U1_14/CO (FA_X1)                              0.09       2.10 f
+  add_39_I5/U1_15/S (FA_X1)                               0.10       2.21 f
+  add_39_I5/SUM[15] (BOOTHMUL_N8_DW01_add_7)              0.00       2.21 f
+  U666/Z (MUX2_X1)                                        0.08       2.29 f
+  add_39_I6/A[15] (BOOTHMUL_N8_DW01_add_5)                0.00       2.29 f
+  add_39_I6/U1_15/S (FA_X1)                               0.13       2.41 f
+  add_39_I6/SUM[15] (BOOTHMUL_N8_DW01_add_5)              0.00       2.41 f
+  U665/Z (MUX2_X1)                                        0.08       2.49 f
+  add_39_I7/A[15] (BOOTHMUL_N8_DW01_add_3)                0.00       2.49 f
+  add_39_I7/U1_15/S (FA_X1)                               0.13       2.62 f
+  add_39_I7/SUM[15] (BOOTHMUL_N8_DW01_add_3)              0.00       2.62 f
+  U664/Z (MUX2_X1)                                        0.08       2.70 f
+  add_39_I8/A[15] (BOOTHMUL_N8_DW01_add_1)                0.00       2.70 f
+  add_39_I8/U1_15/S (FA_X1)                               0.13       2.83 f
+  add_39_I8/SUM[15] (BOOTHMUL_N8_DW01_add_1)              0.00       2.83 f
+  U663/Z (MUX2_X1)                                        0.06       2.89 f
+  P[15] (out)                                             0.00       2.89 f
+  data arrival time                                                  2.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N8        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  U942/ZN (INV_X1)                                        0.08       0.08 r
+  U937/ZN (NAND2_X1)                                      0.05       0.13 f
+  U934/ZN (NOR2_X1)                                       0.06       0.19 r
+  U933/ZN (AOI21_X1)                                      0.04       0.23 f
+  U932/ZN (INV_X1)                                        0.06       0.29 r
+  U845/ZN (NOR2_X1)                                       0.04       0.33 f
+  U844/Z (XOR2_X1)                                        0.05       0.38 r
+  U843/ZN (OAI21_X1)                                      0.04       0.42 f
+  U827/ZN (NAND2_X1)                                      0.06       0.48 r
+  U823/ZN (NOR2_X1)                                       0.04       0.52 f
+  U803/ZN (OAI21_X1)                                      0.05       0.56 r
+  U802/ZN (INV_X1)                                        0.02       0.58 f
+  U801/ZN (AOI21_X1)                                      0.06       0.65 r
+  U781/ZN (AOI21_X1)                                      0.03       0.68 f
+  U780/ZN (INV_X1)                                        0.03       0.71 r
+  U779/ZN (OAI21_X1)                                      0.04       0.74 f
+  U777/Z (XOR2_X1)                                        0.07       0.82 f
+  U776/Z (XOR2_X1)                                        0.07       0.89 f
+  U775/Z (MUX2_X1)                                        0.08       0.97 f
+  add_39_I4/A[5] (BOOTHMUL_N8_DW01_add_9)                 0.00       0.97 f
+  add_39_I4/U1_5/S (FA_X1)                                0.13       1.10 f
+  add_39_I4/SUM[5] (BOOTHMUL_N8_DW01_add_9)               0.00       1.10 f
+  U774/Z (MUX2_X1)                                        0.08       1.18 f
+  add_39_I5/A[5] (BOOTHMUL_N8_DW01_add_7)                 0.00       1.18 f
+  add_39_I5/U1_5/CO (FA_X1)                               0.11       1.29 f
+  add_39_I5/U1_6/CO (FA_X1)                               0.09       1.38 f
+  add_39_I5/U1_7/CO (FA_X1)                               0.09       1.47 f
+  add_39_I5/U1_8/CO (FA_X1)                               0.09       1.56 f
+  add_39_I5/U1_9/CO (FA_X1)                               0.09       1.65 f
+  add_39_I5/U1_10/CO (FA_X1)                              0.09       1.74 f
+  add_39_I5/U1_11/CO (FA_X1)                              0.09       1.83 f
+  add_39_I5/U1_12/CO (FA_X1)                              0.09       1.92 f
+  add_39_I5/U1_13/CO (FA_X1)                              0.09       2.01 f
+  add_39_I5/U1_14/CO (FA_X1)                              0.09       2.10 f
+  add_39_I5/U1_15/S (FA_X1)                               0.10       2.21 f
+  add_39_I5/SUM[15] (BOOTHMUL_N8_DW01_add_7)              0.00       2.21 f
+  U666/Z (MUX2_X1)                                        0.08       2.29 f
+  add_39_I6/A[15] (BOOTHMUL_N8_DW01_add_5)                0.00       2.29 f
+  add_39_I6/U1_15/S (FA_X1)                               0.13       2.41 f
+  add_39_I6/SUM[15] (BOOTHMUL_N8_DW01_add_5)              0.00       2.41 f
+  U665/Z (MUX2_X1)                                        0.08       2.49 f
+  add_39_I7/A[15] (BOOTHMUL_N8_DW01_add_3)                0.00       2.49 f
+  add_39_I7/U1_15/S (FA_X1)                               0.13       2.62 f
+  add_39_I7/SUM[15] (BOOTHMUL_N8_DW01_add_3)              0.00       2.62 f
+  U664/Z (MUX2_X1)                                        0.08       2.70 f
+  add_39_I8/A[15] (BOOTHMUL_N8_DW01_add_1)                0.00       2.70 f
+  add_39_I8/U1_15/S (FA_X1)                               0.13       2.83 f
+  add_39_I8/SUM[15] (BOOTHMUL_N8_DW01_add_1)              0.00       2.83 f
+  U663/Z (MUX2_X1)                                        0.06       2.89 f
+  P[15] (out)                                             0.00       2.89 f
+  data arrival time                                                  2.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N8        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  U942/ZN (INV_X1)                                        0.08       0.08 r
+  U937/ZN (NAND2_X1)                                      0.05       0.13 f
+  U934/ZN (NOR2_X1)                                       0.06       0.19 r
+  U933/ZN (AOI21_X1)                                      0.04       0.23 f
+  U932/ZN (INV_X1)                                        0.06       0.29 r
+  U845/ZN (NOR2_X1)                                       0.04       0.33 f
+  U844/Z (XOR2_X1)                                        0.05       0.38 r
+  U843/ZN (OAI21_X1)                                      0.04       0.42 f
+  U827/ZN (NAND2_X1)                                      0.06       0.48 r
+  U823/ZN (NOR2_X1)                                       0.04       0.52 f
+  U803/ZN (OAI21_X1)                                      0.05       0.56 r
+  U802/ZN (INV_X1)                                        0.02       0.58 f
+  U801/ZN (AOI21_X1)                                      0.06       0.65 r
+  U781/ZN (AOI21_X1)                                      0.03       0.68 f
+  U780/ZN (INV_X1)                                        0.03       0.71 r
+  U779/ZN (OAI21_X1)                                      0.04       0.74 f
+  U777/Z (XOR2_X1)                                        0.07       0.82 f
+  U776/Z (XOR2_X1)                                        0.07       0.89 f
+  U775/Z (MUX2_X1)                                        0.08       0.97 f
+  add_39_I4/A[5] (BOOTHMUL_N8_DW01_add_9)                 0.00       0.97 f
+  add_39_I4/U1_5/S (FA_X1)                                0.13       1.10 f
+  add_39_I4/SUM[5] (BOOTHMUL_N8_DW01_add_9)               0.00       1.10 f
+  U774/Z (MUX2_X1)                                        0.08       1.18 f
+  add_39_I5/A[5] (BOOTHMUL_N8_DW01_add_7)                 0.00       1.18 f
+  add_39_I5/U1_5/CO (FA_X1)                               0.11       1.29 f
+  add_39_I5/U1_6/CO (FA_X1)                               0.09       1.38 f
+  add_39_I5/U1_7/CO (FA_X1)                               0.09       1.47 f
+  add_39_I5/U1_8/CO (FA_X1)                               0.09       1.56 f
+  add_39_I5/U1_9/CO (FA_X1)                               0.09       1.65 f
+  add_39_I5/U1_10/CO (FA_X1)                              0.09       1.74 f
+  add_39_I5/U1_11/CO (FA_X1)                              0.09       1.83 f
+  add_39_I5/U1_12/CO (FA_X1)                              0.09       1.92 f
+  add_39_I5/U1_13/CO (FA_X1)                              0.09       2.01 f
+  add_39_I5/U1_14/CO (FA_X1)                              0.09       2.10 f
+  add_39_I5/U1_15/S (FA_X1)                               0.10       2.21 f
+  add_39_I5/SUM[15] (BOOTHMUL_N8_DW01_add_7)              0.00       2.21 f
+  U666/Z (MUX2_X1)                                        0.08       2.29 f
+  add_39_I6/A[15] (BOOTHMUL_N8_DW01_add_5)                0.00       2.29 f
+  add_39_I6/U1_15/S (FA_X1)                               0.13       2.41 f
+  add_39_I6/SUM[15] (BOOTHMUL_N8_DW01_add_5)              0.00       2.41 f
+  U665/Z (MUX2_X1)                                        0.08       2.49 f
+  add_39_I7/A[15] (BOOTHMUL_N8_DW01_add_3)                0.00       2.49 f
+  add_39_I7/U1_15/S (FA_X1)                               0.13       2.62 f
+  add_39_I7/SUM[15] (BOOTHMUL_N8_DW01_add_3)              0.00       2.62 f
+  U664/Z (MUX2_X1)                                        0.08       2.70 f
+  add_39_I8/A[15] (BOOTHMUL_N8_DW01_add_1)                0.00       2.70 f
+  add_39_I8/U1_15/S (FA_X1)                               0.13       2.83 f
+  add_39_I8/SUM[15] (BOOTHMUL_N8_DW01_add_1)              0.00       2.83 f
+  U663/Z (MUX2_X1)                                        0.06       2.89 f
+  P[15] (out)                                             0.00       2.89 f
+  data arrival time                                                  2.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N8        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  U942/ZN (INV_X1)                                        0.08       0.08 r
+  U937/ZN (NAND2_X1)                                      0.05       0.13 f
+  U934/ZN (NOR2_X1)                                       0.06       0.19 r
+  U933/ZN (AOI21_X1)                                      0.04       0.23 f
+  U932/ZN (INV_X1)                                        0.06       0.29 r
+  U845/ZN (NOR2_X1)                                       0.04       0.33 f
+  U844/Z (XOR2_X1)                                        0.05       0.38 r
+  U843/ZN (OAI21_X1)                                      0.04       0.42 f
+  U827/ZN (NAND2_X1)                                      0.06       0.48 r
+  U823/ZN (NOR2_X1)                                       0.04       0.52 f
+  U803/ZN (OAI21_X1)                                      0.05       0.56 r
+  U802/ZN (INV_X1)                                        0.02       0.58 f
+  U801/ZN (AOI21_X1)                                      0.06       0.65 r
+  U781/ZN (AOI21_X1)                                      0.03       0.68 f
+  U780/ZN (INV_X1)                                        0.03       0.71 r
+  U779/ZN (OAI21_X1)                                      0.04       0.74 f
+  U777/Z (XOR2_X1)                                        0.07       0.82 f
+  U776/Z (XOR2_X1)                                        0.07       0.89 f
+  U775/Z (MUX2_X1)                                        0.08       0.97 f
+  add_39_I4/A[5] (BOOTHMUL_N8_DW01_add_9)                 0.00       0.97 f
+  add_39_I4/U1_5/S (FA_X1)                                0.13       1.10 f
+  add_39_I4/SUM[5] (BOOTHMUL_N8_DW01_add_9)               0.00       1.10 f
+  U774/Z (MUX2_X1)                                        0.08       1.18 f
+  add_39_I5/A[5] (BOOTHMUL_N8_DW01_add_7)                 0.00       1.18 f
+  add_39_I5/U1_5/CO (FA_X1)                               0.11       1.29 f
+  add_39_I5/U1_6/CO (FA_X1)                               0.09       1.38 f
+  add_39_I5/U1_7/CO (FA_X1)                               0.09       1.47 f
+  add_39_I5/U1_8/CO (FA_X1)                               0.09       1.56 f
+  add_39_I5/U1_9/CO (FA_X1)                               0.09       1.65 f
+  add_39_I5/U1_10/CO (FA_X1)                              0.09       1.74 f
+  add_39_I5/U1_11/CO (FA_X1)                              0.09       1.83 f
+  add_39_I5/U1_12/CO (FA_X1)                              0.09       1.92 f
+  add_39_I5/U1_13/CO (FA_X1)                              0.09       2.01 f
+  add_39_I5/U1_14/CO (FA_X1)                              0.09       2.10 f
+  add_39_I5/U1_15/S (FA_X1)                               0.10       2.21 f
+  add_39_I5/SUM[15] (BOOTHMUL_N8_DW01_add_7)              0.00       2.21 f
+  U666/Z (MUX2_X1)                                        0.08       2.29 f
+  add_39_I6/A[15] (BOOTHMUL_N8_DW01_add_5)                0.00       2.29 f
+  add_39_I6/U1_15/S (FA_X1)                               0.13       2.41 f
+  add_39_I6/SUM[15] (BOOTHMUL_N8_DW01_add_5)              0.00       2.41 f
+  U665/Z (MUX2_X1)                                        0.08       2.49 f
+  add_39_I7/A[15] (BOOTHMUL_N8_DW01_add_3)                0.00       2.49 f
+  add_39_I7/U1_15/S (FA_X1)                               0.13       2.62 f
+  add_39_I7/SUM[15] (BOOTHMUL_N8_DW01_add_3)              0.00       2.62 f
+  U664/Z (MUX2_X1)                                        0.08       2.70 f
+  add_39_I8/A[15] (BOOTHMUL_N8_DW01_add_1)                0.00       2.70 f
+  add_39_I8/U1_15/S (FA_X1)                               0.13       2.83 f
+  add_39_I8/SUM[15] (BOOTHMUL_N8_DW01_add_1)              0.00       2.83 f
+  U663/Z (MUX2_X1)                                        0.06       2.89 f
+  P[15] (out)                                             0.00       2.89 f
+  data arrival time                                                  2.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N8        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  U942/ZN (INV_X1)                                        0.08       0.08 r
+  U937/ZN (NAND2_X1)                                      0.05       0.13 f
+  U934/ZN (NOR2_X1)                                       0.06       0.19 r
+  U933/ZN (AOI21_X1)                                      0.04       0.23 f
+  U932/ZN (INV_X1)                                        0.06       0.29 r
+  U845/ZN (NOR2_X1)                                       0.04       0.33 f
+  U844/Z (XOR2_X1)                                        0.05       0.38 r
+  U843/ZN (OAI21_X1)                                      0.04       0.42 f
+  U827/ZN (NAND2_X1)                                      0.06       0.48 r
+  U823/ZN (NOR2_X1)                                       0.04       0.52 f
+  U803/ZN (OAI21_X1)                                      0.05       0.56 r
+  U802/ZN (INV_X1)                                        0.02       0.58 f
+  U801/ZN (AOI21_X1)                                      0.06       0.65 r
+  U781/ZN (AOI21_X1)                                      0.03       0.68 f
+  U780/ZN (INV_X1)                                        0.03       0.71 r
+  U779/ZN (OAI21_X1)                                      0.04       0.74 f
+  U777/Z (XOR2_X1)                                        0.07       0.82 f
+  U776/Z (XOR2_X1)                                        0.07       0.89 f
+  U775/Z (MUX2_X1)                                        0.08       0.97 f
+  add_39_I4/A[5] (BOOTHMUL_N8_DW01_add_9)                 0.00       0.97 f
+  add_39_I4/U1_5/S (FA_X1)                                0.13       1.10 f
+  add_39_I4/SUM[5] (BOOTHMUL_N8_DW01_add_9)               0.00       1.10 f
+  U774/Z (MUX2_X1)                                        0.08       1.18 f
+  add_39_I5/A[5] (BOOTHMUL_N8_DW01_add_7)                 0.00       1.18 f
+  add_39_I5/U1_5/CO (FA_X1)                               0.11       1.29 f
+  add_39_I5/U1_6/CO (FA_X1)                               0.09       1.38 f
+  add_39_I5/U1_7/CO (FA_X1)                               0.09       1.47 f
+  add_39_I5/U1_8/CO (FA_X1)                               0.09       1.56 f
+  add_39_I5/U1_9/CO (FA_X1)                               0.09       1.65 f
+  add_39_I5/U1_10/CO (FA_X1)                              0.09       1.74 f
+  add_39_I5/U1_11/CO (FA_X1)                              0.09       1.83 f
+  add_39_I5/U1_12/CO (FA_X1)                              0.09       1.92 f
+  add_39_I5/U1_13/CO (FA_X1)                              0.09       2.01 f
+  add_39_I5/U1_14/CO (FA_X1)                              0.09       2.10 f
+  add_39_I5/U1_15/S (FA_X1)                               0.10       2.21 f
+  add_39_I5/SUM[15] (BOOTHMUL_N8_DW01_add_7)              0.00       2.21 f
+  U666/Z (MUX2_X1)                                        0.08       2.29 f
+  add_39_I6/A[15] (BOOTHMUL_N8_DW01_add_5)                0.00       2.29 f
+  add_39_I6/U1_15/S (FA_X1)                               0.13       2.41 f
+  add_39_I6/SUM[15] (BOOTHMUL_N8_DW01_add_5)              0.00       2.41 f
+  U665/Z (MUX2_X1)                                        0.08       2.49 f
+  add_39_I7/A[15] (BOOTHMUL_N8_DW01_add_3)                0.00       2.49 f
+  add_39_I7/U1_15/S (FA_X1)                               0.13       2.62 f
+  add_39_I7/SUM[15] (BOOTHMUL_N8_DW01_add_3)              0.00       2.62 f
+  U664/Z (MUX2_X1)                                        0.08       2.70 f
+  add_39_I8/A[15] (BOOTHMUL_N8_DW01_add_1)                0.00       2.70 f
+  add_39_I8/U1_15/S (FA_X1)                               0.13       2.83 f
+  add_39_I8/SUM[15] (BOOTHMUL_N8_DW01_add_1)              0.00       2.83 f
+  U663/Z (MUX2_X1)                                        0.06       2.89 f
+  P[15] (out)                                             0.00       2.89 f
+  data arrival time                                                  2.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N8        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  U942/ZN (INV_X1)                                        0.08       0.08 r
+  U937/ZN (NAND2_X1)                                      0.05       0.13 f
+  U934/ZN (NOR2_X1)                                       0.06       0.19 r
+  U933/ZN (AOI21_X1)                                      0.04       0.23 f
+  U932/ZN (INV_X1)                                        0.06       0.29 r
+  U845/ZN (NOR2_X1)                                       0.04       0.33 f
+  U844/Z (XOR2_X1)                                        0.05       0.38 r
+  U843/ZN (OAI21_X1)                                      0.04       0.42 f
+  U827/ZN (NAND2_X1)                                      0.06       0.48 r
+  U823/ZN (NOR2_X1)                                       0.04       0.52 f
+  U803/ZN (OAI21_X1)                                      0.05       0.56 r
+  U802/ZN (INV_X1)                                        0.02       0.58 f
+  U801/ZN (AOI21_X1)                                      0.06       0.65 r
+  U781/ZN (AOI21_X1)                                      0.03       0.68 f
+  U780/ZN (INV_X1)                                        0.03       0.71 r
+  U779/ZN (OAI21_X1)                                      0.04       0.74 f
+  U777/Z (XOR2_X1)                                        0.07       0.82 f
+  U776/Z (XOR2_X1)                                        0.07       0.89 f
+  U775/Z (MUX2_X1)                                        0.08       0.97 f
+  add_39_I4/A[5] (BOOTHMUL_N8_DW01_add_9)                 0.00       0.97 f
+  add_39_I4/U1_5/S (FA_X1)                                0.13       1.10 f
+  add_39_I4/SUM[5] (BOOTHMUL_N8_DW01_add_9)               0.00       1.10 f
+  U774/Z (MUX2_X1)                                        0.08       1.18 f
+  add_39_I5/A[5] (BOOTHMUL_N8_DW01_add_7)                 0.00       1.18 f
+  add_39_I5/U1_5/CO (FA_X1)                               0.11       1.29 f
+  add_39_I5/U1_6/CO (FA_X1)                               0.09       1.38 f
+  add_39_I5/U1_7/CO (FA_X1)                               0.09       1.47 f
+  add_39_I5/U1_8/CO (FA_X1)                               0.09       1.56 f
+  add_39_I5/U1_9/CO (FA_X1)                               0.09       1.65 f
+  add_39_I5/U1_10/CO (FA_X1)                              0.09       1.74 f
+  add_39_I5/U1_11/CO (FA_X1)                              0.09       1.83 f
+  add_39_I5/U1_12/CO (FA_X1)                              0.09       1.92 f
+  add_39_I5/U1_13/CO (FA_X1)                              0.09       2.01 f
+  add_39_I5/U1_14/CO (FA_X1)                              0.09       2.10 f
+  add_39_I5/U1_15/S (FA_X1)                               0.10       2.21 f
+  add_39_I5/SUM[15] (BOOTHMUL_N8_DW01_add_7)              0.00       2.21 f
+  U666/Z (MUX2_X1)                                        0.08       2.29 f
+  add_39_I6/A[15] (BOOTHMUL_N8_DW01_add_5)                0.00       2.29 f
+  add_39_I6/U1_15/S (FA_X1)                               0.13       2.41 f
+  add_39_I6/SUM[15] (BOOTHMUL_N8_DW01_add_5)              0.00       2.41 f
+  U665/Z (MUX2_X1)                                        0.08       2.49 f
+  add_39_I7/A[15] (BOOTHMUL_N8_DW01_add_3)                0.00       2.49 f
+  add_39_I7/U1_15/S (FA_X1)                               0.13       2.62 f
+  add_39_I7/SUM[15] (BOOTHMUL_N8_DW01_add_3)              0.00       2.62 f
+  U664/Z (MUX2_X1)                                        0.08       2.70 f
+  add_39_I8/A[15] (BOOTHMUL_N8_DW01_add_1)                0.00       2.70 f
+  add_39_I8/U1_15/S (FA_X1)                               0.13       2.83 f
+  add_39_I8/SUM[15] (BOOTHMUL_N8_DW01_add_1)              0.00       2.83 f
+  U663/Z (MUX2_X1)                                        0.06       2.89 f
+  P[15] (out)                                             0.00       2.89 f
+  data arrival time                                                  2.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N8        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  U942/ZN (INV_X1)                                        0.08       0.08 r
+  U937/ZN (NAND2_X1)                                      0.05       0.13 f
+  U934/ZN (NOR2_X1)                                       0.06       0.19 r
+  U933/ZN (AOI21_X1)                                      0.04       0.23 f
+  U932/ZN (INV_X1)                                        0.06       0.29 r
+  U845/ZN (NOR2_X1)                                       0.04       0.33 f
+  U844/Z (XOR2_X1)                                        0.05       0.38 r
+  U843/ZN (OAI21_X1)                                      0.04       0.42 f
+  U827/ZN (NAND2_X1)                                      0.06       0.48 r
+  U823/ZN (NOR2_X1)                                       0.04       0.52 f
+  U803/ZN (OAI21_X1)                                      0.05       0.56 r
+  U802/ZN (INV_X1)                                        0.02       0.58 f
+  U801/ZN (AOI21_X1)                                      0.06       0.65 r
+  U781/ZN (AOI21_X1)                                      0.03       0.68 f
+  U780/ZN (INV_X1)                                        0.03       0.71 r
+  U779/ZN (OAI21_X1)                                      0.04       0.74 f
+  U777/Z (XOR2_X1)                                        0.07       0.82 f
+  U776/Z (XOR2_X1)                                        0.07       0.89 f
+  U775/Z (MUX2_X1)                                        0.08       0.97 f
+  add_39_I4/A[5] (BOOTHMUL_N8_DW01_add_9)                 0.00       0.97 f
+  add_39_I4/U1_5/S (FA_X1)                                0.13       1.10 f
+  add_39_I4/SUM[5] (BOOTHMUL_N8_DW01_add_9)               0.00       1.10 f
+  U774/Z (MUX2_X1)                                        0.08       1.18 f
+  add_39_I5/A[5] (BOOTHMUL_N8_DW01_add_7)                 0.00       1.18 f
+  add_39_I5/U1_5/CO (FA_X1)                               0.11       1.29 f
+  add_39_I5/U1_6/CO (FA_X1)                               0.09       1.38 f
+  add_39_I5/U1_7/CO (FA_X1)                               0.09       1.47 f
+  add_39_I5/U1_8/CO (FA_X1)                               0.09       1.56 f
+  add_39_I5/U1_9/CO (FA_X1)                               0.09       1.65 f
+  add_39_I5/U1_10/CO (FA_X1)                              0.09       1.74 f
+  add_39_I5/U1_11/CO (FA_X1)                              0.09       1.83 f
+  add_39_I5/U1_12/CO (FA_X1)                              0.09       1.92 f
+  add_39_I5/U1_13/CO (FA_X1)                              0.09       2.01 f
+  add_39_I5/U1_14/CO (FA_X1)                              0.09       2.10 f
+  add_39_I5/U1_15/S (FA_X1)                               0.10       2.21 f
+  add_39_I5/SUM[15] (BOOTHMUL_N8_DW01_add_7)              0.00       2.21 f
+  U666/Z (MUX2_X1)                                        0.08       2.29 f
+  add_39_I6/A[15] (BOOTHMUL_N8_DW01_add_5)                0.00       2.29 f
+  add_39_I6/U1_15/S (FA_X1)                               0.13       2.41 f
+  add_39_I6/SUM[15] (BOOTHMUL_N8_DW01_add_5)              0.00       2.41 f
+  U665/Z (MUX2_X1)                                        0.08       2.49 f
+  add_39_I7/A[15] (BOOTHMUL_N8_DW01_add_3)                0.00       2.49 f
+  add_39_I7/U1_15/S (FA_X1)                               0.13       2.62 f
+  add_39_I7/SUM[15] (BOOTHMUL_N8_DW01_add_3)              0.00       2.62 f
+  U664/Z (MUX2_X1)                                        0.08       2.70 f
+  add_39_I8/A[15] (BOOTHMUL_N8_DW01_add_1)                0.00       2.70 f
+  add_39_I8/U1_15/S (FA_X1)                               0.13       2.83 f
+  add_39_I8/SUM[15] (BOOTHMUL_N8_DW01_add_1)              0.00       2.83 f
+  U663/Z (MUX2_X1)                                        0.06       2.89 f
+  P[15] (out)                                             0.00       2.89 f
+  data arrival time                                                  2.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N8        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  U942/ZN (INV_X1)                                        0.08       0.08 r
+  U937/ZN (NAND2_X1)                                      0.05       0.13 f
+  U934/ZN (NOR2_X1)                                       0.06       0.19 r
+  U933/ZN (AOI21_X1)                                      0.04       0.23 f
+  U932/ZN (INV_X1)                                        0.06       0.29 r
+  U845/ZN (NOR2_X1)                                       0.04       0.33 f
+  U844/Z (XOR2_X1)                                        0.05       0.38 r
+  U843/ZN (OAI21_X1)                                      0.04       0.42 f
+  U827/ZN (NAND2_X1)                                      0.06       0.48 r
+  U823/ZN (NOR2_X1)                                       0.04       0.52 f
+  U803/ZN (OAI21_X1)                                      0.05       0.56 r
+  U802/ZN (INV_X1)                                        0.02       0.58 f
+  U801/ZN (AOI21_X1)                                      0.06       0.65 r
+  U781/ZN (AOI21_X1)                                      0.03       0.68 f
+  U780/ZN (INV_X1)                                        0.03       0.71 r
+  U779/ZN (OAI21_X1)                                      0.04       0.74 f
+  U777/Z (XOR2_X1)                                        0.07       0.82 f
+  U776/Z (XOR2_X1)                                        0.07       0.89 f
+  U775/Z (MUX2_X1)                                        0.08       0.97 f
+  add_39_I4/A[5] (BOOTHMUL_N8_DW01_add_9)                 0.00       0.97 f
+  add_39_I4/U1_5/S (FA_X1)                                0.13       1.10 f
+  add_39_I4/SUM[5] (BOOTHMUL_N8_DW01_add_9)               0.00       1.10 f
+  U774/Z (MUX2_X1)                                        0.08       1.18 f
+  add_39_I5/A[5] (BOOTHMUL_N8_DW01_add_7)                 0.00       1.18 f
+  add_39_I5/U1_5/CO (FA_X1)                               0.11       1.29 f
+  add_39_I5/U1_6/CO (FA_X1)                               0.09       1.38 f
+  add_39_I5/U1_7/CO (FA_X1)                               0.09       1.47 f
+  add_39_I5/U1_8/CO (FA_X1)                               0.09       1.56 f
+  add_39_I5/U1_9/CO (FA_X1)                               0.09       1.65 f
+  add_39_I5/U1_10/CO (FA_X1)                              0.09       1.74 f
+  add_39_I5/U1_11/CO (FA_X1)                              0.09       1.83 f
+  add_39_I5/U1_12/CO (FA_X1)                              0.09       1.92 f
+  add_39_I5/U1_13/CO (FA_X1)                              0.09       2.01 f
+  add_39_I5/U1_14/CO (FA_X1)                              0.09       2.10 f
+  add_39_I5/U1_15/S (FA_X1)                               0.10       2.21 f
+  add_39_I5/SUM[15] (BOOTHMUL_N8_DW01_add_7)              0.00       2.21 f
+  U666/Z (MUX2_X1)                                        0.08       2.29 f
+  add_39_I6/A[15] (BOOTHMUL_N8_DW01_add_5)                0.00       2.29 f
+  add_39_I6/U1_15/S (FA_X1)                               0.13       2.41 f
+  add_39_I6/SUM[15] (BOOTHMUL_N8_DW01_add_5)              0.00       2.41 f
+  U665/Z (MUX2_X1)                                        0.08       2.49 f
+  add_39_I7/A[15] (BOOTHMUL_N8_DW01_add_3)                0.00       2.49 f
+  add_39_I7/U1_15/S (FA_X1)                               0.13       2.62 f
+  add_39_I7/SUM[15] (BOOTHMUL_N8_DW01_add_3)              0.00       2.62 f
+  U664/Z (MUX2_X1)                                        0.08       2.70 f
+  add_39_I8/A[15] (BOOTHMUL_N8_DW01_add_1)                0.00       2.70 f
+  add_39_I8/U1_15/S (FA_X1)                               0.13       2.83 f
+  add_39_I8/SUM[15] (BOOTHMUL_N8_DW01_add_1)              0.00       2.83 f
+  U663/Z (MUX2_X1)                                        0.06       2.89 f
+  P[15] (out)                                             0.00       2.89 f
+  data arrival time                                                  2.89
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

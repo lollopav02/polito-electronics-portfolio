@@ -1,0 +1,19 @@
+
+
+Question 1: 
+
+The outer rectangle represents the Die Boundary, which defines the actual physical area the chip occupies on the silicon wafer.
+For the foundry, this rectangle is important  for two main reasons: it defines the scribe lines and the empty spaces where the wafer
+is cut to separate individual chips without damaging them and it provides the reference frame needed to align the photolithography
+masks.It tells the manufacturer where the chip starts and ends, making sure that every metal and diffusion layer
+is printed in the correct position on the silicon.
+
+Question 2: 
+
+The SUM.spef file is a standard format used to describe the electrical properties of the wires connecting the logic gates. 
+This file provides a detailed parasitic model using resistors andcapacitors based on the actual physical routing.
+The file is organized into three main sections:*D_NET maps every individual wire in the circuit, 
+*CAP lists the capacitive loads (including coupling between adjacent wires, which can cause signal interference),
+and *RES records the resistance of the metal segments and vias (the vertical connections between layers). 
+By providing these specific resistance and capacitance values, the file allows timing analysis tools to calculate the final signal
+ delays and power consumption.

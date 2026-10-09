@@ -1,0 +1,37 @@
+Falling Times   (90% output -> 10% output)
+
+        90% Out = 1.212 ns
+
+        10% Out = 1.509 ns
+
+        DeltaT  = 297 ps
+
+
+
+Rising Times    (10% output -> 90% output)
+
+        90% Out = 2.230 ns
+
+        10% Out = 2.594 ns
+
+        DeltaT  = 364 ps
+
+
+
+Rise Delays     (50% input  -> 50% output)
+
+        50% In  = 1.163 ns
+
+        50% Out = 1.343 ns
+
+        DeltaT  = 180 ps
+
+
+
+Rise Delays     (50% input  -> 50% output)
+
+        50% In  = 2.163 ns
+
+        50% Out = 2.372 ns
+
+        DeltaT  = 209 ps

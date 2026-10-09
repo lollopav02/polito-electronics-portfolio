@@ -19,6 +19,7 @@ RF hardware design, digital ASIC synthesis, FPGA and microcontroller-based embed
 |---|---|---|
 | [Electronics for Embedded Systems](labs/electronics-for-embedded-systems) (2025/26) | Intel Cyclone V FPGA (DE1-SoC), Nios II, breadboard analog circuits | FPGA flow and timing, software vs. hardware UART, **SAR ADC** design and characterization, BJT switching with PWM |
 | [Digital Systems Electronics](labs/digital-systems-electronics) (2023/24) | FPGA (VHDL), STM32 Nucleo-F401RE | Combinational and sequential VHDL, FSMs, **FIR filter datapath + control unit**, bare-metal STM32 GPIO, timers, interrupts, PWM, DMA |
+| [Microelectronic Systems](labs/microelectronic-systems) (2025/26) | Synopsys Design Compiler, Cadence Innovus, SPICE | Pentium 4 adder, windowed register file, hardwired / FSM / microprogrammed control units, transistor-level cell characterization, place & route |
 
 ## Skills
 

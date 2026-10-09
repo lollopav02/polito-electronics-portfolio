@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : RCA_P_SY_NBIT16_1
+Version: W-2024.09-SP2
+Date   : Thu Mar 19 17:32:45 2026
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/repository/do/libnandgate/NangateOpenCellLibrary_typical_ecsm.db)
+
+Number of ports:                           50
+Number of nets:                           120
+Number of cells:                           87
+Number of combinational cells:             87
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         23
+Number of references:                       9
+
+Combinational area:                 98.153999
+Buf/Inv area:                       12.236000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                    98.153999
+Total area:                 undefined
+1

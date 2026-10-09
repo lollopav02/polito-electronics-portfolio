@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : BOOTHMUL_N32
+Version: W-2024.09-SP2
+Date   : Wed Apr  8 16:32:04 2026
+****************************************
+
+Library(s) Used:
+
+    gtech (File: /eda/synopsys/2024-25/RHELx86/SYN_2024.09-SP2/libraries/syn/gtech.db)
+
+Number of ports:                         9908
+Number of nets:                         15292
+Number of cells:                         3560
+Number of combinational cells:           3402
+Number of sequential cells:                16
+Number of macros/black boxes:               0
+Number of buf/inv:                       1345
+Number of references:                      22
+
+Combinational area:                  0.000000
+Buf/Inv area:                        0.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                     0.000000
+Total area:                 undefined
+
+Information: This design contains unmapped logic. (RPT-7)
+1

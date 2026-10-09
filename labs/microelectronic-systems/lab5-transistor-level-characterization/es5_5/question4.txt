@@ -1,0 +1,5 @@
+Replacing high-speed gates with low-leakage gates reduces power consumption but slows down signal processing because these gates use transistors 
+with a higher threshold voltage, making them slower to switch. For example, with a 50 fF load, signal propagation delay increases by 39.1%, while 
+rise and fall times increase by 38.0% and 17.2% respectively. These delays are even more pronounced in X8 gates, where propagation delay rises by 
+42.2%. While low-leakage gates are essential for power efficiency in mobile devices, they impose strict limits on clock speed, forcing a trade-off 
+between power conservation and performance depending on the specific requirements of the application.

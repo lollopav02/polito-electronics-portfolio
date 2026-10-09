@@ -1,0 +1,11 @@
+Question 1
+A standard N-bit addition in VHDL does not provide the N+1 bit required for the Carry-Out so, to fix the behavioral RCA, we must extend the input 
+operands by one bit (using an additional '0' at the MSB) before the addition.
+
+Question 2
+The difference between S1, S2, and S3 is the timing of the output: S1 is the behavioral implementation and provides an ideal result with zero 
+delay. S2 and S3 are structural implementations with specific delays (DRCAS and DRCAC), so they reach the correct value later than S1.
+
+Question 3
+The outputs S2 and S3 glitch, S1 doesn't. S2 and S3 have the delay of the carry. This happens because the carry signal must "ripple" 
+through each FA stage in the structural chain.

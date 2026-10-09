@@ -1,0 +1,526 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 10
+        -max_paths 10
+Design : P4_ADDER
+Version: W-2024.09-SP2
+Date   : Fri Apr  3 17:58:45 2026
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[31] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[3] (in)                                               0.00       0.00 f
+  CG/A[3] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)        0.00       0.00 f
+  CG/PG_NET_0_4/A (PG_NET_BLOCK_29)                       0.00       0.00 f
+  CG/PG_NET_0_4/U1/Z (XOR2_X1)                            0.08       0.08 f
+  CG/PG_NET_0_4/p (PG_NET_BLOCK_29)                       0.00       0.08 f
+  CG/PG_INST_1_4/Pik (PG_BLOCK_127)                       0.00       0.08 f
+  CG/PG_INST_1_4/U3/ZN (AOI21_X1)                         0.05       0.13 r
+  CG/PG_INST_1_4/U2/ZN (INV_X1)                           0.03       0.16 f
+  CG/PG_INST_1_4/Gij (PG_BLOCK_127)                       0.00       0.16 f
+  CG/PG_INST_2_4/Gik (PG_BLOCK_97)                        0.00       0.16 f
+  CG/PG_INST_2_4/U3/ZN (AOI21_X1)                         0.05       0.21 r
+  CG/PG_INST_2_4/U2/ZN (INV_X1)                           0.03       0.24 f
+  CG/PG_INST_2_4/Gij (PG_BLOCK_97)                        0.00       0.24 f
+  CG/G_INST_3_4/Gik (G_BLOCK_4)                           0.00       0.24 f
+  CG/G_INST_3_4/U2/ZN (AOI21_X1)                          0.05       0.29 r
+  CG/G_INST_3_4/U1/ZN (INV_X1)                            0.04       0.33 f
+  CG/G_INST_3_4/Gij (G_BLOCK_4)                           0.00       0.33 f
+  CG/PG_INST_4_12/Gkj (PG_BLOCK_37)                       0.00       0.33 f
+  CG/PG_INST_4_12/U3/ZN (AOI21_X1)                        0.05       0.38 r
+  CG/PG_INST_4_12/U2/ZN (INV_X1)                          0.04       0.42 f
+  CG/PG_INST_4_12/Gij (PG_BLOCK_37)                       0.00       0.42 f
+  CG/PG_INST_5_28/Gkj (PG_BLOCK_5)                        0.00       0.42 f
+  CG/PG_INST_5_28/U3/ZN (AOI21_X1)                        0.05       0.46 r
+  CG/PG_INST_5_28/U2/ZN (INV_X1)                          0.03       0.50 f
+  CG/PG_INST_5_28/Gij (PG_BLOCK_5)                        0.00       0.50 f
+  CG/Co[6] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)       0.00       0.50 f
+  SG/Ci[7] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)       0.00       0.50 f
+  SG/CSB_INST_7/Ci (CARRY_SELECT_BLOCK_NBIT4_1)           0.00       0.50 f
+  SG/CSB_INST_7/MUX_INST/S (MUX21_4BIT_N4_1)              0.00       0.50 f
+  SG/CSB_INST_7/MUX_INST/U1/Z (MUX2_X1)                   0.06       0.56 r
+  SG/CSB_INST_7/MUX_INST/Y[3] (MUX21_4BIT_N4_1)           0.00       0.56 r
+  SG/CSB_INST_7/S[3] (CARRY_SELECT_BLOCK_NBIT4_1)         0.00       0.56 r
+  SG/S[31] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)       0.00       0.56 r
+  S[31] (out)                                             0.00       0.56 r
+  data arrival time                                                  0.56
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[30] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[3] (in)                                               0.00       0.00 f
+  CG/A[3] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)        0.00       0.00 f
+  CG/PG_NET_0_4/A (PG_NET_BLOCK_29)                       0.00       0.00 f
+  CG/PG_NET_0_4/U1/Z (XOR2_X1)                            0.08       0.08 f
+  CG/PG_NET_0_4/p (PG_NET_BLOCK_29)                       0.00       0.08 f
+  CG/PG_INST_1_4/Pik (PG_BLOCK_127)                       0.00       0.08 f
+  CG/PG_INST_1_4/U3/ZN (AOI21_X1)                         0.05       0.13 r
+  CG/PG_INST_1_4/U2/ZN (INV_X1)                           0.03       0.16 f
+  CG/PG_INST_1_4/Gij (PG_BLOCK_127)                       0.00       0.16 f
+  CG/PG_INST_2_4/Gik (PG_BLOCK_97)                        0.00       0.16 f
+  CG/PG_INST_2_4/U3/ZN (AOI21_X1)                         0.05       0.21 r
+  CG/PG_INST_2_4/U2/ZN (INV_X1)                           0.03       0.24 f
+  CG/PG_INST_2_4/Gij (PG_BLOCK_97)                        0.00       0.24 f
+  CG/G_INST_3_4/Gik (G_BLOCK_4)                           0.00       0.24 f
+  CG/G_INST_3_4/U2/ZN (AOI21_X1)                          0.05       0.29 r
+  CG/G_INST_3_4/U1/ZN (INV_X1)                            0.04       0.33 f
+  CG/G_INST_3_4/Gij (G_BLOCK_4)                           0.00       0.33 f
+  CG/PG_INST_4_12/Gkj (PG_BLOCK_37)                       0.00       0.33 f
+  CG/PG_INST_4_12/U3/ZN (AOI21_X1)                        0.05       0.38 r
+  CG/PG_INST_4_12/U2/ZN (INV_X1)                          0.04       0.42 f
+  CG/PG_INST_4_12/Gij (PG_BLOCK_37)                       0.00       0.42 f
+  CG/PG_INST_5_28/Gkj (PG_BLOCK_5)                        0.00       0.42 f
+  CG/PG_INST_5_28/U3/ZN (AOI21_X1)                        0.05       0.46 r
+  CG/PG_INST_5_28/U2/ZN (INV_X1)                          0.03       0.50 f
+  CG/PG_INST_5_28/Gij (PG_BLOCK_5)                        0.00       0.50 f
+  CG/Co[6] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)       0.00       0.50 f
+  SG/Ci[7] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)       0.00       0.50 f
+  SG/CSB_INST_7/Ci (CARRY_SELECT_BLOCK_NBIT4_1)           0.00       0.50 f
+  SG/CSB_INST_7/MUX_INST/S (MUX21_4BIT_N4_1)              0.00       0.50 f
+  SG/CSB_INST_7/MUX_INST/U2/Z (MUX2_X1)                   0.06       0.56 r
+  SG/CSB_INST_7/MUX_INST/Y[2] (MUX21_4BIT_N4_1)           0.00       0.56 r
+  SG/CSB_INST_7/S[2] (CARRY_SELECT_BLOCK_NBIT4_1)         0.00       0.56 r
+  SG/S[30] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)       0.00       0.56 r
+  S[30] (out)                                             0.00       0.56 r
+  data arrival time                                                  0.56
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[29] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[3] (in)                                               0.00       0.00 f
+  CG/A[3] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)        0.00       0.00 f
+  CG/PG_NET_0_4/A (PG_NET_BLOCK_29)                       0.00       0.00 f
+  CG/PG_NET_0_4/U1/Z (XOR2_X1)                            0.08       0.08 f
+  CG/PG_NET_0_4/p (PG_NET_BLOCK_29)                       0.00       0.08 f
+  CG/PG_INST_1_4/Pik (PG_BLOCK_127)                       0.00       0.08 f
+  CG/PG_INST_1_4/U3/ZN (AOI21_X1)                         0.05       0.13 r
+  CG/PG_INST_1_4/U2/ZN (INV_X1)                           0.03       0.16 f
+  CG/PG_INST_1_4/Gij (PG_BLOCK_127)                       0.00       0.16 f
+  CG/PG_INST_2_4/Gik (PG_BLOCK_97)                        0.00       0.16 f
+  CG/PG_INST_2_4/U3/ZN (AOI21_X1)                         0.05       0.21 r
+  CG/PG_INST_2_4/U2/ZN (INV_X1)                           0.03       0.24 f
+  CG/PG_INST_2_4/Gij (PG_BLOCK_97)                        0.00       0.24 f
+  CG/G_INST_3_4/Gik (G_BLOCK_4)                           0.00       0.24 f
+  CG/G_INST_3_4/U2/ZN (AOI21_X1)                          0.05       0.29 r
+  CG/G_INST_3_4/U1/ZN (INV_X1)                            0.04       0.33 f
+  CG/G_INST_3_4/Gij (G_BLOCK_4)                           0.00       0.33 f
+  CG/PG_INST_4_12/Gkj (PG_BLOCK_37)                       0.00       0.33 f
+  CG/PG_INST_4_12/U3/ZN (AOI21_X1)                        0.05       0.38 r
+  CG/PG_INST_4_12/U2/ZN (INV_X1)                          0.04       0.42 f
+  CG/PG_INST_4_12/Gij (PG_BLOCK_37)                       0.00       0.42 f
+  CG/PG_INST_5_28/Gkj (PG_BLOCK_5)                        0.00       0.42 f
+  CG/PG_INST_5_28/U3/ZN (AOI21_X1)                        0.05       0.46 r
+  CG/PG_INST_5_28/U2/ZN (INV_X1)                          0.03       0.50 f
+  CG/PG_INST_5_28/Gij (PG_BLOCK_5)                        0.00       0.50 f
+  CG/Co[6] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)       0.00       0.50 f
+  SG/Ci[7] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)       0.00       0.50 f
+  SG/CSB_INST_7/Ci (CARRY_SELECT_BLOCK_NBIT4_1)           0.00       0.50 f
+  SG/CSB_INST_7/MUX_INST/S (MUX21_4BIT_N4_1)              0.00       0.50 f
+  SG/CSB_INST_7/MUX_INST/U3/Z (MUX2_X1)                   0.06       0.56 r
+  SG/CSB_INST_7/MUX_INST/Y[1] (MUX21_4BIT_N4_1)           0.00       0.56 r
+  SG/CSB_INST_7/S[1] (CARRY_SELECT_BLOCK_NBIT4_1)         0.00       0.56 r
+  SG/S[29] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)       0.00       0.56 r
+  S[29] (out)                                             0.00       0.56 r
+  data arrival time                                                  0.56
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[28] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[3] (in)                                               0.00       0.00 f
+  CG/A[3] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)        0.00       0.00 f
+  CG/PG_NET_0_4/A (PG_NET_BLOCK_29)                       0.00       0.00 f
+  CG/PG_NET_0_4/U1/Z (XOR2_X1)                            0.08       0.08 f
+  CG/PG_NET_0_4/p (PG_NET_BLOCK_29)                       0.00       0.08 f
+  CG/PG_INST_1_4/Pik (PG_BLOCK_127)                       0.00       0.08 f
+  CG/PG_INST_1_4/U3/ZN (AOI21_X1)                         0.05       0.13 r
+  CG/PG_INST_1_4/U2/ZN (INV_X1)                           0.03       0.16 f
+  CG/PG_INST_1_4/Gij (PG_BLOCK_127)                       0.00       0.16 f
+  CG/PG_INST_2_4/Gik (PG_BLOCK_97)                        0.00       0.16 f
+  CG/PG_INST_2_4/U3/ZN (AOI21_X1)                         0.05       0.21 r
+  CG/PG_INST_2_4/U2/ZN (INV_X1)                           0.03       0.24 f
+  CG/PG_INST_2_4/Gij (PG_BLOCK_97)                        0.00       0.24 f
+  CG/G_INST_3_4/Gik (G_BLOCK_4)                           0.00       0.24 f
+  CG/G_INST_3_4/U2/ZN (AOI21_X1)                          0.05       0.29 r
+  CG/G_INST_3_4/U1/ZN (INV_X1)                            0.04       0.33 f
+  CG/G_INST_3_4/Gij (G_BLOCK_4)                           0.00       0.33 f
+  CG/PG_INST_4_12/Gkj (PG_BLOCK_37)                       0.00       0.33 f
+  CG/PG_INST_4_12/U3/ZN (AOI21_X1)                        0.05       0.38 r
+  CG/PG_INST_4_12/U2/ZN (INV_X1)                          0.04       0.42 f
+  CG/PG_INST_4_12/Gij (PG_BLOCK_37)                       0.00       0.42 f
+  CG/PG_INST_5_28/Gkj (PG_BLOCK_5)                        0.00       0.42 f
+  CG/PG_INST_5_28/U3/ZN (AOI21_X1)                        0.05       0.46 r
+  CG/PG_INST_5_28/U2/ZN (INV_X1)                          0.03       0.50 f
+  CG/PG_INST_5_28/Gij (PG_BLOCK_5)                        0.00       0.50 f
+  CG/Co[6] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)       0.00       0.50 f
+  SG/Ci[7] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)       0.00       0.50 f
+  SG/CSB_INST_7/Ci (CARRY_SELECT_BLOCK_NBIT4_1)           0.00       0.50 f
+  SG/CSB_INST_7/MUX_INST/S (MUX21_4BIT_N4_1)              0.00       0.50 f
+  SG/CSB_INST_7/MUX_INST/U4/Z (MUX2_X1)                   0.06       0.56 r
+  SG/CSB_INST_7/MUX_INST/Y[0] (MUX21_4BIT_N4_1)           0.00       0.56 r
+  SG/CSB_INST_7/S[0] (CARRY_SELECT_BLOCK_NBIT4_1)         0.00       0.56 r
+  SG/S[28] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)       0.00       0.56 r
+  S[28] (out)                                             0.00       0.56 r
+  data arrival time                                                  0.56
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[31] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[3] (in)                                               0.00       0.00 f
+  CG/A[3] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)        0.00       0.00 f
+  CG/PG_NET_0_4/A (PG_NET_BLOCK_29)                       0.00       0.00 f
+  CG/PG_NET_0_4/U1/Z (XOR2_X1)                            0.08       0.08 f
+  CG/PG_NET_0_4/p (PG_NET_BLOCK_29)                       0.00       0.08 f
+  CG/PG_INST_1_4/Pik (PG_BLOCK_127)                       0.00       0.08 f
+  CG/PG_INST_1_4/U3/ZN (AOI21_X1)                         0.05       0.13 r
+  CG/PG_INST_1_4/U2/ZN (INV_X1)                           0.03       0.16 f
+  CG/PG_INST_1_4/Gij (PG_BLOCK_127)                       0.00       0.16 f
+  CG/PG_INST_2_4/Gik (PG_BLOCK_97)                        0.00       0.16 f
+  CG/PG_INST_2_4/U3/ZN (AOI21_X1)                         0.05       0.21 r
+  CG/PG_INST_2_4/U2/ZN (INV_X1)                           0.03       0.24 f
+  CG/PG_INST_2_4/Gij (PG_BLOCK_97)                        0.00       0.24 f
+  CG/G_INST_3_4/Gik (G_BLOCK_4)                           0.00       0.24 f
+  CG/G_INST_3_4/U2/ZN (AOI21_X1)                          0.05       0.29 r
+  CG/G_INST_3_4/U1/ZN (INV_X1)                            0.04       0.33 f
+  CG/G_INST_3_4/Gij (G_BLOCK_4)                           0.00       0.33 f
+  CG/PG_INST_4_12/Gkj (PG_BLOCK_37)                       0.00       0.33 f
+  CG/PG_INST_4_12/U3/ZN (AOI21_X1)                        0.05       0.38 r
+  CG/PG_INST_4_12/U2/ZN (INV_X1)                          0.04       0.42 f
+  CG/PG_INST_4_12/Gij (PG_BLOCK_37)                       0.00       0.42 f
+  CG/PG_INST_5_28/Gkj (PG_BLOCK_5)                        0.00       0.42 f
+  CG/PG_INST_5_28/U3/ZN (AOI21_X1)                        0.05       0.46 r
+  CG/PG_INST_5_28/U2/ZN (INV_X1)                          0.03       0.50 f
+  CG/PG_INST_5_28/Gij (PG_BLOCK_5)                        0.00       0.50 f
+  CG/Co[6] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)       0.00       0.50 f
+  SG/Ci[7] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)       0.00       0.50 f
+  SG/CSB_INST_7/Ci (CARRY_SELECT_BLOCK_NBIT4_1)           0.00       0.50 f
+  SG/CSB_INST_7/MUX_INST/S (MUX21_4BIT_N4_1)              0.00       0.50 f
+  SG/CSB_INST_7/MUX_INST/U1/Z (MUX2_X1)                   0.06       0.56 f
+  SG/CSB_INST_7/MUX_INST/Y[3] (MUX21_4BIT_N4_1)           0.00       0.56 f
+  SG/CSB_INST_7/S[3] (CARRY_SELECT_BLOCK_NBIT4_1)         0.00       0.56 f
+  SG/S[31] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)       0.00       0.56 f
+  S[31] (out)                                             0.00       0.56 f
+  data arrival time                                                  0.56
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[30] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[3] (in)                                               0.00       0.00 f
+  CG/A[3] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)        0.00       0.00 f
+  CG/PG_NET_0_4/A (PG_NET_BLOCK_29)                       0.00       0.00 f
+  CG/PG_NET_0_4/U1/Z (XOR2_X1)                            0.08       0.08 f
+  CG/PG_NET_0_4/p (PG_NET_BLOCK_29)                       0.00       0.08 f
+  CG/PG_INST_1_4/Pik (PG_BLOCK_127)                       0.00       0.08 f
+  CG/PG_INST_1_4/U3/ZN (AOI21_X1)                         0.05       0.13 r
+  CG/PG_INST_1_4/U2/ZN (INV_X1)                           0.03       0.16 f
+  CG/PG_INST_1_4/Gij (PG_BLOCK_127)                       0.00       0.16 f
+  CG/PG_INST_2_4/Gik (PG_BLOCK_97)                        0.00       0.16 f
+  CG/PG_INST_2_4/U3/ZN (AOI21_X1)                         0.05       0.21 r
+  CG/PG_INST_2_4/U2/ZN (INV_X1)                           0.03       0.24 f
+  CG/PG_INST_2_4/Gij (PG_BLOCK_97)                        0.00       0.24 f
+  CG/G_INST_3_4/Gik (G_BLOCK_4)                           0.00       0.24 f
+  CG/G_INST_3_4/U2/ZN (AOI21_X1)                          0.05       0.29 r
+  CG/G_INST_3_4/U1/ZN (INV_X1)                            0.04       0.33 f
+  CG/G_INST_3_4/Gij (G_BLOCK_4)                           0.00       0.33 f
+  CG/PG_INST_4_12/Gkj (PG_BLOCK_37)                       0.00       0.33 f
+  CG/PG_INST_4_12/U3/ZN (AOI21_X1)                        0.05       0.38 r
+  CG/PG_INST_4_12/U2/ZN (INV_X1)                          0.04       0.42 f
+  CG/PG_INST_4_12/Gij (PG_BLOCK_37)                       0.00       0.42 f
+  CG/PG_INST_5_28/Gkj (PG_BLOCK_5)                        0.00       0.42 f
+  CG/PG_INST_5_28/U3/ZN (AOI21_X1)                        0.05       0.46 r
+  CG/PG_INST_5_28/U2/ZN (INV_X1)                          0.03       0.50 f
+  CG/PG_INST_5_28/Gij (PG_BLOCK_5)                        0.00       0.50 f
+  CG/Co[6] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)       0.00       0.50 f
+  SG/Ci[7] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)       0.00       0.50 f
+  SG/CSB_INST_7/Ci (CARRY_SELECT_BLOCK_NBIT4_1)           0.00       0.50 f
+  SG/CSB_INST_7/MUX_INST/S (MUX21_4BIT_N4_1)              0.00       0.50 f
+  SG/CSB_INST_7/MUX_INST/U2/Z (MUX2_X1)                   0.06       0.56 f
+  SG/CSB_INST_7/MUX_INST/Y[2] (MUX21_4BIT_N4_1)           0.00       0.56 f
+  SG/CSB_INST_7/S[2] (CARRY_SELECT_BLOCK_NBIT4_1)         0.00       0.56 f
+  SG/S[30] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)       0.00       0.56 f
+  S[30] (out)                                             0.00       0.56 f
+  data arrival time                                                  0.56
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[29] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[3] (in)                                               0.00       0.00 f
+  CG/A[3] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)        0.00       0.00 f
+  CG/PG_NET_0_4/A (PG_NET_BLOCK_29)                       0.00       0.00 f
+  CG/PG_NET_0_4/U1/Z (XOR2_X1)                            0.08       0.08 f
+  CG/PG_NET_0_4/p (PG_NET_BLOCK_29)                       0.00       0.08 f
+  CG/PG_INST_1_4/Pik (PG_BLOCK_127)                       0.00       0.08 f
+  CG/PG_INST_1_4/U3/ZN (AOI21_X1)                         0.05       0.13 r
+  CG/PG_INST_1_4/U2/ZN (INV_X1)                           0.03       0.16 f
+  CG/PG_INST_1_4/Gij (PG_BLOCK_127)                       0.00       0.16 f
+  CG/PG_INST_2_4/Gik (PG_BLOCK_97)                        0.00       0.16 f
+  CG/PG_INST_2_4/U3/ZN (AOI21_X1)                         0.05       0.21 r
+  CG/PG_INST_2_4/U2/ZN (INV_X1)                           0.03       0.24 f
+  CG/PG_INST_2_4/Gij (PG_BLOCK_97)                        0.00       0.24 f
+  CG/G_INST_3_4/Gik (G_BLOCK_4)                           0.00       0.24 f
+  CG/G_INST_3_4/U2/ZN (AOI21_X1)                          0.05       0.29 r
+  CG/G_INST_3_4/U1/ZN (INV_X1)                            0.04       0.33 f
+  CG/G_INST_3_4/Gij (G_BLOCK_4)                           0.00       0.33 f
+  CG/PG_INST_4_12/Gkj (PG_BLOCK_37)                       0.00       0.33 f
+  CG/PG_INST_4_12/U3/ZN (AOI21_X1)                        0.05       0.38 r
+  CG/PG_INST_4_12/U2/ZN (INV_X1)                          0.04       0.42 f
+  CG/PG_INST_4_12/Gij (PG_BLOCK_37)                       0.00       0.42 f
+  CG/PG_INST_5_28/Gkj (PG_BLOCK_5)                        0.00       0.42 f
+  CG/PG_INST_5_28/U3/ZN (AOI21_X1)                        0.05       0.46 r
+  CG/PG_INST_5_28/U2/ZN (INV_X1)                          0.03       0.50 f
+  CG/PG_INST_5_28/Gij (PG_BLOCK_5)                        0.00       0.50 f
+  CG/Co[6] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)       0.00       0.50 f
+  SG/Ci[7] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)       0.00       0.50 f
+  SG/CSB_INST_7/Ci (CARRY_SELECT_BLOCK_NBIT4_1)           0.00       0.50 f
+  SG/CSB_INST_7/MUX_INST/S (MUX21_4BIT_N4_1)              0.00       0.50 f
+  SG/CSB_INST_7/MUX_INST/U3/Z (MUX2_X1)                   0.06       0.56 f
+  SG/CSB_INST_7/MUX_INST/Y[1] (MUX21_4BIT_N4_1)           0.00       0.56 f
+  SG/CSB_INST_7/S[1] (CARRY_SELECT_BLOCK_NBIT4_1)         0.00       0.56 f
+  SG/S[29] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)       0.00       0.56 f
+  S[29] (out)                                             0.00       0.56 f
+  data arrival time                                                  0.56
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[28] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[3] (in)                                               0.00       0.00 f
+  CG/A[3] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)        0.00       0.00 f
+  CG/PG_NET_0_4/A (PG_NET_BLOCK_29)                       0.00       0.00 f
+  CG/PG_NET_0_4/U1/Z (XOR2_X1)                            0.08       0.08 f
+  CG/PG_NET_0_4/p (PG_NET_BLOCK_29)                       0.00       0.08 f
+  CG/PG_INST_1_4/Pik (PG_BLOCK_127)                       0.00       0.08 f
+  CG/PG_INST_1_4/U3/ZN (AOI21_X1)                         0.05       0.13 r
+  CG/PG_INST_1_4/U2/ZN (INV_X1)                           0.03       0.16 f
+  CG/PG_INST_1_4/Gij (PG_BLOCK_127)                       0.00       0.16 f
+  CG/PG_INST_2_4/Gik (PG_BLOCK_97)                        0.00       0.16 f
+  CG/PG_INST_2_4/U3/ZN (AOI21_X1)                         0.05       0.21 r
+  CG/PG_INST_2_4/U2/ZN (INV_X1)                           0.03       0.24 f
+  CG/PG_INST_2_4/Gij (PG_BLOCK_97)                        0.00       0.24 f
+  CG/G_INST_3_4/Gik (G_BLOCK_4)                           0.00       0.24 f
+  CG/G_INST_3_4/U2/ZN (AOI21_X1)                          0.05       0.29 r
+  CG/G_INST_3_4/U1/ZN (INV_X1)                            0.04       0.33 f
+  CG/G_INST_3_4/Gij (G_BLOCK_4)                           0.00       0.33 f
+  CG/PG_INST_4_12/Gkj (PG_BLOCK_37)                       0.00       0.33 f
+  CG/PG_INST_4_12/U3/ZN (AOI21_X1)                        0.05       0.38 r
+  CG/PG_INST_4_12/U2/ZN (INV_X1)                          0.04       0.42 f
+  CG/PG_INST_4_12/Gij (PG_BLOCK_37)                       0.00       0.42 f
+  CG/PG_INST_5_28/Gkj (PG_BLOCK_5)                        0.00       0.42 f
+  CG/PG_INST_5_28/U3/ZN (AOI21_X1)                        0.05       0.46 r
+  CG/PG_INST_5_28/U2/ZN (INV_X1)                          0.03       0.50 f
+  CG/PG_INST_5_28/Gij (PG_BLOCK_5)                        0.00       0.50 f
+  CG/Co[6] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)       0.00       0.50 f
+  SG/Ci[7] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)       0.00       0.50 f
+  SG/CSB_INST_7/Ci (CARRY_SELECT_BLOCK_NBIT4_1)           0.00       0.50 f
+  SG/CSB_INST_7/MUX_INST/S (MUX21_4BIT_N4_1)              0.00       0.50 f
+  SG/CSB_INST_7/MUX_INST/U4/Z (MUX2_X1)                   0.06       0.56 f
+  SG/CSB_INST_7/MUX_INST/Y[0] (MUX21_4BIT_N4_1)           0.00       0.56 f
+  SG/CSB_INST_7/S[0] (CARRY_SELECT_BLOCK_NBIT4_1)         0.00       0.56 f
+  SG/S[28] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)       0.00       0.56 f
+  S[28] (out)                                             0.00       0.56 f
+  data arrival time                                                  0.56
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[31] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[3] (in)                                               0.00       0.00 f
+  CG/A[3] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)        0.00       0.00 f
+  CG/PG_NET_0_4/A (PG_NET_BLOCK_29)                       0.00       0.00 f
+  CG/PG_NET_0_4/U1/Z (XOR2_X1)                            0.08       0.08 f
+  CG/PG_NET_0_4/p (PG_NET_BLOCK_29)                       0.00       0.08 f
+  CG/PG_INST_1_4/Pik (PG_BLOCK_127)                       0.00       0.08 f
+  CG/PG_INST_1_4/U3/ZN (AOI21_X1)                         0.05       0.13 r
+  CG/PG_INST_1_4/U2/ZN (INV_X1)                           0.03       0.16 f
+  CG/PG_INST_1_4/Gij (PG_BLOCK_127)                       0.00       0.16 f
+  CG/PG_INST_2_4/Gik (PG_BLOCK_97)                        0.00       0.16 f
+  CG/PG_INST_2_4/U3/ZN (AOI21_X1)                         0.05       0.21 r
+  CG/PG_INST_2_4/U2/ZN (INV_X1)                           0.03       0.24 f
+  CG/PG_INST_2_4/Gij (PG_BLOCK_97)                        0.00       0.24 f
+  CG/G_INST_3_4/Gik (G_BLOCK_4)                           0.00       0.24 f
+  CG/G_INST_3_4/U2/ZN (AOI21_X1)                          0.05       0.28 r
+  CG/G_INST_3_4/U1/ZN (INV_X1)                            0.04       0.33 f
+  CG/G_INST_3_4/Gij (G_BLOCK_4)                           0.00       0.33 f
+  CG/PG_INST_4_12/Gkj (PG_BLOCK_37)                       0.00       0.33 f
+  CG/PG_INST_4_12/U3/ZN (AOI21_X1)                        0.05       0.37 r
+  CG/PG_INST_4_12/U2/ZN (INV_X1)                          0.04       0.41 f
+  CG/PG_INST_4_12/Gij (PG_BLOCK_37)                       0.00       0.41 f
+  CG/PG_INST_5_28/Gkj (PG_BLOCK_5)                        0.00       0.41 f
+  CG/PG_INST_5_28/U3/ZN (AOI21_X1)                        0.05       0.46 r
+  CG/PG_INST_5_28/U2/ZN (INV_X1)                          0.03       0.49 f
+  CG/PG_INST_5_28/Gij (PG_BLOCK_5)                        0.00       0.49 f
+  CG/Co[6] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)       0.00       0.49 f
+  SG/Ci[7] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)       0.00       0.49 f
+  SG/CSB_INST_7/Ci (CARRY_SELECT_BLOCK_NBIT4_1)           0.00       0.49 f
+  SG/CSB_INST_7/MUX_INST/S (MUX21_4BIT_N4_1)              0.00       0.49 f
+  SG/CSB_INST_7/MUX_INST/U1/Z (MUX2_X1)                   0.06       0.55 r
+  SG/CSB_INST_7/MUX_INST/Y[3] (MUX21_4BIT_N4_1)           0.00       0.55 r
+  SG/CSB_INST_7/S[3] (CARRY_SELECT_BLOCK_NBIT4_1)         0.00       0.55 r
+  SG/S[31] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)       0.00       0.55 r
+  S[31] (out)                                             0.00       0.56 r
+  data arrival time                                                  0.56
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[28] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[3] (in)                                               0.00       0.00 f
+  CG/A[3] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)        0.00       0.00 f
+  CG/PG_NET_0_4/A (PG_NET_BLOCK_29)                       0.00       0.00 f
+  CG/PG_NET_0_4/U1/Z (XOR2_X1)                            0.08       0.08 f
+  CG/PG_NET_0_4/p (PG_NET_BLOCK_29)                       0.00       0.08 f
+  CG/PG_INST_1_4/Pik (PG_BLOCK_127)                       0.00       0.08 f
+  CG/PG_INST_1_4/U3/ZN (AOI21_X1)                         0.05       0.13 r
+  CG/PG_INST_1_4/U2/ZN (INV_X1)                           0.03       0.16 f
+  CG/PG_INST_1_4/Gij (PG_BLOCK_127)                       0.00       0.16 f
+  CG/PG_INST_2_4/Gik (PG_BLOCK_97)                        0.00       0.16 f
+  CG/PG_INST_2_4/U3/ZN (AOI21_X1)                         0.05       0.21 r
+  CG/PG_INST_2_4/U2/ZN (INV_X1)                           0.03       0.24 f
+  CG/PG_INST_2_4/Gij (PG_BLOCK_97)                        0.00       0.24 f
+  CG/G_INST_3_4/Gik (G_BLOCK_4)                           0.00       0.24 f
+  CG/G_INST_3_4/U2/ZN (AOI21_X1)                          0.05       0.28 r
+  CG/G_INST_3_4/U1/ZN (INV_X1)                            0.04       0.33 f
+  CG/G_INST_3_4/Gij (G_BLOCK_4)                           0.00       0.33 f
+  CG/PG_INST_4_12/Gkj (PG_BLOCK_37)                       0.00       0.33 f
+  CG/PG_INST_4_12/U3/ZN (AOI21_X1)                        0.05       0.37 r
+  CG/PG_INST_4_12/U2/ZN (INV_X1)                          0.04       0.41 f
+  CG/PG_INST_4_12/Gij (PG_BLOCK_37)                       0.00       0.41 f
+  CG/PG_INST_5_28/Gkj (PG_BLOCK_5)                        0.00       0.41 f
+  CG/PG_INST_5_28/U3/ZN (AOI21_X1)                        0.05       0.46 r
+  CG/PG_INST_5_28/U2/ZN (INV_X1)                          0.03       0.49 f
+  CG/PG_INST_5_28/Gij (PG_BLOCK_5)                        0.00       0.49 f
+  CG/Co[6] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)       0.00       0.49 f
+  SG/Ci[7] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)       0.00       0.49 f
+  SG/CSB_INST_7/Ci (CARRY_SELECT_BLOCK_NBIT4_1)           0.00       0.49 f
+  SG/CSB_INST_7/MUX_INST/S (MUX21_4BIT_N4_1)              0.00       0.49 f
+  SG/CSB_INST_7/MUX_INST/U4/Z (MUX2_X1)                   0.06       0.55 r
+  SG/CSB_INST_7/MUX_INST/Y[0] (MUX21_4BIT_N4_1)           0.00       0.55 r
+  SG/CSB_INST_7/S[0] (CARRY_SELECT_BLOCK_NBIT4_1)         0.00       0.55 r
+  SG/S[28] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)       0.00       0.55 r
+  S[28] (out)                                             0.00       0.56 r
+  data arrival time                                                  0.56
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

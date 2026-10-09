@@ -1,0 +1,5 @@
+The .measure command automatically gets the timing metrics, such, as how long it takes for something to happen and how fast something goes up or down 
+directly from the data that the simulation gives us. It does this by finding the moments when the waves cross the voltage levels that we care about.
+When we try to do this by hand using the cursor in the waveform viewer we can make mistakes and it's not precise. The .measure command does it 
+perfectly and always gets the same results. It also automatically saves the data that it gets into the file. This is really important when we need to 
+run a lot of simulations like when we're trying to figure out how something works with different parameters or when we need to make a table of results.

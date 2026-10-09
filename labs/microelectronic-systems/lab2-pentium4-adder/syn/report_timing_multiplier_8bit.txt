@@ -1,0 +1,426 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 10
+        -max_paths 10
+Design : BOOTHMUL_N8
+Version: W-2024.09-SP2
+Date   : Wed Apr  8 16:26:11 2026
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: B[3] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N8        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  B[3] (in)                                               0.00       0.00 r
+  I_16/Z (GTECH_NOT)                                      0.01       0.01 f
+  C69/Z (GTECH_OR2)                                       0.00       0.01 f
+  C75/Z (GTECH_OR2)                                       0.00       0.01 f
+  I_14/Z (GTECH_NOT)                                      0.00       0.01 r
+  C244/Z (GTECH_OR2)                                      0.00       0.02 r
+  B_8/Z (GTECH_BUF)                                       0.00       0.02 r
+  C214/Z_0 (*SELECT_OP_5.9_5.1_9)                         0.00       0.02 r
+  add_57_I2/B_2 (*ADD_TC_OP_9_11_12)                      0.00       0.02 r
+  add_57_I2/*cell*28/B[2] (DW01_add_width12)              0.00       0.02 r
+  ...
+  add_57_I2/*cell*28/SUM[11] (DW01_add_width12)           0.02       0.04 r
+  add_57_I2/Z_11 (*ADD_TC_OP_9_11_12)                     0.00       0.04 r
+  add_57_I3/A_11 (*ADD_TC_OP_12_13_14)                    0.00       0.04 r
+  add_57_I3/*cell*31/A[11] (DW01_add_width14)             0.00       0.04 r
+  ...
+  add_57_I3/*cell*31/SUM[13] (DW01_add_width14)           0.01       0.05 r
+  add_57_I3/Z_13 (*ADD_TC_OP_12_13_14)                    0.00       0.05 r
+  add_57_I4/A_13 (*ADD_TC_OP_14_15_16)                    0.00       0.05 r
+  add_57_I4/*cell*34/A[13] (DW01_add_width16)             0.00       0.05 r
+  ...
+  add_57_I4/*cell*34/SUM[15] (DW01_add_width16)           0.01       0.05 r
+  add_57_I4/Z_15 (*ADD_TC_OP_14_15_16)                    0.00       0.05 r
+  P[15] (out)                                             0.00       0.06 r
+  data arrival time                                                  0.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[3] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N8        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  B[3] (in)                                               0.00       0.00 f
+  I_16/Z (GTECH_NOT)                                      0.01       0.01 r
+  C69/Z (GTECH_OR2)                                       0.00       0.01 r
+  C75/Z (GTECH_OR2)                                       0.00       0.01 r
+  I_14/Z (GTECH_NOT)                                      0.00       0.01 f
+  C244/Z (GTECH_OR2)                                      0.00       0.02 f
+  B_8/Z (GTECH_BUF)                                       0.00       0.02 f
+  C214/Z_0 (*SELECT_OP_5.9_5.1_9)                         0.00       0.02 f
+  add_57_I2/B_2 (*ADD_TC_OP_9_11_12)                      0.00       0.02 f
+  add_57_I2/*cell*28/B[2] (DW01_add_width12)              0.00       0.02 f
+  ...
+  add_57_I2/*cell*28/SUM[11] (DW01_add_width12)           0.02       0.04 r
+  add_57_I2/Z_11 (*ADD_TC_OP_9_11_12)                     0.00       0.04 r
+  add_57_I3/A_11 (*ADD_TC_OP_12_13_14)                    0.00       0.04 r
+  add_57_I3/*cell*31/A[11] (DW01_add_width14)             0.00       0.04 r
+  ...
+  add_57_I3/*cell*31/SUM[13] (DW01_add_width14)           0.01       0.05 r
+  add_57_I3/Z_13 (*ADD_TC_OP_12_13_14)                    0.00       0.05 r
+  add_57_I4/A_13 (*ADD_TC_OP_14_15_16)                    0.00       0.05 r
+  add_57_I4/*cell*34/A[13] (DW01_add_width16)             0.00       0.05 r
+  ...
+  add_57_I4/*cell*34/SUM[15] (DW01_add_width16)           0.01       0.05 r
+  add_57_I4/Z_15 (*ADD_TC_OP_14_15_16)                    0.00       0.05 r
+  P[15] (out)                                             0.00       0.06 r
+  data arrival time                                                  0.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[3] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N8        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  B[3] (in)                                               0.00       0.00 r
+  I_16/Z (GTECH_NOT)                                      0.01       0.01 f
+  C69/Z (GTECH_OR2)                                       0.00       0.01 f
+  C75/Z (GTECH_OR2)                                       0.00       0.01 f
+  I_14/Z (GTECH_NOT)                                      0.00       0.01 r
+  C244/Z (GTECH_OR2)                                      0.00       0.02 r
+  B_8/Z (GTECH_BUF)                                       0.00       0.02 r
+  C214/Z_0 (*SELECT_OP_5.9_5.1_9)                         0.00       0.02 r
+  add_57_I2/B_2 (*ADD_TC_OP_9_11_12)                      0.00       0.02 r
+  add_57_I2/*cell*28/B[2] (DW01_add_width12)              0.00       0.02 r
+  ...
+  add_57_I2/*cell*28/SUM[11] (DW01_add_width12)           0.02       0.04 f
+  add_57_I2/Z_11 (*ADD_TC_OP_9_11_12)                     0.00       0.04 f
+  add_57_I3/A_11 (*ADD_TC_OP_12_13_14)                    0.00       0.04 f
+  add_57_I3/*cell*31/A[11] (DW01_add_width14)             0.00       0.04 f
+  ...
+  add_57_I3/*cell*31/SUM[13] (DW01_add_width14)           0.01       0.05 r
+  add_57_I3/Z_13 (*ADD_TC_OP_12_13_14)                    0.00       0.05 r
+  add_57_I4/A_13 (*ADD_TC_OP_14_15_16)                    0.00       0.05 r
+  add_57_I4/*cell*34/A[13] (DW01_add_width16)             0.00       0.05 r
+  ...
+  add_57_I4/*cell*34/SUM[15] (DW01_add_width16)           0.01       0.05 r
+  add_57_I4/Z_15 (*ADD_TC_OP_14_15_16)                    0.00       0.05 r
+  P[15] (out)                                             0.00       0.06 r
+  data arrival time                                                  0.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[3] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N8        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  B[3] (in)                                               0.00       0.00 f
+  I_16/Z (GTECH_NOT)                                      0.01       0.01 r
+  C69/Z (GTECH_OR2)                                       0.00       0.01 r
+  C75/Z (GTECH_OR2)                                       0.00       0.01 r
+  I_14/Z (GTECH_NOT)                                      0.00       0.01 f
+  C244/Z (GTECH_OR2)                                      0.00       0.02 f
+  B_8/Z (GTECH_BUF)                                       0.00       0.02 f
+  C214/Z_0 (*SELECT_OP_5.9_5.1_9)                         0.00       0.02 f
+  add_57_I2/B_2 (*ADD_TC_OP_9_11_12)                      0.00       0.02 f
+  add_57_I2/*cell*28/B[2] (DW01_add_width12)              0.00       0.02 f
+  ...
+  add_57_I2/*cell*28/SUM[11] (DW01_add_width12)           0.02       0.04 f
+  add_57_I2/Z_11 (*ADD_TC_OP_9_11_12)                     0.00       0.04 f
+  add_57_I3/A_11 (*ADD_TC_OP_12_13_14)                    0.00       0.04 f
+  add_57_I3/*cell*31/A[11] (DW01_add_width14)             0.00       0.04 f
+  ...
+  add_57_I3/*cell*31/SUM[13] (DW01_add_width14)           0.01       0.05 r
+  add_57_I3/Z_13 (*ADD_TC_OP_12_13_14)                    0.00       0.05 r
+  add_57_I4/A_13 (*ADD_TC_OP_14_15_16)                    0.00       0.05 r
+  add_57_I4/*cell*34/A[13] (DW01_add_width16)             0.00       0.05 r
+  ...
+  add_57_I4/*cell*34/SUM[15] (DW01_add_width16)           0.01       0.05 r
+  add_57_I4/Z_15 (*ADD_TC_OP_14_15_16)                    0.00       0.05 r
+  P[15] (out)                                             0.00       0.06 r
+  data arrival time                                                  0.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[3] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N8        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  B[3] (in)                                               0.00       0.00 r
+  I_16/Z (GTECH_NOT)                                      0.01       0.01 f
+  C69/Z (GTECH_OR2)                                       0.00       0.01 f
+  C75/Z (GTECH_OR2)                                       0.00       0.01 f
+  I_14/Z (GTECH_NOT)                                      0.00       0.01 r
+  C244/Z (GTECH_OR2)                                      0.00       0.02 r
+  B_8/Z (GTECH_BUF)                                       0.00       0.02 r
+  C214/Z_0 (*SELECT_OP_5.9_5.1_9)                         0.00       0.02 r
+  add_57_I2/B_2 (*ADD_TC_OP_9_11_12)                      0.00       0.02 r
+  add_57_I2/*cell*28/B[2] (DW01_add_width12)              0.00       0.02 r
+  ...
+  add_57_I2/*cell*28/SUM[11] (DW01_add_width12)           0.02       0.04 r
+  add_57_I2/Z_11 (*ADD_TC_OP_9_11_12)                     0.00       0.04 r
+  add_57_I3/A_11 (*ADD_TC_OP_12_13_14)                    0.00       0.04 r
+  add_57_I3/*cell*31/A[11] (DW01_add_width14)             0.00       0.04 r
+  ...
+  add_57_I3/*cell*31/SUM[13] (DW01_add_width14)           0.01       0.05 f
+  add_57_I3/Z_13 (*ADD_TC_OP_12_13_14)                    0.00       0.05 f
+  add_57_I4/A_13 (*ADD_TC_OP_14_15_16)                    0.00       0.05 f
+  add_57_I4/*cell*34/A[13] (DW01_add_width16)             0.00       0.05 f
+  ...
+  add_57_I4/*cell*34/SUM[15] (DW01_add_width16)           0.01       0.05 r
+  add_57_I4/Z_15 (*ADD_TC_OP_14_15_16)                    0.00       0.05 r
+  P[15] (out)                                             0.00       0.06 r
+  data arrival time                                                  0.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[3] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N8        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  B[3] (in)                                               0.00       0.00 f
+  I_16/Z (GTECH_NOT)                                      0.01       0.01 r
+  C69/Z (GTECH_OR2)                                       0.00       0.01 r
+  C75/Z (GTECH_OR2)                                       0.00       0.01 r
+  I_14/Z (GTECH_NOT)                                      0.00       0.01 f
+  C244/Z (GTECH_OR2)                                      0.00       0.02 f
+  B_8/Z (GTECH_BUF)                                       0.00       0.02 f
+  C214/Z_0 (*SELECT_OP_5.9_5.1_9)                         0.00       0.02 f
+  add_57_I2/B_2 (*ADD_TC_OP_9_11_12)                      0.00       0.02 f
+  add_57_I2/*cell*28/B[2] (DW01_add_width12)              0.00       0.02 f
+  ...
+  add_57_I2/*cell*28/SUM[11] (DW01_add_width12)           0.02       0.04 r
+  add_57_I2/Z_11 (*ADD_TC_OP_9_11_12)                     0.00       0.04 r
+  add_57_I3/A_11 (*ADD_TC_OP_12_13_14)                    0.00       0.04 r
+  add_57_I3/*cell*31/A[11] (DW01_add_width14)             0.00       0.04 r
+  ...
+  add_57_I3/*cell*31/SUM[13] (DW01_add_width14)           0.01       0.05 f
+  add_57_I3/Z_13 (*ADD_TC_OP_12_13_14)                    0.00       0.05 f
+  add_57_I4/A_13 (*ADD_TC_OP_14_15_16)                    0.00       0.05 f
+  add_57_I4/*cell*34/A[13] (DW01_add_width16)             0.00       0.05 f
+  ...
+  add_57_I4/*cell*34/SUM[15] (DW01_add_width16)           0.01       0.05 r
+  add_57_I4/Z_15 (*ADD_TC_OP_14_15_16)                    0.00       0.05 r
+  P[15] (out)                                             0.00       0.06 r
+  data arrival time                                                  0.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[3] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N8        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  B[3] (in)                                               0.00       0.00 r
+  I_16/Z (GTECH_NOT)                                      0.01       0.01 f
+  C69/Z (GTECH_OR2)                                       0.00       0.01 f
+  C75/Z (GTECH_OR2)                                       0.00       0.01 f
+  I_14/Z (GTECH_NOT)                                      0.00       0.01 r
+  C244/Z (GTECH_OR2)                                      0.00       0.02 r
+  B_8/Z (GTECH_BUF)                                       0.00       0.02 r
+  C214/Z_0 (*SELECT_OP_5.9_5.1_9)                         0.00       0.02 r
+  add_57_I2/B_2 (*ADD_TC_OP_9_11_12)                      0.00       0.02 r
+  add_57_I2/*cell*28/B[2] (DW01_add_width12)              0.00       0.02 r
+  ...
+  add_57_I2/*cell*28/SUM[11] (DW01_add_width12)           0.02       0.04 f
+  add_57_I2/Z_11 (*ADD_TC_OP_9_11_12)                     0.00       0.04 f
+  add_57_I3/A_11 (*ADD_TC_OP_12_13_14)                    0.00       0.04 f
+  add_57_I3/*cell*31/A[11] (DW01_add_width14)             0.00       0.04 f
+  ...
+  add_57_I3/*cell*31/SUM[13] (DW01_add_width14)           0.01       0.05 f
+  add_57_I3/Z_13 (*ADD_TC_OP_12_13_14)                    0.00       0.05 f
+  add_57_I4/A_13 (*ADD_TC_OP_14_15_16)                    0.00       0.05 f
+  add_57_I4/*cell*34/A[13] (DW01_add_width16)             0.00       0.05 f
+  ...
+  add_57_I4/*cell*34/SUM[15] (DW01_add_width16)           0.01       0.05 r
+  add_57_I4/Z_15 (*ADD_TC_OP_14_15_16)                    0.00       0.05 r
+  P[15] (out)                                             0.00       0.06 r
+  data arrival time                                                  0.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[3] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N8        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  B[3] (in)                                               0.00       0.00 f
+  I_16/Z (GTECH_NOT)                                      0.01       0.01 r
+  C69/Z (GTECH_OR2)                                       0.00       0.01 r
+  C75/Z (GTECH_OR2)                                       0.00       0.01 r
+  I_14/Z (GTECH_NOT)                                      0.00       0.01 f
+  C244/Z (GTECH_OR2)                                      0.00       0.02 f
+  B_8/Z (GTECH_BUF)                                       0.00       0.02 f
+  C214/Z_0 (*SELECT_OP_5.9_5.1_9)                         0.00       0.02 f
+  add_57_I2/B_2 (*ADD_TC_OP_9_11_12)                      0.00       0.02 f
+  add_57_I2/*cell*28/B[2] (DW01_add_width12)              0.00       0.02 f
+  ...
+  add_57_I2/*cell*28/SUM[11] (DW01_add_width12)           0.02       0.04 f
+  add_57_I2/Z_11 (*ADD_TC_OP_9_11_12)                     0.00       0.04 f
+  add_57_I3/A_11 (*ADD_TC_OP_12_13_14)                    0.00       0.04 f
+  add_57_I3/*cell*31/A[11] (DW01_add_width14)             0.00       0.04 f
+  ...
+  add_57_I3/*cell*31/SUM[13] (DW01_add_width14)           0.01       0.05 f
+  add_57_I3/Z_13 (*ADD_TC_OP_12_13_14)                    0.00       0.05 f
+  add_57_I4/A_13 (*ADD_TC_OP_14_15_16)                    0.00       0.05 f
+  add_57_I4/*cell*34/A[13] (DW01_add_width16)             0.00       0.05 f
+  ...
+  add_57_I4/*cell*34/SUM[15] (DW01_add_width16)           0.01       0.05 r
+  add_57_I4/Z_15 (*ADD_TC_OP_14_15_16)                    0.00       0.05 r
+  P[15] (out)                                             0.00       0.06 r
+  data arrival time                                                  0.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[3] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N8        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  B[3] (in)                                               0.00       0.00 r
+  I_16/Z (GTECH_NOT)                                      0.01       0.01 f
+  C69/Z (GTECH_OR2)                                       0.00       0.01 f
+  C75/Z (GTECH_OR2)                                       0.00       0.01 f
+  I_14/Z (GTECH_NOT)                                      0.00       0.01 r
+  C244/Z (GTECH_OR2)                                      0.00       0.02 r
+  B_8/Z (GTECH_BUF)                                       0.00       0.02 r
+  C214/Z_0 (*SELECT_OP_5.9_5.1_9)                         0.00       0.02 r
+  add_57_I2/B_2 (*ADD_TC_OP_9_11_12)                      0.00       0.02 r
+  add_57_I2/*cell*28/B[2] (DW01_add_width12)              0.00       0.02 r
+  ...
+  add_57_I2/*cell*28/SUM[11] (DW01_add_width12)           0.02       0.04 r
+  add_57_I2/Z_11 (*ADD_TC_OP_9_11_12)                     0.00       0.04 r
+  add_57_I3/A_11 (*ADD_TC_OP_12_13_14)                    0.00       0.04 r
+  add_57_I3/*cell*31/A[11] (DW01_add_width14)             0.00       0.04 r
+  ...
+  add_57_I3/*cell*31/SUM[13] (DW01_add_width14)           0.01       0.05 r
+  add_57_I3/Z_13 (*ADD_TC_OP_12_13_14)                    0.00       0.05 r
+  add_57_I4/A_13 (*ADD_TC_OP_14_15_16)                    0.00       0.05 r
+  add_57_I4/*cell*34/A[13] (DW01_add_width16)             0.00       0.05 r
+  ...
+  add_57_I4/*cell*34/SUM[15] (DW01_add_width16)           0.01       0.05 f
+  add_57_I4/Z_15 (*ADD_TC_OP_14_15_16)                    0.00       0.05 f
+  P[15] (out)                                             0.00       0.06 f
+  data arrival time                                                  0.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[3] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N8        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  B[3] (in)                                               0.00       0.00 r
+  I_16/Z (GTECH_NOT)                                      0.01       0.01 f
+  C69/Z (GTECH_OR2)                                       0.00       0.01 f
+  C75/Z (GTECH_OR2)                                       0.00       0.01 f
+  I_14/Z (GTECH_NOT)                                      0.00       0.01 r
+  C244/Z (GTECH_OR2)                                      0.00       0.02 r
+  B_8/Z (GTECH_BUF)                                       0.00       0.02 r
+  C214/Z_0 (*SELECT_OP_5.9_5.1_9)                         0.00       0.02 r
+  add_57_I2/B_2 (*ADD_TC_OP_9_11_12)                      0.00       0.02 r
+  add_57_I2/*cell*28/B[2] (DW01_add_width12)              0.00       0.02 r
+  ...
+  add_57_I2/*cell*28/SUM[11] (DW01_add_width12)           0.02       0.04 r
+  add_57_I2/Z_11 (*ADD_TC_OP_9_11_12)                     0.00       0.04 r
+  add_57_I3/A_11 (*ADD_TC_OP_12_13_14)                    0.00       0.04 r
+  add_57_I3/*cell*31/A[11] (DW01_add_width14)             0.00       0.04 r
+  ...
+  add_57_I3/*cell*31/SUM[13] (DW01_add_width14)           0.01       0.05 f
+  add_57_I3/Z_13 (*ADD_TC_OP_12_13_14)                    0.00       0.05 f
+  add_57_I4/A_13 (*ADD_TC_OP_14_15_16)                    0.00       0.05 f
+  add_57_I4/*cell*34/A[13] (DW01_add_width16)             0.00       0.05 f
+  ...
+  add_57_I4/*cell*34/SUM[15] (DW01_add_width16)           0.01       0.05 f
+  add_57_I4/Z_15 (*ADD_TC_OP_14_15_16)                    0.00       0.05 f
+  P[15] (out)                                             0.00       0.06 f
+  data arrival time                                                  0.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

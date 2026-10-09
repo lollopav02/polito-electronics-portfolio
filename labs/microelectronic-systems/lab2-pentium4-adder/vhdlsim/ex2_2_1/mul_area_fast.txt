@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : BOOTHMUL_N32
+Version: W-2024.09-SP2
+Date   : Wed Apr  8 17:51:30 2026
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/repository/do/libnandgate/NangateOpenCellLibrary_typical_ecsm.db)
+
+Number of ports:                         2802
+Number of nets:                          6547
+Number of cells:                         4224
+Number of combinational cells:           4074
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                        806
+Number of references:                      41
+
+Combinational area:               5622.973978
+Buf/Inv area:                      553.013993
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  5622.973978
+Total area:                 undefined
+1

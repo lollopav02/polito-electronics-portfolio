@@ -1,0 +1,32 @@
+1)
+
+Falling Times   (90% output -> 10% output)
+        90% Out = 1.398 ns
+        10% Out = 1.567 ns
+        DeltaT  = 169 ps
+
+Rising Times    (10% output -> 90% output)
+        90% Out = 2.471 ns
+        10% Out = 2.636 ns
+        DeltaT  = 165 ps
+
+Rise Delays     (50% input  -> 50% output)
+        50% In  = 1.500 ns
+        50% Out = 1.516 ns
+        DeltaT  = 16 ps
+
+Rise Delays     (50% input  -> 50% output)
+        50% In  = 2.500 ns
+        50% Out = 2.568 ns
+        DeltaT  = 68 ps
+
+Peak Switching Currents
+        Interval 1 (1.000 ns → 2.000 ns)
+            MAXIGNDF  = 65.153 µA   at 1.529 ns
+            MAXILOADF = -0.342 µA   at 1.538 ns
+            MAXIVDDF  = -52.292 µA  at 1.500 ns
+
+        Interval 2 (2.000 ns → 3.000 ns)
+            MAXIVDDR  = -62.087 µA  at 2.564 ns
+            MAXILOADR = 0.319 µA    at 2.579 ns
+            MAXIGNDR  = 51.208 µA   at 2.530 ns

@@ -1,0 +1,33 @@
+Question 1
+Analyze the real timing report. Did something change? Do you understand the meaning of the reported values?
+
+The first report refers to a simpler combinational path, whereas the second is associated with synchronous
+sequential logic and therefore must wait for the clock signal.
+For the matter of the FF-D it doesn't change much (0.10 - 0.07), but the synchronous one introduce some AOI
+and OAI logic after the fact that probably is the I/O logic.
+The slack is valued only in the synchronous case, and it is calculated from the clock duration, but in both
+cases the critical path is faster than the clock of an order of magnitude.
+
+Question 2
+Consider again Figure 3.2, what happens to the combinational paths between the inputs INs and the first stage
+of registers (paths in Block 1), or between the output registers and the outputs OUTs (paths in block 3)?
+
+The `create_clock` command only sets timing for the logic that works between two FF-D and not for the I/O circuit,
+so it is only applied to block 4 (between two FF), while block 1 (input to FF) and block 3 (FF to output) are uneffected.
+To make these paths better you need to add limits, like `set_max_delay`, to include these paths in the optimization.
+
+Question 3
+How does the timing report change with respect to the one obtained from the previous structure?
+
+The timing report shows that the windowed Register File architecture is more complex and introduces higher delays
+compared to the behavioral version:
+The critical path now starts from the CWP register, meaning the slowest operation is the address translation logic
+rather than simple data access.
+The total delay increases to 0.96 ns due to additional combinational logic, and that reduces the slack down to 1.00.
+The logic depth is greater, with more layers of gates needed for circular buffer management and window selection.
+
+Question 4
+What do you think it implements in detail?
+
+A 4-bit adder with serial input for A, parallel input for B, and serial output, implemented as an FSM-controlled
+SIPO–ALU–PISO datapath.

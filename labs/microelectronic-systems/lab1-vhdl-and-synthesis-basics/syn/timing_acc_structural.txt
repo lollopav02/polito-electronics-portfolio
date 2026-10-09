@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : ACC
+Version: W-2024.09-SP2
+Date   : Wed Mar 18 16:39:47 2026
+****************************************
+
+Operating Conditions: nom_pvt   Library: gtech
+Wire Load Model Mode: top
+
+  Startpoint: UREG/Q_reg[63]
+              (rising edge-triggered flip-flop)
+  Endpoint: Y[63] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  UREG/Q_reg[63]/clocked_on (**SEQGEN**)                  0.00       0.00 r
+  UREG/Q_reg[63]/Q (**SEQGEN**)                           0.00       0.00 r
+  UREG/Q[63] (REG_NBIT64)                                 0.00       0.00 r
+  Y[63] (out)                                             0.00       0.00 r
+  data arrival time                                                  0.00
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

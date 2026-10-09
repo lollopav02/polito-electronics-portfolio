@@ -1,0 +1,26 @@
+
+# 1. Analisi dei file (Metti qui dentro i tuoi componenti in ordine, separati da uno spazio)
+analyze -library WORK -format vhdl { pg.vhd G.vhd PG.vhd fa.vhd mux21_4bit.vhd rca.vhd csa.vhd sum_gen.vhd carry_generator.vhd p4_adder.vhd}
+
+# 2. Elaborazione (SOSTITUISCI 'P4_ADDER' con il nome reale della top entity dell'adder)
+elaborate P4_ADDER -architecture STRUCTURAL -library WORK
+
+# 3. Vincoli e compilazione
+set_wire_load_model -name 5K_hvratio_1_4
+
+set_max_delay 5 -from [all_inputs] -to [all_outputs]
+compile -map_effort high
+
+# 4. Generazione Report e Netlist Verilog per Innovus
+report_power > sum_timeopt_pw.rpt
+report_timing > sum_timeopt_t.rpt
+
+# =====================================================================
+# CORREZIONE FARE ATTENZIONE QUI: 
+# Cambiato da 'adder.v' a 'p4_adder.v' per allinearlo con ADDER.globals
+# =====================================================================
+write -hierarchy -f verilog -output p4_adder.v
+write_sdc ADDER.sdc
+
+# 5. Chiusura pulita di Synopsys (Evita che lo script .sh rimanga appeso)
+quit

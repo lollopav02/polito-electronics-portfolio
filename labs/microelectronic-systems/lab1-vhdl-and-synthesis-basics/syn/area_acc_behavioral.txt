@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : ACC
+Version: W-2024.09-SP2
+Date   : Wed Mar 18 16:46:06 2026
+****************************************
+
+Library(s) Used:
+
+    gtech (File: /eda/synopsys/2024-25/RHELx86/SYN_2024.09-SP2/libraries/syn/gtech.db)
+
+Number of ports:                          904
+Number of nets:                          1228
+Number of cells:                          329
+Number of combinational cells:            258
+Number of sequential cells:                64
+Number of macros/black boxes:               0
+Number of buf/inv:                          2
+Number of references:                       4
+
+Combinational area:                  0.000000
+Buf/Inv area:                        0.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                     0.000000
+Total area:                 undefined
+
+Information: This design contains unmapped logic. (RPT-7)
+1

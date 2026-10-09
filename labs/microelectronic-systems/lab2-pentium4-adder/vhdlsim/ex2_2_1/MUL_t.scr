@@ -1,0 +1,32 @@
+##############################################################
+#SCRIPT FOR SPEEDING UP and RECORDING the MULTIPLIER SYNTHESIS#
+# analyzing and checking vhdl netlist#
+# here the analyze command is used for each file from bottom to top #
+##############################################################
+analyze -library WORK -format vhdl {boothmul.vhd}
+##############################################################
+# elaborating the top entity -- here supposed BOOTHMUL#
+# choose the architecture you want
+elaborate BOOTHMUL -architecture STR_BEH -library WORK -parameters {N=8}
+##########################################
+# first compilation, without constraints #
+compile
+# reporting riming and power after the first synthesis without constraints #
+report_timing > mul-timing-no-opt_8bit.txt
+# change design from 8 bit to 32 bit
+remove_design -hierarchy [get_designs *]
+elaborate BOOTHMUL -architecture STR_BEH -library WORK -parameters {N=32}
+analyze -format vhdl {boothmul.vhd}
+set_max_delay 5.31 -from [all_inputs] -to [all_outputs]
+# optimize
+compile -map_effort high
+report_timing > mul-timing-opt.txt
+report_area > mul-area-opt.txt
+# attempt to improve the optimization (without slack violations)
+set_max_delay 5.1 -from [all_inputs] -to [all_outputs]
+# optimize
+compile -map_effort high
+report_timing > mul-timing-fast.txt
+report_area > mul-area-fast.txt
+# saving files
+write -hierarchy -format vhdl -output BOOTHMUL-str-beh-topt.vhdl

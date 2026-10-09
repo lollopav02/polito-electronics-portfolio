@@ -1,0 +1,8 @@
+Increasing the gate size from HS X1 to HS X8 under a 50 fF load creates a big speed-power trade-off, because the transistor channel 
+width increases by 8 times and the channel resistance (RON) decreases by 8 times. This helps the gate charge and discharge the large load capacitance 
+much faster. The propagation delay (tpHL) drops from 209.0 ps to 66.8 ps. The fall time gets sharper from 296.5 ps to 100.8 ps.
+The rise time also drops, from 363.9 ps to 105.4 ps. However there is a downside to this change: it uses a lot silicon area and power.
+The supply current peak (IVDD) increases from around -70 uA to around -400 uA, because of dynamic and short-circuit currents.
+Also the larger X8 layout has an input gate capacitance, which adds a load to the previous logic stage. As a result its propagation delay increases.
+The gate sizing optimization helps with speed, but it increases power dissipation and silicon area, so the trade-off is between speed and power.
+The HS X8 gate configuration provides better performance, using more power and silicon area.

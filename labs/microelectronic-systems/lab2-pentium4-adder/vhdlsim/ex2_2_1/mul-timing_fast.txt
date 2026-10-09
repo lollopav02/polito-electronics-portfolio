@@ -1,0 +1,1747 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 10
+        -max_paths 10
+Design : BOOTHMUL_N32
+Version: W-2024.09-SP2
+Date   : Wed Apr  8 17:23:53 2026
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: A[1] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N32       5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[1] (in)                                               0.00       0.00 f
+  r239/B[1] (BOOTHMUL_N32_DW01_sub_0)                     0.00       0.00 f
+  r239/U13/ZN (NOR2_X1)                                   0.05       0.05 r
+  r239/U12/ZN (XNOR2_X1)                                  0.06       0.11 r
+  r239/DIFF[2] (BOOTHMUL_N32_DW01_sub_0)                  0.00       0.11 r
+  U6035/ZN (INV_X1)                                       0.02       0.13 f
+  U6032/ZN (OAI222_X1)                                    0.06       0.19 r
+  add_14_root_add_57_I16/A[2] (BOOTHMUL_N32_DW01_add_4)
+                                                          0.00       0.19 r
+  add_14_root_add_57_I16/U38/ZN (AND2_X1)                 0.05       0.24 r
+  add_14_root_add_57_I16/U37/ZN (OAI21_X1)                0.03       0.27 f
+  add_14_root_add_57_I16/U36/ZN (INV_X1)                  0.03       0.30 r
+  add_14_root_add_57_I16/U39/ZN (AOI21_X1)                0.03       0.33 f
+  add_14_root_add_57_I16/U43/ZN (NOR2_X1)                 0.05       0.38 r
+  add_14_root_add_57_I16/U42/ZN (OAI21_X1)                0.04       0.42 f
+  add_14_root_add_57_I16/U46/ZN (AND2_X1)                 0.04       0.46 f
+  add_14_root_add_57_I16/U53/ZN (AOI21_X1)                0.05       0.51 r
+  add_14_root_add_57_I16/U52/ZN (XNOR2_X1)                0.06       0.57 r
+  add_14_root_add_57_I16/SUM[6] (BOOTHMUL_N32_DW01_add_4)
+                                                          0.00       0.57 r
+  add_6_root_add_57_I16/A[6] (BOOTHMUL_N32_DW01_add_2)
+                                                          0.00       0.57 r
+  add_6_root_add_57_I16/U26/ZN (INV_X1)                   0.03       0.60 f
+  add_6_root_add_57_I16/U24/ZN (OAI21_X1)                 0.04       0.63 r
+  add_6_root_add_57_I16/U23/ZN (NAND3_X1)                 0.03       0.67 f
+  add_6_root_add_57_I16/U20/ZN (NAND2_X1)                 0.03       0.70 r
+  add_6_root_add_57_I16/U19/ZN (OAI211_X1)                0.04       0.74 f
+  add_6_root_add_57_I16/U22/ZN (NAND2_X1)                 0.03       0.78 r
+  add_6_root_add_57_I16/U38/ZN (NAND2_X1)                 0.03       0.81 f
+  add_6_root_add_57_I16/U32/ZN (NAND2_X1)                 0.03       0.83 r
+  add_6_root_add_57_I16/U31/ZN (NAND2_X1)                 0.03       0.87 f
+  add_6_root_add_57_I16/U36/ZN (NAND2_X1)                 0.03       0.90 r
+  add_6_root_add_57_I16/U58/ZN (NOR2_X1)                  0.02       0.93 f
+  add_6_root_add_57_I16/U54/ZN (NOR2_X1)                  0.05       0.98 r
+  add_6_root_add_57_I16/U53/ZN (OAI21_X1)                 0.03       1.01 f
+  add_6_root_add_57_I16/U48/ZN (OAI21_X1)                 0.04       1.05 r
+  add_6_root_add_57_I16/U56/ZN (NOR2_X1)                  0.03       1.08 f
+  add_6_root_add_57_I16/U66/ZN (NOR2_X1)                  0.04       1.11 r
+  add_6_root_add_57_I16/U63/ZN (AOI21_X1)                 0.03       1.14 f
+  add_6_root_add_57_I16/U62/Z (BUF_X1)                    0.04       1.18 f
+  add_6_root_add_57_I16/U61/ZN (XNOR2_X1)                 0.06       1.24 f
+  add_6_root_add_57_I16/SUM[14] (BOOTHMUL_N32_DW01_add_2)
+                                                          0.00       1.24 f
+  add_2_root_add_57_I16/A[14] (BOOTHMUL_N32_DW01_add_1)
+                                                          0.00       1.24 f
+  add_2_root_add_57_I16/U61/ZN (NAND2_X1)                 0.04       1.28 r
+  add_2_root_add_57_I16/U179/ZN (NAND3_X1)                0.04       1.32 f
+  add_2_root_add_57_I16/U58/ZN (NAND2_X1)                 0.04       1.36 r
+  add_2_root_add_57_I16/U158/ZN (NAND3_X1)                0.04       1.40 f
+  add_2_root_add_57_I16/U66/ZN (NAND2_X1)                 0.04       1.43 r
+  add_2_root_add_57_I16/U73/ZN (NAND3_X1)                 0.04       1.47 f
+  add_2_root_add_57_I16/U318/ZN (NAND2_X1)                0.04       1.50 r
+  add_2_root_add_57_I16/U110/ZN (NAND3_X1)                0.04       1.54 f
+  add_2_root_add_57_I16/U335/ZN (NAND2_X1)                0.04       1.58 r
+  add_2_root_add_57_I16/U2/ZN (NAND3_X1)                  0.04       1.62 f
+  add_2_root_add_57_I16/U338/ZN (NAND2_X1)                0.03       1.65 r
+  add_2_root_add_57_I16/U127/ZN (NAND3_X1)                0.03       1.68 f
+  add_2_root_add_57_I16/U436/ZN (NAND2_X1)                0.04       1.72 r
+  add_2_root_add_57_I16/U50/ZN (NAND3_X1)                 0.04       1.76 f
+  add_2_root_add_57_I16/U432/ZN (NAND2_X1)                0.03       1.79 r
+  add_2_root_add_57_I16/U197/ZN (NAND3_X1)                0.03       1.83 f
+  add_2_root_add_57_I16/U431/ZN (NAND2_X1)                0.03       1.86 r
+  add_2_root_add_57_I16/U233/ZN (AND2_X1)                 0.04       1.90 r
+  add_2_root_add_57_I16/U232/ZN (NAND2_X1)                0.03       1.93 f
+  add_2_root_add_57_I16/U222/ZN (OAI21_X1)                0.04       1.96 r
+  add_2_root_add_57_I16/U12/ZN (AND2_X1)                  0.05       2.01 r
+  add_2_root_add_57_I16/U102/ZN (OAI221_X1)               0.04       2.06 f
+  add_2_root_add_57_I16/U109/ZN (INV_X1)                  0.03       2.08 r
+  add_2_root_add_57_I16/U107/ZN (AOI21_X1)                0.03       2.11 f
+  add_2_root_add_57_I16/U237/ZN (NAND2_X1)                0.03       2.14 r
+  add_2_root_add_57_I16/U223/ZN (NAND3_X1)                0.04       2.18 f
+  add_2_root_add_57_I16/U1_27/CO (FA_X1)                  0.10       2.27 f
+  add_2_root_add_57_I16/U209/ZN (NAND2_X1)                0.04       2.32 r
+  add_2_root_add_57_I16/U230/ZN (NAND3_X1)                0.04       2.36 f
+  add_2_root_add_57_I16/U262/ZN (NAND2_X1)                0.04       2.40 r
+  add_2_root_add_57_I16/U15/ZN (NAND3_X1)                 0.04       2.44 f
+  add_2_root_add_57_I16/U183/ZN (NAND2_X1)                0.03       2.47 r
+  add_2_root_add_57_I16/U90/ZN (NAND3_X1)                 0.03       2.50 f
+  add_2_root_add_57_I16/U176/ZN (NAND2_X1)                0.04       2.53 r
+  add_2_root_add_57_I16/U132/ZN (NAND3_X1)                0.04       2.57 f
+  add_2_root_add_57_I16/U166/ZN (NAND2_X1)                0.04       2.60 r
+  add_2_root_add_57_I16/U138/ZN (NAND3_X1)                0.04       2.64 f
+  add_2_root_add_57_I16/U427/ZN (NAND2_X1)                0.04       2.68 r
+  add_2_root_add_57_I16/U181/ZN (NAND3_X1)                0.04       2.72 f
+  add_2_root_add_57_I16/U401/ZN (NAND2_X1)                0.03       2.74 r
+  add_2_root_add_57_I16/U193/ZN (NAND3_X1)                0.04       2.78 f
+  add_2_root_add_57_I16/U1_35/CO (FA_X1)                  0.10       2.88 f
+  add_2_root_add_57_I16/U404/ZN (NAND2_X1)                0.04       2.92 r
+  add_2_root_add_57_I16/U258/ZN (NAND3_X1)                0.04       2.96 f
+  add_2_root_add_57_I16/U458/ZN (NAND2_X1)                0.04       2.99 r
+  add_2_root_add_57_I16/U273/ZN (NAND3_X1)                0.04       3.03 f
+  add_2_root_add_57_I16/U406/ZN (NAND2_X1)                0.04       3.06 r
+  add_2_root_add_57_I16/U250/ZN (NAND3_X1)                0.04       3.10 f
+  add_2_root_add_57_I16/U391/ZN (NAND2_X1)                0.04       3.14 r
+  add_2_root_add_57_I16/U51/ZN (NAND3_X1)                 0.04       3.18 f
+  add_2_root_add_57_I16/U200/ZN (NAND2_X1)                0.04       3.22 r
+  add_2_root_add_57_I16/U140/ZN (NAND3_X1)                0.03       3.25 f
+  add_2_root_add_57_I16/U196/ZN (NAND2_X1)                0.03       3.28 r
+  add_2_root_add_57_I16/U118/ZN (AND2_X1)                 0.04       3.31 r
+  add_2_root_add_57_I16/U115/ZN (AND2_X1)                 0.04       3.36 r
+  add_2_root_add_57_I16/U120/ZN (OR2_X1)                  0.03       3.39 r
+  add_2_root_add_57_I16/U153/ZN (OAI21_X1)                0.04       3.43 f
+  add_2_root_add_57_I16/U143/ZN (INV_X1)                  0.04       3.47 r
+  add_2_root_add_57_I16/U149/ZN (OAI211_X1)               0.04       3.51 f
+  add_2_root_add_57_I16/U147/ZN (NAND2_X1)                0.03       3.54 r
+  add_2_root_add_57_I16/U242/ZN (NAND3_X1)                0.04       3.57 f
+  add_2_root_add_57_I16/U1_46/CO (FA_X1)                  0.10       3.67 f
+  add_2_root_add_57_I16/U162/ZN (NAND2_X1)                0.04       3.71 r
+  add_2_root_add_57_I16/U53/ZN (NAND3_X1)                 0.04       3.75 f
+  add_2_root_add_57_I16/U379/ZN (NAND2_X1)                0.04       3.78 r
+  add_2_root_add_57_I16/U79/ZN (NAND3_X1)                 0.04       3.82 f
+  add_2_root_add_57_I16/U462/ZN (NAND2_X1)                0.04       3.86 r
+  add_2_root_add_57_I16/U252/ZN (NAND3_X1)                0.04       3.89 f
+  add_2_root_add_57_I16/U251/ZN (NAND2_X1)                0.03       3.92 r
+  add_2_root_add_57_I16/U93/ZN (AND3_X1)                  0.06       3.98 r
+  add_2_root_add_57_I16/U92/ZN (XNOR2_X1)                 0.04       4.02 f
+  add_2_root_add_57_I16/SUM[51] (BOOTHMUL_N32_DW01_add_1)
+                                                          0.00       4.02 f
+  add_0_root_add_0_root_add_57_I16/B[51] (BOOTHMUL_N32_DW01_add_0)
+                                                          0.00       4.02 f
+  add_0_root_add_0_root_add_57_I16/U380/ZN (NOR2_X1)      0.04       4.06 r
+  add_0_root_add_0_root_add_57_I16/U385/ZN (OAI211_X1)
+                                                          0.04       4.10 f
+  add_0_root_add_0_root_add_57_I16/U317/ZN (NAND2_X1)     0.04       4.14 r
+  add_0_root_add_0_root_add_57_I16/U316/ZN (AND2_X1)      0.04       4.18 r
+  add_0_root_add_0_root_add_57_I16/U313/ZN (OAI21_X1)     0.03       4.21 f
+  add_0_root_add_0_root_add_57_I16/U310/ZN (NAND2_X1)     0.03       4.25 r
+  add_0_root_add_0_root_add_57_I16/U47/ZN (NAND3_X1)      0.04       4.29 f
+  add_0_root_add_0_root_add_57_I16/U304/ZN (NAND2_X1)     0.03       4.32 r
+  add_0_root_add_0_root_add_57_I16/U295/ZN (NAND3_X1)     0.03       4.36 f
+  add_0_root_add_0_root_add_57_I16/U299/ZN (NAND2_X1)     0.04       4.39 r
+  add_0_root_add_0_root_add_57_I16/U126/ZN (NAND3_X1)     0.04       4.43 f
+  add_0_root_add_0_root_add_57_I16/U296/ZN (NAND2_X1)     0.04       4.46 r
+  add_0_root_add_0_root_add_57_I16/U200/ZN (NAND3_X1)     0.04       4.50 f
+  add_0_root_add_0_root_add_57_I16/U293/ZN (NAND2_X1)     0.04       4.54 r
+  add_0_root_add_0_root_add_57_I16/U206/ZN (NAND3_X1)     0.04       4.58 f
+  add_0_root_add_0_root_add_57_I16/U286/ZN (NAND2_X1)     0.03       4.61 r
+  add_0_root_add_0_root_add_57_I16/U182/ZN (NAND3_X1)     0.04       4.65 f
+  add_0_root_add_0_root_add_57_I16/U284/ZN (OAI21_X1)     0.06       4.71 r
+  add_0_root_add_0_root_add_57_I16/U281/ZN (NAND2_X1)     0.03       4.74 f
+  add_0_root_add_0_root_add_57_I16/U280/ZN (AOI21_X1)     0.04       4.78 r
+  add_0_root_add_0_root_add_57_I16/U267/ZN (NAND2_X1)     0.04       4.82 f
+  add_0_root_add_0_root_add_57_I16/U274/ZN (NAND2_X1)     0.03       4.85 r
+  add_0_root_add_0_root_add_57_I16/U271/ZN (AND3_X1)      0.05       4.90 r
+  add_0_root_add_0_root_add_57_I16/U356/ZN (NAND3_X1)     0.04       4.94 f
+  add_0_root_add_0_root_add_57_I16/U256/ZN (XNOR2_X1)     0.16       5.10 f
+  add_0_root_add_0_root_add_57_I16/SUM[63] (BOOTHMUL_N32_DW01_add_0)
+                                                          0.00       5.10 f
+  P[63] (out)                                             0.00       5.10 f
+  data arrival time                                                  5.10
+
+  max_delay                                               5.10       5.10
+  output external delay                                   0.00       5.10
+  data required time                                                 5.10
+  --------------------------------------------------------------------------
+  data required time                                                 5.10
+  data arrival time                                                 -5.10
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: A[1] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N32       5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[1] (in)                                               0.00       0.00 f
+  r239/B[1] (BOOTHMUL_N32_DW01_sub_0)                     0.00       0.00 f
+  r239/U13/ZN (NOR2_X1)                                   0.05       0.05 r
+  r239/U12/ZN (XNOR2_X1)                                  0.06       0.11 r
+  r239/DIFF[2] (BOOTHMUL_N32_DW01_sub_0)                  0.00       0.11 r
+  U6035/ZN (INV_X1)                                       0.02       0.13 f
+  U6032/ZN (OAI222_X1)                                    0.06       0.19 r
+  add_14_root_add_57_I16/A[2] (BOOTHMUL_N32_DW01_add_4)
+                                                          0.00       0.19 r
+  add_14_root_add_57_I16/U38/ZN (AND2_X1)                 0.05       0.24 r
+  add_14_root_add_57_I16/U37/ZN (OAI21_X1)                0.03       0.27 f
+  add_14_root_add_57_I16/U36/ZN (INV_X1)                  0.03       0.30 r
+  add_14_root_add_57_I16/U39/ZN (AOI21_X1)                0.03       0.33 f
+  add_14_root_add_57_I16/U43/ZN (NOR2_X1)                 0.05       0.38 r
+  add_14_root_add_57_I16/U42/ZN (OAI21_X1)                0.04       0.42 f
+  add_14_root_add_57_I16/U46/ZN (AND2_X1)                 0.04       0.46 f
+  add_14_root_add_57_I16/U53/ZN (AOI21_X1)                0.05       0.51 r
+  add_14_root_add_57_I16/U52/ZN (XNOR2_X1)                0.06       0.57 r
+  add_14_root_add_57_I16/SUM[6] (BOOTHMUL_N32_DW01_add_4)
+                                                          0.00       0.57 r
+  add_6_root_add_57_I16/A[6] (BOOTHMUL_N32_DW01_add_2)
+                                                          0.00       0.57 r
+  add_6_root_add_57_I16/U26/ZN (INV_X1)                   0.03       0.60 f
+  add_6_root_add_57_I16/U24/ZN (OAI21_X1)                 0.04       0.63 r
+  add_6_root_add_57_I16/U23/ZN (NAND3_X1)                 0.03       0.67 f
+  add_6_root_add_57_I16/U20/ZN (NAND2_X1)                 0.03       0.70 r
+  add_6_root_add_57_I16/U19/ZN (OAI211_X1)                0.04       0.74 f
+  add_6_root_add_57_I16/U22/ZN (NAND2_X1)                 0.03       0.78 r
+  add_6_root_add_57_I16/U38/ZN (NAND2_X1)                 0.03       0.81 f
+  add_6_root_add_57_I16/U32/ZN (NAND2_X1)                 0.03       0.83 r
+  add_6_root_add_57_I16/U31/ZN (NAND2_X1)                 0.03       0.87 f
+  add_6_root_add_57_I16/U36/ZN (NAND2_X1)                 0.03       0.90 r
+  add_6_root_add_57_I16/U58/ZN (NOR2_X1)                  0.02       0.93 f
+  add_6_root_add_57_I16/U54/ZN (NOR2_X1)                  0.05       0.98 r
+  add_6_root_add_57_I16/U53/ZN (OAI21_X1)                 0.03       1.01 f
+  add_6_root_add_57_I16/U48/ZN (OAI21_X1)                 0.04       1.05 r
+  add_6_root_add_57_I16/U56/ZN (NOR2_X1)                  0.03       1.08 f
+  add_6_root_add_57_I16/U66/ZN (NOR2_X1)                  0.04       1.11 r
+  add_6_root_add_57_I16/U63/ZN (AOI21_X1)                 0.03       1.14 f
+  add_6_root_add_57_I16/U62/Z (BUF_X1)                    0.04       1.18 f
+  add_6_root_add_57_I16/U61/ZN (XNOR2_X1)                 0.06       1.24 f
+  add_6_root_add_57_I16/SUM[14] (BOOTHMUL_N32_DW01_add_2)
+                                                          0.00       1.24 f
+  add_2_root_add_57_I16/A[14] (BOOTHMUL_N32_DW01_add_1)
+                                                          0.00       1.24 f
+  add_2_root_add_57_I16/U61/ZN (NAND2_X1)                 0.04       1.28 r
+  add_2_root_add_57_I16/U179/ZN (NAND3_X1)                0.04       1.32 f
+  add_2_root_add_57_I16/U58/ZN (NAND2_X1)                 0.04       1.36 r
+  add_2_root_add_57_I16/U158/ZN (NAND3_X1)                0.04       1.40 f
+  add_2_root_add_57_I16/U66/ZN (NAND2_X1)                 0.04       1.43 r
+  add_2_root_add_57_I16/U73/ZN (NAND3_X1)                 0.04       1.47 f
+  add_2_root_add_57_I16/U318/ZN (NAND2_X1)                0.04       1.50 r
+  add_2_root_add_57_I16/U110/ZN (NAND3_X1)                0.04       1.54 f
+  add_2_root_add_57_I16/U335/ZN (NAND2_X1)                0.04       1.58 r
+  add_2_root_add_57_I16/U2/ZN (NAND3_X1)                  0.04       1.62 f
+  add_2_root_add_57_I16/U338/ZN (NAND2_X1)                0.03       1.65 r
+  add_2_root_add_57_I16/U127/ZN (NAND3_X1)                0.03       1.68 f
+  add_2_root_add_57_I16/U436/ZN (NAND2_X1)                0.04       1.72 r
+  add_2_root_add_57_I16/U50/ZN (NAND3_X1)                 0.04       1.76 f
+  add_2_root_add_57_I16/U432/ZN (NAND2_X1)                0.03       1.79 r
+  add_2_root_add_57_I16/U197/ZN (NAND3_X1)                0.03       1.83 f
+  add_2_root_add_57_I16/U431/ZN (NAND2_X1)                0.03       1.86 r
+  add_2_root_add_57_I16/U233/ZN (AND2_X1)                 0.04       1.90 r
+  add_2_root_add_57_I16/U232/ZN (NAND2_X1)                0.03       1.93 f
+  add_2_root_add_57_I16/U222/ZN (OAI21_X1)                0.04       1.96 r
+  add_2_root_add_57_I16/U12/ZN (AND2_X1)                  0.05       2.01 r
+  add_2_root_add_57_I16/U102/ZN (OAI221_X1)               0.04       2.06 f
+  add_2_root_add_57_I16/U109/ZN (INV_X1)                  0.03       2.08 r
+  add_2_root_add_57_I16/U107/ZN (AOI21_X1)                0.03       2.11 f
+  add_2_root_add_57_I16/U237/ZN (NAND2_X1)                0.03       2.14 r
+  add_2_root_add_57_I16/U223/ZN (NAND3_X1)                0.04       2.18 f
+  add_2_root_add_57_I16/U1_27/CO (FA_X1)                  0.10       2.27 f
+  add_2_root_add_57_I16/U209/ZN (NAND2_X1)                0.04       2.32 r
+  add_2_root_add_57_I16/U230/ZN (NAND3_X1)                0.04       2.36 f
+  add_2_root_add_57_I16/U262/ZN (NAND2_X1)                0.04       2.40 r
+  add_2_root_add_57_I16/U15/ZN (NAND3_X1)                 0.04       2.44 f
+  add_2_root_add_57_I16/U183/ZN (NAND2_X1)                0.03       2.47 r
+  add_2_root_add_57_I16/U90/ZN (NAND3_X1)                 0.03       2.50 f
+  add_2_root_add_57_I16/U176/ZN (NAND2_X1)                0.04       2.53 r
+  add_2_root_add_57_I16/U132/ZN (NAND3_X1)                0.04       2.57 f
+  add_2_root_add_57_I16/U166/ZN (NAND2_X1)                0.04       2.60 r
+  add_2_root_add_57_I16/U138/ZN (NAND3_X1)                0.04       2.64 f
+  add_2_root_add_57_I16/U427/ZN (NAND2_X1)                0.04       2.68 r
+  add_2_root_add_57_I16/U181/ZN (NAND3_X1)                0.04       2.72 f
+  add_2_root_add_57_I16/U401/ZN (NAND2_X1)                0.03       2.74 r
+  add_2_root_add_57_I16/U193/ZN (NAND3_X1)                0.04       2.78 f
+  add_2_root_add_57_I16/U1_35/CO (FA_X1)                  0.10       2.88 f
+  add_2_root_add_57_I16/U404/ZN (NAND2_X1)                0.04       2.92 r
+  add_2_root_add_57_I16/U258/ZN (NAND3_X1)                0.04       2.96 f
+  add_2_root_add_57_I16/U458/ZN (NAND2_X1)                0.04       2.99 r
+  add_2_root_add_57_I16/U273/ZN (NAND3_X1)                0.04       3.03 f
+  add_2_root_add_57_I16/U406/ZN (NAND2_X1)                0.04       3.06 r
+  add_2_root_add_57_I16/U250/ZN (NAND3_X1)                0.04       3.10 f
+  add_2_root_add_57_I16/U391/ZN (NAND2_X1)                0.04       3.14 r
+  add_2_root_add_57_I16/U11/ZN (NAND3_X1)                 0.04       3.18 f
+  add_2_root_add_57_I16/U198/ZN (NAND2_X1)                0.04       3.21 r
+  add_2_root_add_57_I16/U140/ZN (NAND3_X1)                0.04       3.25 f
+  add_2_root_add_57_I16/U196/ZN (NAND2_X1)                0.03       3.28 r
+  add_2_root_add_57_I16/U118/ZN (AND2_X1)                 0.04       3.31 r
+  add_2_root_add_57_I16/U115/ZN (AND2_X1)                 0.04       3.36 r
+  add_2_root_add_57_I16/U120/ZN (OR2_X1)                  0.03       3.39 r
+  add_2_root_add_57_I16/U153/ZN (OAI21_X1)                0.04       3.43 f
+  add_2_root_add_57_I16/U143/ZN (INV_X1)                  0.04       3.47 r
+  add_2_root_add_57_I16/U149/ZN (OAI211_X1)               0.04       3.51 f
+  add_2_root_add_57_I16/U147/ZN (NAND2_X1)                0.03       3.54 r
+  add_2_root_add_57_I16/U242/ZN (NAND3_X1)                0.04       3.57 f
+  add_2_root_add_57_I16/U1_46/CO (FA_X1)                  0.10       3.67 f
+  add_2_root_add_57_I16/U162/ZN (NAND2_X1)                0.04       3.71 r
+  add_2_root_add_57_I16/U53/ZN (NAND3_X1)                 0.04       3.75 f
+  add_2_root_add_57_I16/U379/ZN (NAND2_X1)                0.04       3.78 r
+  add_2_root_add_57_I16/U79/ZN (NAND3_X1)                 0.04       3.82 f
+  add_2_root_add_57_I16/U462/ZN (NAND2_X1)                0.04       3.86 r
+  add_2_root_add_57_I16/U252/ZN (NAND3_X1)                0.04       3.89 f
+  add_2_root_add_57_I16/U251/ZN (NAND2_X1)                0.03       3.92 r
+  add_2_root_add_57_I16/U93/ZN (AND3_X1)                  0.06       3.98 r
+  add_2_root_add_57_I16/U92/ZN (XNOR2_X1)                 0.04       4.02 f
+  add_2_root_add_57_I16/SUM[51] (BOOTHMUL_N32_DW01_add_1)
+                                                          0.00       4.02 f
+  add_0_root_add_0_root_add_57_I16/B[51] (BOOTHMUL_N32_DW01_add_0)
+                                                          0.00       4.02 f
+  add_0_root_add_0_root_add_57_I16/U380/ZN (NOR2_X1)      0.04       4.06 r
+  add_0_root_add_0_root_add_57_I16/U385/ZN (OAI211_X1)
+                                                          0.04       4.10 f
+  add_0_root_add_0_root_add_57_I16/U317/ZN (NAND2_X1)     0.04       4.14 r
+  add_0_root_add_0_root_add_57_I16/U316/ZN (AND2_X1)      0.04       4.18 r
+  add_0_root_add_0_root_add_57_I16/U313/ZN (OAI21_X1)     0.03       4.21 f
+  add_0_root_add_0_root_add_57_I16/U310/ZN (NAND2_X1)     0.03       4.25 r
+  add_0_root_add_0_root_add_57_I16/U47/ZN (NAND3_X1)      0.04       4.29 f
+  add_0_root_add_0_root_add_57_I16/U304/ZN (NAND2_X1)     0.03       4.32 r
+  add_0_root_add_0_root_add_57_I16/U295/ZN (NAND3_X1)     0.03       4.36 f
+  add_0_root_add_0_root_add_57_I16/U299/ZN (NAND2_X1)     0.04       4.39 r
+  add_0_root_add_0_root_add_57_I16/U126/ZN (NAND3_X1)     0.04       4.43 f
+  add_0_root_add_0_root_add_57_I16/U296/ZN (NAND2_X1)     0.04       4.46 r
+  add_0_root_add_0_root_add_57_I16/U200/ZN (NAND3_X1)     0.04       4.50 f
+  add_0_root_add_0_root_add_57_I16/U293/ZN (NAND2_X1)     0.04       4.54 r
+  add_0_root_add_0_root_add_57_I16/U206/ZN (NAND3_X1)     0.04       4.58 f
+  add_0_root_add_0_root_add_57_I16/U286/ZN (NAND2_X1)     0.03       4.61 r
+  add_0_root_add_0_root_add_57_I16/U182/ZN (NAND3_X1)     0.04       4.65 f
+  add_0_root_add_0_root_add_57_I16/U284/ZN (OAI21_X1)     0.06       4.71 r
+  add_0_root_add_0_root_add_57_I16/U281/ZN (NAND2_X1)     0.03       4.74 f
+  add_0_root_add_0_root_add_57_I16/U280/ZN (AOI21_X1)     0.04       4.78 r
+  add_0_root_add_0_root_add_57_I16/U267/ZN (NAND2_X1)     0.04       4.82 f
+  add_0_root_add_0_root_add_57_I16/U274/ZN (NAND2_X1)     0.03       4.85 r
+  add_0_root_add_0_root_add_57_I16/U271/ZN (AND3_X1)      0.05       4.90 r
+  add_0_root_add_0_root_add_57_I16/U356/ZN (NAND3_X1)     0.04       4.94 f
+  add_0_root_add_0_root_add_57_I16/U256/ZN (XNOR2_X1)     0.16       5.10 f
+  add_0_root_add_0_root_add_57_I16/SUM[63] (BOOTHMUL_N32_DW01_add_0)
+                                                          0.00       5.10 f
+  P[63] (out)                                             0.00       5.10 f
+  data arrival time                                                  5.10
+
+  max_delay                                               5.10       5.10
+  output external delay                                   0.00       5.10
+  data required time                                                 5.10
+  --------------------------------------------------------------------------
+  data required time                                                 5.10
+  data arrival time                                                 -5.10
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: A[1] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N32       5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[1] (in)                                               0.00       0.00 f
+  r239/B[1] (BOOTHMUL_N32_DW01_sub_0)                     0.00       0.00 f
+  r239/U13/ZN (NOR2_X1)                                   0.05       0.05 r
+  r239/U12/ZN (XNOR2_X1)                                  0.06       0.11 r
+  r239/DIFF[2] (BOOTHMUL_N32_DW01_sub_0)                  0.00       0.11 r
+  U6035/ZN (INV_X1)                                       0.02       0.13 f
+  U6032/ZN (OAI222_X1)                                    0.06       0.19 r
+  add_14_root_add_57_I16/A[2] (BOOTHMUL_N32_DW01_add_4)
+                                                          0.00       0.19 r
+  add_14_root_add_57_I16/U38/ZN (AND2_X1)                 0.05       0.24 r
+  add_14_root_add_57_I16/U37/ZN (OAI21_X1)                0.03       0.27 f
+  add_14_root_add_57_I16/U36/ZN (INV_X1)                  0.03       0.30 r
+  add_14_root_add_57_I16/U39/ZN (AOI21_X1)                0.03       0.33 f
+  add_14_root_add_57_I16/U43/ZN (NOR2_X1)                 0.05       0.38 r
+  add_14_root_add_57_I16/U42/ZN (OAI21_X1)                0.04       0.42 f
+  add_14_root_add_57_I16/U46/ZN (AND2_X1)                 0.04       0.46 f
+  add_14_root_add_57_I16/U53/ZN (AOI21_X1)                0.05       0.51 r
+  add_14_root_add_57_I16/U52/ZN (XNOR2_X1)                0.06       0.57 r
+  add_14_root_add_57_I16/SUM[6] (BOOTHMUL_N32_DW01_add_4)
+                                                          0.00       0.57 r
+  add_6_root_add_57_I16/A[6] (BOOTHMUL_N32_DW01_add_2)
+                                                          0.00       0.57 r
+  add_6_root_add_57_I16/U26/ZN (INV_X1)                   0.03       0.60 f
+  add_6_root_add_57_I16/U24/ZN (OAI21_X1)                 0.04       0.63 r
+  add_6_root_add_57_I16/U23/ZN (NAND3_X1)                 0.03       0.67 f
+  add_6_root_add_57_I16/U20/ZN (NAND2_X1)                 0.03       0.70 r
+  add_6_root_add_57_I16/U19/ZN (OAI211_X1)                0.04       0.74 f
+  add_6_root_add_57_I16/U22/ZN (NAND2_X1)                 0.03       0.78 r
+  add_6_root_add_57_I16/U38/ZN (NAND2_X1)                 0.03       0.81 f
+  add_6_root_add_57_I16/U32/ZN (NAND2_X1)                 0.03       0.83 r
+  add_6_root_add_57_I16/U31/ZN (NAND2_X1)                 0.03       0.87 f
+  add_6_root_add_57_I16/U36/ZN (NAND2_X1)                 0.03       0.90 r
+  add_6_root_add_57_I16/U58/ZN (NOR2_X1)                  0.02       0.93 f
+  add_6_root_add_57_I16/U54/ZN (NOR2_X1)                  0.05       0.98 r
+  add_6_root_add_57_I16/U53/ZN (OAI21_X1)                 0.03       1.01 f
+  add_6_root_add_57_I16/U48/ZN (OAI21_X1)                 0.04       1.05 r
+  add_6_root_add_57_I16/U56/ZN (NOR2_X1)                  0.03       1.08 f
+  add_6_root_add_57_I16/U66/ZN (NOR2_X1)                  0.04       1.11 r
+  add_6_root_add_57_I16/U63/ZN (AOI21_X1)                 0.03       1.14 f
+  add_6_root_add_57_I16/U62/Z (BUF_X1)                    0.04       1.18 f
+  add_6_root_add_57_I16/U61/ZN (XNOR2_X1)                 0.06       1.24 f
+  add_6_root_add_57_I16/SUM[14] (BOOTHMUL_N32_DW01_add_2)
+                                                          0.00       1.24 f
+  add_2_root_add_57_I16/A[14] (BOOTHMUL_N32_DW01_add_1)
+                                                          0.00       1.24 f
+  add_2_root_add_57_I16/U61/ZN (NAND2_X1)                 0.04       1.28 r
+  add_2_root_add_57_I16/U179/ZN (NAND3_X1)                0.04       1.32 f
+  add_2_root_add_57_I16/U58/ZN (NAND2_X1)                 0.04       1.36 r
+  add_2_root_add_57_I16/U158/ZN (NAND3_X1)                0.04       1.40 f
+  add_2_root_add_57_I16/U66/ZN (NAND2_X1)                 0.04       1.43 r
+  add_2_root_add_57_I16/U73/ZN (NAND3_X1)                 0.04       1.47 f
+  add_2_root_add_57_I16/U318/ZN (NAND2_X1)                0.04       1.50 r
+  add_2_root_add_57_I16/U110/ZN (NAND3_X1)                0.04       1.54 f
+  add_2_root_add_57_I16/U335/ZN (NAND2_X1)                0.04       1.58 r
+  add_2_root_add_57_I16/U2/ZN (NAND3_X1)                  0.04       1.62 f
+  add_2_root_add_57_I16/U338/ZN (NAND2_X1)                0.03       1.65 r
+  add_2_root_add_57_I16/U127/ZN (NAND3_X1)                0.03       1.68 f
+  add_2_root_add_57_I16/U436/ZN (NAND2_X1)                0.04       1.72 r
+  add_2_root_add_57_I16/U50/ZN (NAND3_X1)                 0.04       1.76 f
+  add_2_root_add_57_I16/U432/ZN (NAND2_X1)                0.03       1.79 r
+  add_2_root_add_57_I16/U197/ZN (NAND3_X1)                0.03       1.83 f
+  add_2_root_add_57_I16/U431/ZN (NAND2_X1)                0.03       1.86 r
+  add_2_root_add_57_I16/U233/ZN (AND2_X1)                 0.04       1.90 r
+  add_2_root_add_57_I16/U232/ZN (NAND2_X1)                0.03       1.93 f
+  add_2_root_add_57_I16/U222/ZN (OAI21_X1)                0.04       1.96 r
+  add_2_root_add_57_I16/U12/ZN (AND2_X1)                  0.05       2.01 r
+  add_2_root_add_57_I16/U102/ZN (OAI221_X1)               0.04       2.06 f
+  add_2_root_add_57_I16/U109/ZN (INV_X1)                  0.03       2.08 r
+  add_2_root_add_57_I16/U107/ZN (AOI21_X1)                0.03       2.11 f
+  add_2_root_add_57_I16/U237/ZN (NAND2_X1)                0.03       2.14 r
+  add_2_root_add_57_I16/U223/ZN (NAND3_X1)                0.04       2.18 f
+  add_2_root_add_57_I16/U1_27/CO (FA_X1)                  0.10       2.27 f
+  add_2_root_add_57_I16/U209/ZN (NAND2_X1)                0.04       2.32 r
+  add_2_root_add_57_I16/U230/ZN (NAND3_X1)                0.04       2.36 f
+  add_2_root_add_57_I16/U394/ZN (NAND2_X1)                0.03       2.39 r
+  add_2_root_add_57_I16/U263/ZN (NAND3_X1)                0.04       2.43 f
+  add_2_root_add_57_I16/U39/ZN (NAND2_X1)                 0.04       2.47 r
+  add_2_root_add_57_I16/U45/ZN (NAND3_X1)                 0.04       2.51 f
+  add_2_root_add_57_I16/U170/ZN (NAND2_X1)                0.03       2.54 r
+  add_2_root_add_57_I16/U100/ZN (NAND3_X1)                0.03       2.57 f
+  add_2_root_add_57_I16/U426/ZN (NAND2_X1)                0.04       2.61 r
+  add_2_root_add_57_I16/U138/ZN (NAND3_X1)                0.04       2.64 f
+  add_2_root_add_57_I16/U427/ZN (NAND2_X1)                0.04       2.68 r
+  add_2_root_add_57_I16/U181/ZN (NAND3_X1)                0.04       2.72 f
+  add_2_root_add_57_I16/U401/ZN (NAND2_X1)                0.03       2.74 r
+  add_2_root_add_57_I16/U193/ZN (NAND3_X1)                0.04       2.78 f
+  add_2_root_add_57_I16/U1_35/CO (FA_X1)                  0.10       2.88 f
+  add_2_root_add_57_I16/U404/ZN (NAND2_X1)                0.04       2.92 r
+  add_2_root_add_57_I16/U258/ZN (NAND3_X1)                0.04       2.96 f
+  add_2_root_add_57_I16/U458/ZN (NAND2_X1)                0.04       2.99 r
+  add_2_root_add_57_I16/U273/ZN (NAND3_X1)                0.04       3.03 f
+  add_2_root_add_57_I16/U406/ZN (NAND2_X1)                0.04       3.06 r
+  add_2_root_add_57_I16/U250/ZN (NAND3_X1)                0.04       3.10 f
+  add_2_root_add_57_I16/U391/ZN (NAND2_X1)                0.04       3.14 r
+  add_2_root_add_57_I16/U51/ZN (NAND3_X1)                 0.04       3.18 f
+  add_2_root_add_57_I16/U200/ZN (NAND2_X1)                0.04       3.22 r
+  add_2_root_add_57_I16/U140/ZN (NAND3_X1)                0.03       3.25 f
+  add_2_root_add_57_I16/U196/ZN (NAND2_X1)                0.03       3.28 r
+  add_2_root_add_57_I16/U118/ZN (AND2_X1)                 0.04       3.31 r
+  add_2_root_add_57_I16/U115/ZN (AND2_X1)                 0.04       3.36 r
+  add_2_root_add_57_I16/U120/ZN (OR2_X1)                  0.03       3.39 r
+  add_2_root_add_57_I16/U153/ZN (OAI21_X1)                0.04       3.43 f
+  add_2_root_add_57_I16/U143/ZN (INV_X1)                  0.04       3.47 r
+  add_2_root_add_57_I16/U149/ZN (OAI211_X1)               0.04       3.51 f
+  add_2_root_add_57_I16/U147/ZN (NAND2_X1)                0.03       3.54 r
+  add_2_root_add_57_I16/U242/ZN (NAND3_X1)                0.04       3.57 f
+  add_2_root_add_57_I16/U1_46/CO (FA_X1)                  0.10       3.67 f
+  add_2_root_add_57_I16/U162/ZN (NAND2_X1)                0.04       3.71 r
+  add_2_root_add_57_I16/U53/ZN (NAND3_X1)                 0.04       3.75 f
+  add_2_root_add_57_I16/U379/ZN (NAND2_X1)                0.04       3.78 r
+  add_2_root_add_57_I16/U79/ZN (NAND3_X1)                 0.04       3.82 f
+  add_2_root_add_57_I16/U462/ZN (NAND2_X1)                0.04       3.86 r
+  add_2_root_add_57_I16/U252/ZN (NAND3_X1)                0.04       3.89 f
+  add_2_root_add_57_I16/U251/ZN (NAND2_X1)                0.03       3.92 r
+  add_2_root_add_57_I16/U93/ZN (AND3_X1)                  0.06       3.98 r
+  add_2_root_add_57_I16/U92/ZN (XNOR2_X1)                 0.04       4.02 f
+  add_2_root_add_57_I16/SUM[51] (BOOTHMUL_N32_DW01_add_1)
+                                                          0.00       4.02 f
+  add_0_root_add_0_root_add_57_I16/B[51] (BOOTHMUL_N32_DW01_add_0)
+                                                          0.00       4.02 f
+  add_0_root_add_0_root_add_57_I16/U380/ZN (NOR2_X1)      0.04       4.06 r
+  add_0_root_add_0_root_add_57_I16/U385/ZN (OAI211_X1)
+                                                          0.04       4.10 f
+  add_0_root_add_0_root_add_57_I16/U317/ZN (NAND2_X1)     0.04       4.14 r
+  add_0_root_add_0_root_add_57_I16/U316/ZN (AND2_X1)      0.04       4.18 r
+  add_0_root_add_0_root_add_57_I16/U313/ZN (OAI21_X1)     0.03       4.21 f
+  add_0_root_add_0_root_add_57_I16/U310/ZN (NAND2_X1)     0.03       4.25 r
+  add_0_root_add_0_root_add_57_I16/U47/ZN (NAND3_X1)      0.04       4.29 f
+  add_0_root_add_0_root_add_57_I16/U304/ZN (NAND2_X1)     0.03       4.32 r
+  add_0_root_add_0_root_add_57_I16/U295/ZN (NAND3_X1)     0.03       4.36 f
+  add_0_root_add_0_root_add_57_I16/U299/ZN (NAND2_X1)     0.04       4.39 r
+  add_0_root_add_0_root_add_57_I16/U126/ZN (NAND3_X1)     0.04       4.43 f
+  add_0_root_add_0_root_add_57_I16/U296/ZN (NAND2_X1)     0.04       4.46 r
+  add_0_root_add_0_root_add_57_I16/U200/ZN (NAND3_X1)     0.04       4.50 f
+  add_0_root_add_0_root_add_57_I16/U293/ZN (NAND2_X1)     0.04       4.54 r
+  add_0_root_add_0_root_add_57_I16/U206/ZN (NAND3_X1)     0.04       4.58 f
+  add_0_root_add_0_root_add_57_I16/U286/ZN (NAND2_X1)     0.03       4.61 r
+  add_0_root_add_0_root_add_57_I16/U182/ZN (NAND3_X1)     0.04       4.65 f
+  add_0_root_add_0_root_add_57_I16/U284/ZN (OAI21_X1)     0.06       4.71 r
+  add_0_root_add_0_root_add_57_I16/U281/ZN (NAND2_X1)     0.03       4.74 f
+  add_0_root_add_0_root_add_57_I16/U280/ZN (AOI21_X1)     0.04       4.78 r
+  add_0_root_add_0_root_add_57_I16/U267/ZN (NAND2_X1)     0.04       4.82 f
+  add_0_root_add_0_root_add_57_I16/U274/ZN (NAND2_X1)     0.03       4.85 r
+  add_0_root_add_0_root_add_57_I16/U271/ZN (AND3_X1)      0.05       4.90 r
+  add_0_root_add_0_root_add_57_I16/U356/ZN (NAND3_X1)     0.04       4.94 f
+  add_0_root_add_0_root_add_57_I16/U256/ZN (XNOR2_X1)     0.16       5.10 f
+  add_0_root_add_0_root_add_57_I16/SUM[63] (BOOTHMUL_N32_DW01_add_0)
+                                                          0.00       5.10 f
+  P[63] (out)                                             0.00       5.10 f
+  data arrival time                                                  5.10
+
+  max_delay                                               5.10       5.10
+  output external delay                                   0.00       5.10
+  data required time                                                 5.10
+  --------------------------------------------------------------------------
+  data required time                                                 5.10
+  data arrival time                                                 -5.10
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: A[1] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N32       5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[1] (in)                                               0.00       0.00 f
+  r239/B[1] (BOOTHMUL_N32_DW01_sub_0)                     0.00       0.00 f
+  r239/U13/ZN (NOR2_X1)                                   0.05       0.05 r
+  r239/U12/ZN (XNOR2_X1)                                  0.06       0.11 r
+  r239/DIFF[2] (BOOTHMUL_N32_DW01_sub_0)                  0.00       0.11 r
+  U6035/ZN (INV_X1)                                       0.02       0.13 f
+  U6032/ZN (OAI222_X1)                                    0.06       0.19 r
+  add_14_root_add_57_I16/A[2] (BOOTHMUL_N32_DW01_add_4)
+                                                          0.00       0.19 r
+  add_14_root_add_57_I16/U38/ZN (AND2_X1)                 0.05       0.24 r
+  add_14_root_add_57_I16/U37/ZN (OAI21_X1)                0.03       0.27 f
+  add_14_root_add_57_I16/U36/ZN (INV_X1)                  0.03       0.30 r
+  add_14_root_add_57_I16/U39/ZN (AOI21_X1)                0.03       0.33 f
+  add_14_root_add_57_I16/U43/ZN (NOR2_X1)                 0.05       0.38 r
+  add_14_root_add_57_I16/U42/ZN (OAI21_X1)                0.04       0.42 f
+  add_14_root_add_57_I16/U46/ZN (AND2_X1)                 0.04       0.46 f
+  add_14_root_add_57_I16/U53/ZN (AOI21_X1)                0.05       0.51 r
+  add_14_root_add_57_I16/U52/ZN (XNOR2_X1)                0.06       0.57 r
+  add_14_root_add_57_I16/SUM[6] (BOOTHMUL_N32_DW01_add_4)
+                                                          0.00       0.57 r
+  add_6_root_add_57_I16/A[6] (BOOTHMUL_N32_DW01_add_2)
+                                                          0.00       0.57 r
+  add_6_root_add_57_I16/U26/ZN (INV_X1)                   0.03       0.60 f
+  add_6_root_add_57_I16/U24/ZN (OAI21_X1)                 0.04       0.63 r
+  add_6_root_add_57_I16/U23/ZN (NAND3_X1)                 0.03       0.67 f
+  add_6_root_add_57_I16/U20/ZN (NAND2_X1)                 0.03       0.70 r
+  add_6_root_add_57_I16/U19/ZN (OAI211_X1)                0.04       0.74 f
+  add_6_root_add_57_I16/U22/ZN (NAND2_X1)                 0.03       0.78 r
+  add_6_root_add_57_I16/U38/ZN (NAND2_X1)                 0.03       0.81 f
+  add_6_root_add_57_I16/U32/ZN (NAND2_X1)                 0.03       0.83 r
+  add_6_root_add_57_I16/U31/ZN (NAND2_X1)                 0.03       0.87 f
+  add_6_root_add_57_I16/U36/ZN (NAND2_X1)                 0.03       0.90 r
+  add_6_root_add_57_I16/U58/ZN (NOR2_X1)                  0.02       0.93 f
+  add_6_root_add_57_I16/U54/ZN (NOR2_X1)                  0.05       0.98 r
+  add_6_root_add_57_I16/U53/ZN (OAI21_X1)                 0.03       1.01 f
+  add_6_root_add_57_I16/U48/ZN (OAI21_X1)                 0.04       1.05 r
+  add_6_root_add_57_I16/U56/ZN (NOR2_X1)                  0.03       1.08 f
+  add_6_root_add_57_I16/U66/ZN (NOR2_X1)                  0.04       1.11 r
+  add_6_root_add_57_I16/U63/ZN (AOI21_X1)                 0.03       1.14 f
+  add_6_root_add_57_I16/U62/Z (BUF_X1)                    0.04       1.18 f
+  add_6_root_add_57_I16/U61/ZN (XNOR2_X1)                 0.06       1.24 f
+  add_6_root_add_57_I16/SUM[14] (BOOTHMUL_N32_DW01_add_2)
+                                                          0.00       1.24 f
+  add_2_root_add_57_I16/A[14] (BOOTHMUL_N32_DW01_add_1)
+                                                          0.00       1.24 f
+  add_2_root_add_57_I16/U61/ZN (NAND2_X1)                 0.04       1.28 r
+  add_2_root_add_57_I16/U179/ZN (NAND3_X1)                0.04       1.32 f
+  add_2_root_add_57_I16/U58/ZN (NAND2_X1)                 0.04       1.36 r
+  add_2_root_add_57_I16/U158/ZN (NAND3_X1)                0.04       1.40 f
+  add_2_root_add_57_I16/U66/ZN (NAND2_X1)                 0.04       1.43 r
+  add_2_root_add_57_I16/U73/ZN (NAND3_X1)                 0.04       1.47 f
+  add_2_root_add_57_I16/U318/ZN (NAND2_X1)                0.04       1.50 r
+  add_2_root_add_57_I16/U110/ZN (NAND3_X1)                0.04       1.54 f
+  add_2_root_add_57_I16/U335/ZN (NAND2_X1)                0.04       1.58 r
+  add_2_root_add_57_I16/U2/ZN (NAND3_X1)                  0.04       1.62 f
+  add_2_root_add_57_I16/U338/ZN (NAND2_X1)                0.03       1.65 r
+  add_2_root_add_57_I16/U127/ZN (NAND3_X1)                0.03       1.68 f
+  add_2_root_add_57_I16/U436/ZN (NAND2_X1)                0.04       1.72 r
+  add_2_root_add_57_I16/U50/ZN (NAND3_X1)                 0.04       1.76 f
+  add_2_root_add_57_I16/U432/ZN (NAND2_X1)                0.03       1.79 r
+  add_2_root_add_57_I16/U197/ZN (NAND3_X1)                0.03       1.83 f
+  add_2_root_add_57_I16/U431/ZN (NAND2_X1)                0.03       1.86 r
+  add_2_root_add_57_I16/U233/ZN (AND2_X1)                 0.04       1.90 r
+  add_2_root_add_57_I16/U232/ZN (NAND2_X1)                0.03       1.93 f
+  add_2_root_add_57_I16/U222/ZN (OAI21_X1)                0.04       1.96 r
+  add_2_root_add_57_I16/U12/ZN (AND2_X1)                  0.05       2.01 r
+  add_2_root_add_57_I16/U102/ZN (OAI221_X1)               0.04       2.06 f
+  add_2_root_add_57_I16/U109/ZN (INV_X1)                  0.03       2.08 r
+  add_2_root_add_57_I16/U107/ZN (AOI21_X1)                0.03       2.11 f
+  add_2_root_add_57_I16/U237/ZN (NAND2_X1)                0.03       2.14 r
+  add_2_root_add_57_I16/U223/ZN (NAND3_X1)                0.04       2.18 f
+  add_2_root_add_57_I16/U1_27/CO (FA_X1)                  0.10       2.27 f
+  add_2_root_add_57_I16/U209/ZN (NAND2_X1)                0.04       2.32 r
+  add_2_root_add_57_I16/U230/ZN (NAND3_X1)                0.04       2.36 f
+  add_2_root_add_57_I16/U394/ZN (NAND2_X1)                0.03       2.39 r
+  add_2_root_add_57_I16/U263/ZN (NAND3_X1)                0.04       2.43 f
+  add_2_root_add_57_I16/U39/ZN (NAND2_X1)                 0.04       2.47 r
+  add_2_root_add_57_I16/U45/ZN (NAND3_X1)                 0.04       2.51 f
+  add_2_root_add_57_I16/U170/ZN (NAND2_X1)                0.03       2.54 r
+  add_2_root_add_57_I16/U100/ZN (NAND3_X1)                0.03       2.57 f
+  add_2_root_add_57_I16/U426/ZN (NAND2_X1)                0.04       2.61 r
+  add_2_root_add_57_I16/U138/ZN (NAND3_X1)                0.04       2.64 f
+  add_2_root_add_57_I16/U427/ZN (NAND2_X1)                0.04       2.68 r
+  add_2_root_add_57_I16/U181/ZN (NAND3_X1)                0.04       2.72 f
+  add_2_root_add_57_I16/U401/ZN (NAND2_X1)                0.03       2.74 r
+  add_2_root_add_57_I16/U193/ZN (NAND3_X1)                0.04       2.78 f
+  add_2_root_add_57_I16/U1_35/CO (FA_X1)                  0.10       2.88 f
+  add_2_root_add_57_I16/U404/ZN (NAND2_X1)                0.04       2.92 r
+  add_2_root_add_57_I16/U258/ZN (NAND3_X1)                0.04       2.96 f
+  add_2_root_add_57_I16/U458/ZN (NAND2_X1)                0.04       2.99 r
+  add_2_root_add_57_I16/U273/ZN (NAND3_X1)                0.04       3.03 f
+  add_2_root_add_57_I16/U406/ZN (NAND2_X1)                0.04       3.06 r
+  add_2_root_add_57_I16/U250/ZN (NAND3_X1)                0.04       3.10 f
+  add_2_root_add_57_I16/U391/ZN (NAND2_X1)                0.04       3.14 r
+  add_2_root_add_57_I16/U11/ZN (NAND3_X1)                 0.04       3.18 f
+  add_2_root_add_57_I16/U198/ZN (NAND2_X1)                0.04       3.21 r
+  add_2_root_add_57_I16/U140/ZN (NAND3_X1)                0.04       3.25 f
+  add_2_root_add_57_I16/U196/ZN (NAND2_X1)                0.03       3.28 r
+  add_2_root_add_57_I16/U118/ZN (AND2_X1)                 0.04       3.31 r
+  add_2_root_add_57_I16/U115/ZN (AND2_X1)                 0.04       3.36 r
+  add_2_root_add_57_I16/U120/ZN (OR2_X1)                  0.03       3.39 r
+  add_2_root_add_57_I16/U153/ZN (OAI21_X1)                0.04       3.43 f
+  add_2_root_add_57_I16/U143/ZN (INV_X1)                  0.04       3.47 r
+  add_2_root_add_57_I16/U149/ZN (OAI211_X1)               0.04       3.51 f
+  add_2_root_add_57_I16/U147/ZN (NAND2_X1)                0.03       3.54 r
+  add_2_root_add_57_I16/U242/ZN (NAND3_X1)                0.04       3.57 f
+  add_2_root_add_57_I16/U1_46/CO (FA_X1)                  0.10       3.67 f
+  add_2_root_add_57_I16/U162/ZN (NAND2_X1)                0.04       3.71 r
+  add_2_root_add_57_I16/U53/ZN (NAND3_X1)                 0.04       3.75 f
+  add_2_root_add_57_I16/U379/ZN (NAND2_X1)                0.04       3.78 r
+  add_2_root_add_57_I16/U79/ZN (NAND3_X1)                 0.04       3.82 f
+  add_2_root_add_57_I16/U462/ZN (NAND2_X1)                0.04       3.86 r
+  add_2_root_add_57_I16/U252/ZN (NAND3_X1)                0.04       3.89 f
+  add_2_root_add_57_I16/U251/ZN (NAND2_X1)                0.03       3.92 r
+  add_2_root_add_57_I16/U93/ZN (AND3_X1)                  0.06       3.98 r
+  add_2_root_add_57_I16/U92/ZN (XNOR2_X1)                 0.04       4.02 f
+  add_2_root_add_57_I16/SUM[51] (BOOTHMUL_N32_DW01_add_1)
+                                                          0.00       4.02 f
+  add_0_root_add_0_root_add_57_I16/B[51] (BOOTHMUL_N32_DW01_add_0)
+                                                          0.00       4.02 f
+  add_0_root_add_0_root_add_57_I16/U380/ZN (NOR2_X1)      0.04       4.06 r
+  add_0_root_add_0_root_add_57_I16/U385/ZN (OAI211_X1)
+                                                          0.04       4.10 f
+  add_0_root_add_0_root_add_57_I16/U317/ZN (NAND2_X1)     0.04       4.14 r
+  add_0_root_add_0_root_add_57_I16/U316/ZN (AND2_X1)      0.04       4.18 r
+  add_0_root_add_0_root_add_57_I16/U313/ZN (OAI21_X1)     0.03       4.21 f
+  add_0_root_add_0_root_add_57_I16/U310/ZN (NAND2_X1)     0.03       4.25 r
+  add_0_root_add_0_root_add_57_I16/U47/ZN (NAND3_X1)      0.04       4.29 f
+  add_0_root_add_0_root_add_57_I16/U304/ZN (NAND2_X1)     0.03       4.32 r
+  add_0_root_add_0_root_add_57_I16/U295/ZN (NAND3_X1)     0.03       4.36 f
+  add_0_root_add_0_root_add_57_I16/U299/ZN (NAND2_X1)     0.04       4.39 r
+  add_0_root_add_0_root_add_57_I16/U126/ZN (NAND3_X1)     0.04       4.43 f
+  add_0_root_add_0_root_add_57_I16/U296/ZN (NAND2_X1)     0.04       4.46 r
+  add_0_root_add_0_root_add_57_I16/U200/ZN (NAND3_X1)     0.04       4.50 f
+  add_0_root_add_0_root_add_57_I16/U293/ZN (NAND2_X1)     0.04       4.54 r
+  add_0_root_add_0_root_add_57_I16/U206/ZN (NAND3_X1)     0.04       4.58 f
+  add_0_root_add_0_root_add_57_I16/U286/ZN (NAND2_X1)     0.03       4.61 r
+  add_0_root_add_0_root_add_57_I16/U182/ZN (NAND3_X1)     0.04       4.65 f
+  add_0_root_add_0_root_add_57_I16/U284/ZN (OAI21_X1)     0.06       4.71 r
+  add_0_root_add_0_root_add_57_I16/U281/ZN (NAND2_X1)     0.03       4.74 f
+  add_0_root_add_0_root_add_57_I16/U280/ZN (AOI21_X1)     0.04       4.78 r
+  add_0_root_add_0_root_add_57_I16/U267/ZN (NAND2_X1)     0.04       4.82 f
+  add_0_root_add_0_root_add_57_I16/U274/ZN (NAND2_X1)     0.03       4.85 r
+  add_0_root_add_0_root_add_57_I16/U271/ZN (AND3_X1)      0.05       4.90 r
+  add_0_root_add_0_root_add_57_I16/U356/ZN (NAND3_X1)     0.04       4.94 f
+  add_0_root_add_0_root_add_57_I16/U256/ZN (XNOR2_X1)     0.16       5.10 f
+  add_0_root_add_0_root_add_57_I16/SUM[63] (BOOTHMUL_N32_DW01_add_0)
+                                                          0.00       5.10 f
+  P[63] (out)                                             0.00       5.10 f
+  data arrival time                                                  5.10
+
+  max_delay                                               5.10       5.10
+  output external delay                                   0.00       5.10
+  data required time                                                 5.10
+  --------------------------------------------------------------------------
+  data required time                                                 5.10
+  data arrival time                                                 -5.10
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: A[1] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N32       5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[1] (in)                                               0.00       0.00 f
+  r239/B[1] (BOOTHMUL_N32_DW01_sub_0)                     0.00       0.00 f
+  r239/U13/ZN (NOR2_X1)                                   0.05       0.05 r
+  r239/U12/ZN (XNOR2_X1)                                  0.06       0.11 r
+  r239/DIFF[2] (BOOTHMUL_N32_DW01_sub_0)                  0.00       0.11 r
+  U6035/ZN (INV_X1)                                       0.02       0.13 f
+  U6032/ZN (OAI222_X1)                                    0.06       0.19 r
+  add_14_root_add_57_I16/A[2] (BOOTHMUL_N32_DW01_add_4)
+                                                          0.00       0.19 r
+  add_14_root_add_57_I16/U38/ZN (AND2_X1)                 0.05       0.24 r
+  add_14_root_add_57_I16/U37/ZN (OAI21_X1)                0.03       0.27 f
+  add_14_root_add_57_I16/U36/ZN (INV_X1)                  0.03       0.30 r
+  add_14_root_add_57_I16/U39/ZN (AOI21_X1)                0.03       0.33 f
+  add_14_root_add_57_I16/U43/ZN (NOR2_X1)                 0.05       0.38 r
+  add_14_root_add_57_I16/U42/ZN (OAI21_X1)                0.04       0.42 f
+  add_14_root_add_57_I16/U46/ZN (AND2_X1)                 0.04       0.46 f
+  add_14_root_add_57_I16/U53/ZN (AOI21_X1)                0.05       0.51 r
+  add_14_root_add_57_I16/U52/ZN (XNOR2_X1)                0.06       0.57 r
+  add_14_root_add_57_I16/SUM[6] (BOOTHMUL_N32_DW01_add_4)
+                                                          0.00       0.57 r
+  add_6_root_add_57_I16/A[6] (BOOTHMUL_N32_DW01_add_2)
+                                                          0.00       0.57 r
+  add_6_root_add_57_I16/U26/ZN (INV_X1)                   0.03       0.60 f
+  add_6_root_add_57_I16/U24/ZN (OAI21_X1)                 0.04       0.63 r
+  add_6_root_add_57_I16/U23/ZN (NAND3_X1)                 0.03       0.67 f
+  add_6_root_add_57_I16/U20/ZN (NAND2_X1)                 0.03       0.70 r
+  add_6_root_add_57_I16/U19/ZN (OAI211_X1)                0.04       0.74 f
+  add_6_root_add_57_I16/U22/ZN (NAND2_X1)                 0.03       0.78 r
+  add_6_root_add_57_I16/U38/ZN (NAND2_X1)                 0.03       0.81 f
+  add_6_root_add_57_I16/U32/ZN (NAND2_X1)                 0.03       0.83 r
+  add_6_root_add_57_I16/U31/ZN (NAND2_X1)                 0.03       0.87 f
+  add_6_root_add_57_I16/U36/ZN (NAND2_X1)                 0.03       0.90 r
+  add_6_root_add_57_I16/U58/ZN (NOR2_X1)                  0.02       0.93 f
+  add_6_root_add_57_I16/U54/ZN (NOR2_X1)                  0.05       0.98 r
+  add_6_root_add_57_I16/U53/ZN (OAI21_X1)                 0.03       1.01 f
+  add_6_root_add_57_I16/U48/ZN (OAI21_X1)                 0.04       1.05 r
+  add_6_root_add_57_I16/U56/ZN (NOR2_X1)                  0.03       1.08 f
+  add_6_root_add_57_I16/U66/ZN (NOR2_X1)                  0.04       1.11 r
+  add_6_root_add_57_I16/U63/ZN (AOI21_X1)                 0.03       1.14 f
+  add_6_root_add_57_I16/U62/Z (BUF_X1)                    0.04       1.18 f
+  add_6_root_add_57_I16/U61/ZN (XNOR2_X1)                 0.06       1.24 f
+  add_6_root_add_57_I16/SUM[14] (BOOTHMUL_N32_DW01_add_2)
+                                                          0.00       1.24 f
+  add_2_root_add_57_I16/A[14] (BOOTHMUL_N32_DW01_add_1)
+                                                          0.00       1.24 f
+  add_2_root_add_57_I16/U61/ZN (NAND2_X1)                 0.04       1.28 r
+  add_2_root_add_57_I16/U179/ZN (NAND3_X1)                0.04       1.32 f
+  add_2_root_add_57_I16/U58/ZN (NAND2_X1)                 0.04       1.36 r
+  add_2_root_add_57_I16/U158/ZN (NAND3_X1)                0.04       1.40 f
+  add_2_root_add_57_I16/U66/ZN (NAND2_X1)                 0.04       1.43 r
+  add_2_root_add_57_I16/U73/ZN (NAND3_X1)                 0.04       1.47 f
+  add_2_root_add_57_I16/U318/ZN (NAND2_X1)                0.04       1.50 r
+  add_2_root_add_57_I16/U110/ZN (NAND3_X1)                0.04       1.54 f
+  add_2_root_add_57_I16/U335/ZN (NAND2_X1)                0.04       1.58 r
+  add_2_root_add_57_I16/U2/ZN (NAND3_X1)                  0.04       1.62 f
+  add_2_root_add_57_I16/U338/ZN (NAND2_X1)                0.03       1.65 r
+  add_2_root_add_57_I16/U127/ZN (NAND3_X1)                0.03       1.68 f
+  add_2_root_add_57_I16/U436/ZN (NAND2_X1)                0.04       1.72 r
+  add_2_root_add_57_I16/U50/ZN (NAND3_X1)                 0.04       1.76 f
+  add_2_root_add_57_I16/U432/ZN (NAND2_X1)                0.03       1.79 r
+  add_2_root_add_57_I16/U197/ZN (NAND3_X1)                0.03       1.83 f
+  add_2_root_add_57_I16/U431/ZN (NAND2_X1)                0.03       1.86 r
+  add_2_root_add_57_I16/U233/ZN (AND2_X1)                 0.04       1.90 r
+  add_2_root_add_57_I16/U232/ZN (NAND2_X1)                0.03       1.93 f
+  add_2_root_add_57_I16/U222/ZN (OAI21_X1)                0.04       1.96 r
+  add_2_root_add_57_I16/U12/ZN (AND2_X1)                  0.05       2.01 r
+  add_2_root_add_57_I16/U102/ZN (OAI221_X1)               0.04       2.06 f
+  add_2_root_add_57_I16/U109/ZN (INV_X1)                  0.03       2.08 r
+  add_2_root_add_57_I16/U107/ZN (AOI21_X1)                0.03       2.11 f
+  add_2_root_add_57_I16/U237/ZN (NAND2_X1)                0.03       2.14 r
+  add_2_root_add_57_I16/U223/ZN (NAND3_X1)                0.04       2.18 f
+  add_2_root_add_57_I16/U1_27/CO (FA_X1)                  0.10       2.27 f
+  add_2_root_add_57_I16/U209/ZN (NAND2_X1)                0.04       2.32 r
+  add_2_root_add_57_I16/U230/ZN (NAND3_X1)                0.04       2.36 f
+  add_2_root_add_57_I16/U262/ZN (NAND2_X1)                0.04       2.40 r
+  add_2_root_add_57_I16/U15/ZN (NAND3_X1)                 0.04       2.44 f
+  add_2_root_add_57_I16/U183/ZN (NAND2_X1)                0.03       2.47 r
+  add_2_root_add_57_I16/U90/ZN (NAND3_X1)                 0.03       2.50 f
+  add_2_root_add_57_I16/U176/ZN (NAND2_X1)                0.04       2.53 r
+  add_2_root_add_57_I16/U132/ZN (NAND3_X1)                0.04       2.57 f
+  add_2_root_add_57_I16/U166/ZN (NAND2_X1)                0.04       2.60 r
+  add_2_root_add_57_I16/U138/ZN (NAND3_X1)                0.04       2.64 f
+  add_2_root_add_57_I16/U427/ZN (NAND2_X1)                0.04       2.68 r
+  add_2_root_add_57_I16/U181/ZN (NAND3_X1)                0.04       2.72 f
+  add_2_root_add_57_I16/U401/ZN (NAND2_X1)                0.03       2.74 r
+  add_2_root_add_57_I16/U193/ZN (NAND3_X1)                0.04       2.78 f
+  add_2_root_add_57_I16/U1_35/CO (FA_X1)                  0.10       2.88 f
+  add_2_root_add_57_I16/U404/ZN (NAND2_X1)                0.04       2.92 r
+  add_2_root_add_57_I16/U258/ZN (NAND3_X1)                0.04       2.96 f
+  add_2_root_add_57_I16/U458/ZN (NAND2_X1)                0.04       2.99 r
+  add_2_root_add_57_I16/U273/ZN (NAND3_X1)                0.04       3.03 f
+  add_2_root_add_57_I16/U406/ZN (NAND2_X1)                0.04       3.06 r
+  add_2_root_add_57_I16/U250/ZN (NAND3_X1)                0.04       3.10 f
+  add_2_root_add_57_I16/U391/ZN (NAND2_X1)                0.04       3.14 r
+  add_2_root_add_57_I16/U51/ZN (NAND3_X1)                 0.04       3.18 f
+  add_2_root_add_57_I16/U200/ZN (NAND2_X1)                0.04       3.22 r
+  add_2_root_add_57_I16/U140/ZN (NAND3_X1)                0.03       3.25 f
+  add_2_root_add_57_I16/U196/ZN (NAND2_X1)                0.03       3.28 r
+  add_2_root_add_57_I16/U118/ZN (AND2_X1)                 0.04       3.31 r
+  add_2_root_add_57_I16/U115/ZN (AND2_X1)                 0.04       3.36 r
+  add_2_root_add_57_I16/U120/ZN (OR2_X1)                  0.03       3.39 r
+  add_2_root_add_57_I16/U153/ZN (OAI21_X1)                0.04       3.43 f
+  add_2_root_add_57_I16/U143/ZN (INV_X1)                  0.04       3.47 r
+  add_2_root_add_57_I16/U149/ZN (OAI211_X1)               0.04       3.51 f
+  add_2_root_add_57_I16/U147/ZN (NAND2_X1)                0.03       3.54 r
+  add_2_root_add_57_I16/U242/ZN (NAND3_X1)                0.04       3.57 f
+  add_2_root_add_57_I16/U1_46/CO (FA_X1)                  0.10       3.67 f
+  add_2_root_add_57_I16/U162/ZN (NAND2_X1)                0.04       3.71 r
+  add_2_root_add_57_I16/U53/ZN (NAND3_X1)                 0.04       3.75 f
+  add_2_root_add_57_I16/U379/ZN (NAND2_X1)                0.04       3.78 r
+  add_2_root_add_57_I16/U79/ZN (NAND3_X1)                 0.04       3.82 f
+  add_2_root_add_57_I16/U462/ZN (NAND2_X1)                0.04       3.86 r
+  add_2_root_add_57_I16/U252/ZN (NAND3_X1)                0.04       3.89 f
+  add_2_root_add_57_I16/U251/ZN (NAND2_X1)                0.03       3.92 r
+  add_2_root_add_57_I16/U93/ZN (AND3_X1)                  0.06       3.98 r
+  add_2_root_add_57_I16/U92/ZN (XNOR2_X1)                 0.04       4.02 f
+  add_2_root_add_57_I16/SUM[51] (BOOTHMUL_N32_DW01_add_1)
+                                                          0.00       4.02 f
+  add_0_root_add_0_root_add_57_I16/B[51] (BOOTHMUL_N32_DW01_add_0)
+                                                          0.00       4.02 f
+  add_0_root_add_0_root_add_57_I16/U380/ZN (NOR2_X1)      0.04       4.06 r
+  add_0_root_add_0_root_add_57_I16/U385/ZN (OAI211_X1)
+                                                          0.04       4.10 f
+  add_0_root_add_0_root_add_57_I16/U317/ZN (NAND2_X1)     0.04       4.14 r
+  add_0_root_add_0_root_add_57_I16/U333/ZN (AND2_X1)      0.05       4.19 r
+  add_0_root_add_0_root_add_57_I16/U388/ZN (OAI21_X1)     0.03       4.22 f
+  add_0_root_add_0_root_add_57_I16/U395/ZN (NAND2_X1)     0.03       4.25 r
+  add_0_root_add_0_root_add_57_I16/U4/ZN (NAND3_X1)       0.03       4.28 f
+  add_0_root_add_0_root_add_57_I16/U305/ZN (NAND2_X1)     0.04       4.32 r
+  add_0_root_add_0_root_add_57_I16/U288/ZN (NAND3_X1)     0.04       4.35 f
+  add_0_root_add_0_root_add_57_I16/U300/ZN (NAND2_X1)     0.04       4.39 r
+  add_0_root_add_0_root_add_57_I16/U126/ZN (NAND3_X1)     0.04       4.43 f
+  add_0_root_add_0_root_add_57_I16/U296/ZN (NAND2_X1)     0.04       4.46 r
+  add_0_root_add_0_root_add_57_I16/U200/ZN (NAND3_X1)     0.04       4.50 f
+  add_0_root_add_0_root_add_57_I16/U293/ZN (NAND2_X1)     0.04       4.54 r
+  add_0_root_add_0_root_add_57_I16/U206/ZN (NAND3_X1)     0.04       4.58 f
+  add_0_root_add_0_root_add_57_I16/U286/ZN (NAND2_X1)     0.03       4.61 r
+  add_0_root_add_0_root_add_57_I16/U182/ZN (NAND3_X1)     0.04       4.65 f
+  add_0_root_add_0_root_add_57_I16/U284/ZN (OAI21_X1)     0.06       4.71 r
+  add_0_root_add_0_root_add_57_I16/U281/ZN (NAND2_X1)     0.03       4.74 f
+  add_0_root_add_0_root_add_57_I16/U280/ZN (AOI21_X1)     0.04       4.78 r
+  add_0_root_add_0_root_add_57_I16/U267/ZN (NAND2_X1)     0.04       4.82 f
+  add_0_root_add_0_root_add_57_I16/U274/ZN (NAND2_X1)     0.03       4.85 r
+  add_0_root_add_0_root_add_57_I16/U271/ZN (AND3_X1)      0.05       4.90 r
+  add_0_root_add_0_root_add_57_I16/U356/ZN (NAND3_X1)     0.04       4.94 f
+  add_0_root_add_0_root_add_57_I16/U256/ZN (XNOR2_X1)     0.16       5.10 f
+  add_0_root_add_0_root_add_57_I16/SUM[63] (BOOTHMUL_N32_DW01_add_0)
+                                                          0.00       5.10 f
+  P[63] (out)                                             0.00       5.10 f
+  data arrival time                                                  5.10
+
+  max_delay                                               5.10       5.10
+  output external delay                                   0.00       5.10
+  data required time                                                 5.10
+  --------------------------------------------------------------------------
+  data required time                                                 5.10
+  data arrival time                                                 -5.10
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: A[1] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N32       5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[1] (in)                                               0.00       0.00 f
+  r239/B[1] (BOOTHMUL_N32_DW01_sub_0)                     0.00       0.00 f
+  r239/U13/ZN (NOR2_X1)                                   0.05       0.05 r
+  r239/U12/ZN (XNOR2_X1)                                  0.06       0.11 r
+  r239/DIFF[2] (BOOTHMUL_N32_DW01_sub_0)                  0.00       0.11 r
+  U6035/ZN (INV_X1)                                       0.02       0.13 f
+  U6032/ZN (OAI222_X1)                                    0.06       0.19 r
+  add_14_root_add_57_I16/A[2] (BOOTHMUL_N32_DW01_add_4)
+                                                          0.00       0.19 r
+  add_14_root_add_57_I16/U38/ZN (AND2_X1)                 0.05       0.24 r
+  add_14_root_add_57_I16/U37/ZN (OAI21_X1)                0.03       0.27 f
+  add_14_root_add_57_I16/U36/ZN (INV_X1)                  0.03       0.30 r
+  add_14_root_add_57_I16/U39/ZN (AOI21_X1)                0.03       0.33 f
+  add_14_root_add_57_I16/U43/ZN (NOR2_X1)                 0.05       0.38 r
+  add_14_root_add_57_I16/U42/ZN (OAI21_X1)                0.04       0.42 f
+  add_14_root_add_57_I16/U46/ZN (AND2_X1)                 0.04       0.46 f
+  add_14_root_add_57_I16/U53/ZN (AOI21_X1)                0.05       0.51 r
+  add_14_root_add_57_I16/U52/ZN (XNOR2_X1)                0.06       0.57 r
+  add_14_root_add_57_I16/SUM[6] (BOOTHMUL_N32_DW01_add_4)
+                                                          0.00       0.57 r
+  add_6_root_add_57_I16/A[6] (BOOTHMUL_N32_DW01_add_2)
+                                                          0.00       0.57 r
+  add_6_root_add_57_I16/U26/ZN (INV_X1)                   0.03       0.60 f
+  add_6_root_add_57_I16/U24/ZN (OAI21_X1)                 0.04       0.63 r
+  add_6_root_add_57_I16/U23/ZN (NAND3_X1)                 0.03       0.67 f
+  add_6_root_add_57_I16/U20/ZN (NAND2_X1)                 0.03       0.70 r
+  add_6_root_add_57_I16/U19/ZN (OAI211_X1)                0.04       0.74 f
+  add_6_root_add_57_I16/U22/ZN (NAND2_X1)                 0.03       0.78 r
+  add_6_root_add_57_I16/U38/ZN (NAND2_X1)                 0.03       0.81 f
+  add_6_root_add_57_I16/U32/ZN (NAND2_X1)                 0.03       0.83 r
+  add_6_root_add_57_I16/U31/ZN (NAND2_X1)                 0.03       0.87 f
+  add_6_root_add_57_I16/U36/ZN (NAND2_X1)                 0.03       0.90 r
+  add_6_root_add_57_I16/U58/ZN (NOR2_X1)                  0.02       0.93 f
+  add_6_root_add_57_I16/U54/ZN (NOR2_X1)                  0.05       0.98 r
+  add_6_root_add_57_I16/U53/ZN (OAI21_X1)                 0.03       1.01 f
+  add_6_root_add_57_I16/U48/ZN (OAI21_X1)                 0.04       1.05 r
+  add_6_root_add_57_I16/U56/ZN (NOR2_X1)                  0.03       1.08 f
+  add_6_root_add_57_I16/U66/ZN (NOR2_X1)                  0.04       1.11 r
+  add_6_root_add_57_I16/U63/ZN (AOI21_X1)                 0.03       1.14 f
+  add_6_root_add_57_I16/U62/Z (BUF_X1)                    0.04       1.18 f
+  add_6_root_add_57_I16/U61/ZN (XNOR2_X1)                 0.06       1.24 f
+  add_6_root_add_57_I16/SUM[14] (BOOTHMUL_N32_DW01_add_2)
+                                                          0.00       1.24 f
+  add_2_root_add_57_I16/A[14] (BOOTHMUL_N32_DW01_add_1)
+                                                          0.00       1.24 f
+  add_2_root_add_57_I16/U61/ZN (NAND2_X1)                 0.04       1.28 r
+  add_2_root_add_57_I16/U179/ZN (NAND3_X1)                0.04       1.32 f
+  add_2_root_add_57_I16/U58/ZN (NAND2_X1)                 0.04       1.36 r
+  add_2_root_add_57_I16/U158/ZN (NAND3_X1)                0.04       1.40 f
+  add_2_root_add_57_I16/U66/ZN (NAND2_X1)                 0.04       1.43 r
+  add_2_root_add_57_I16/U73/ZN (NAND3_X1)                 0.04       1.47 f
+  add_2_root_add_57_I16/U318/ZN (NAND2_X1)                0.04       1.50 r
+  add_2_root_add_57_I16/U110/ZN (NAND3_X1)                0.04       1.54 f
+  add_2_root_add_57_I16/U335/ZN (NAND2_X1)                0.04       1.58 r
+  add_2_root_add_57_I16/U2/ZN (NAND3_X1)                  0.04       1.62 f
+  add_2_root_add_57_I16/U338/ZN (NAND2_X1)                0.03       1.65 r
+  add_2_root_add_57_I16/U127/ZN (NAND3_X1)                0.03       1.68 f
+  add_2_root_add_57_I16/U436/ZN (NAND2_X1)                0.04       1.72 r
+  add_2_root_add_57_I16/U50/ZN (NAND3_X1)                 0.04       1.76 f
+  add_2_root_add_57_I16/U432/ZN (NAND2_X1)                0.03       1.79 r
+  add_2_root_add_57_I16/U197/ZN (NAND3_X1)                0.03       1.83 f
+  add_2_root_add_57_I16/U431/ZN (NAND2_X1)                0.03       1.86 r
+  add_2_root_add_57_I16/U233/ZN (AND2_X1)                 0.04       1.90 r
+  add_2_root_add_57_I16/U232/ZN (NAND2_X1)                0.03       1.93 f
+  add_2_root_add_57_I16/U222/ZN (OAI21_X1)                0.04       1.96 r
+  add_2_root_add_57_I16/U12/ZN (AND2_X1)                  0.05       2.01 r
+  add_2_root_add_57_I16/U102/ZN (OAI221_X1)               0.04       2.06 f
+  add_2_root_add_57_I16/U109/ZN (INV_X1)                  0.03       2.08 r
+  add_2_root_add_57_I16/U107/ZN (AOI21_X1)                0.03       2.11 f
+  add_2_root_add_57_I16/U237/ZN (NAND2_X1)                0.03       2.14 r
+  add_2_root_add_57_I16/U223/ZN (NAND3_X1)                0.04       2.18 f
+  add_2_root_add_57_I16/U1_27/CO (FA_X1)                  0.10       2.27 f
+  add_2_root_add_57_I16/U211/ZN (NAND2_X1)                0.04       2.32 r
+  add_2_root_add_57_I16/U246/ZN (NAND3_X1)                0.04       2.36 f
+  add_2_root_add_57_I16/U54/ZN (NAND2_X1)                 0.04       2.40 r
+  add_2_root_add_57_I16/U25/ZN (NAND3_X1)                 0.04       2.43 f
+  add_2_root_add_57_I16/U194/ZN (NAND2_X1)                0.04       2.47 r
+  add_2_root_add_57_I16/U45/ZN (NAND3_X1)                 0.04       2.51 f
+  add_2_root_add_57_I16/U170/ZN (NAND2_X1)                0.03       2.54 r
+  add_2_root_add_57_I16/U100/ZN (NAND3_X1)                0.03       2.57 f
+  add_2_root_add_57_I16/U426/ZN (NAND2_X1)                0.04       2.61 r
+  add_2_root_add_57_I16/U138/ZN (NAND3_X1)                0.04       2.64 f
+  add_2_root_add_57_I16/U427/ZN (NAND2_X1)                0.04       2.68 r
+  add_2_root_add_57_I16/U181/ZN (NAND3_X1)                0.04       2.72 f
+  add_2_root_add_57_I16/U401/ZN (NAND2_X1)                0.03       2.74 r
+  add_2_root_add_57_I16/U193/ZN (NAND3_X1)                0.04       2.78 f
+  add_2_root_add_57_I16/U1_35/CO (FA_X1)                  0.10       2.87 f
+  add_2_root_add_57_I16/U404/ZN (NAND2_X1)                0.04       2.92 r
+  add_2_root_add_57_I16/U258/ZN (NAND3_X1)                0.04       2.96 f
+  add_2_root_add_57_I16/U458/ZN (NAND2_X1)                0.04       2.99 r
+  add_2_root_add_57_I16/U273/ZN (NAND3_X1)                0.04       3.03 f
+  add_2_root_add_57_I16/U406/ZN (NAND2_X1)                0.04       3.06 r
+  add_2_root_add_57_I16/U250/ZN (NAND3_X1)                0.04       3.10 f
+  add_2_root_add_57_I16/U391/ZN (NAND2_X1)                0.04       3.14 r
+  add_2_root_add_57_I16/U51/ZN (NAND3_X1)                 0.04       3.18 f
+  add_2_root_add_57_I16/U200/ZN (NAND2_X1)                0.04       3.22 r
+  add_2_root_add_57_I16/U140/ZN (NAND3_X1)                0.03       3.25 f
+  add_2_root_add_57_I16/U196/ZN (NAND2_X1)                0.03       3.28 r
+  add_2_root_add_57_I16/U118/ZN (AND2_X1)                 0.04       3.31 r
+  add_2_root_add_57_I16/U115/ZN (AND2_X1)                 0.04       3.36 r
+  add_2_root_add_57_I16/U120/ZN (OR2_X1)                  0.03       3.39 r
+  add_2_root_add_57_I16/U153/ZN (OAI21_X1)                0.04       3.43 f
+  add_2_root_add_57_I16/U143/ZN (INV_X1)                  0.04       3.47 r
+  add_2_root_add_57_I16/U149/ZN (OAI211_X1)               0.04       3.51 f
+  add_2_root_add_57_I16/U147/ZN (NAND2_X1)                0.03       3.54 r
+  add_2_root_add_57_I16/U242/ZN (NAND3_X1)                0.04       3.57 f
+  add_2_root_add_57_I16/U1_46/CO (FA_X1)                  0.10       3.67 f
+  add_2_root_add_57_I16/U162/ZN (NAND2_X1)                0.04       3.71 r
+  add_2_root_add_57_I16/U53/ZN (NAND3_X1)                 0.04       3.75 f
+  add_2_root_add_57_I16/U379/ZN (NAND2_X1)                0.04       3.78 r
+  add_2_root_add_57_I16/U79/ZN (NAND3_X1)                 0.04       3.82 f
+  add_2_root_add_57_I16/U462/ZN (NAND2_X1)                0.04       3.86 r
+  add_2_root_add_57_I16/U252/ZN (NAND3_X1)                0.04       3.89 f
+  add_2_root_add_57_I16/U251/ZN (NAND2_X1)                0.03       3.92 r
+  add_2_root_add_57_I16/U93/ZN (AND3_X1)                  0.06       3.98 r
+  add_2_root_add_57_I16/U92/ZN (XNOR2_X1)                 0.04       4.02 f
+  add_2_root_add_57_I16/SUM[51] (BOOTHMUL_N32_DW01_add_1)
+                                                          0.00       4.02 f
+  add_0_root_add_0_root_add_57_I16/B[51] (BOOTHMUL_N32_DW01_add_0)
+                                                          0.00       4.02 f
+  add_0_root_add_0_root_add_57_I16/U380/ZN (NOR2_X1)      0.04       4.06 r
+  add_0_root_add_0_root_add_57_I16/U385/ZN (OAI211_X1)
+                                                          0.04       4.10 f
+  add_0_root_add_0_root_add_57_I16/U317/ZN (NAND2_X1)     0.04       4.14 r
+  add_0_root_add_0_root_add_57_I16/U316/ZN (AND2_X1)      0.04       4.18 r
+  add_0_root_add_0_root_add_57_I16/U313/ZN (OAI21_X1)     0.03       4.21 f
+  add_0_root_add_0_root_add_57_I16/U310/ZN (NAND2_X1)     0.03       4.25 r
+  add_0_root_add_0_root_add_57_I16/U47/ZN (NAND3_X1)      0.04       4.29 f
+  add_0_root_add_0_root_add_57_I16/U304/ZN (NAND2_X1)     0.03       4.32 r
+  add_0_root_add_0_root_add_57_I16/U295/ZN (NAND3_X1)     0.03       4.36 f
+  add_0_root_add_0_root_add_57_I16/U299/ZN (NAND2_X1)     0.04       4.39 r
+  add_0_root_add_0_root_add_57_I16/U126/ZN (NAND3_X1)     0.04       4.43 f
+  add_0_root_add_0_root_add_57_I16/U296/ZN (NAND2_X1)     0.04       4.46 r
+  add_0_root_add_0_root_add_57_I16/U200/ZN (NAND3_X1)     0.04       4.50 f
+  add_0_root_add_0_root_add_57_I16/U293/ZN (NAND2_X1)     0.04       4.54 r
+  add_0_root_add_0_root_add_57_I16/U206/ZN (NAND3_X1)     0.04       4.58 f
+  add_0_root_add_0_root_add_57_I16/U286/ZN (NAND2_X1)     0.03       4.61 r
+  add_0_root_add_0_root_add_57_I16/U182/ZN (NAND3_X1)     0.04       4.65 f
+  add_0_root_add_0_root_add_57_I16/U284/ZN (OAI21_X1)     0.06       4.71 r
+  add_0_root_add_0_root_add_57_I16/U281/ZN (NAND2_X1)     0.03       4.74 f
+  add_0_root_add_0_root_add_57_I16/U280/ZN (AOI21_X1)     0.04       4.78 r
+  add_0_root_add_0_root_add_57_I16/U267/ZN (NAND2_X1)     0.04       4.82 f
+  add_0_root_add_0_root_add_57_I16/U274/ZN (NAND2_X1)     0.03       4.85 r
+  add_0_root_add_0_root_add_57_I16/U271/ZN (AND3_X1)      0.05       4.90 r
+  add_0_root_add_0_root_add_57_I16/U356/ZN (NAND3_X1)     0.04       4.94 f
+  add_0_root_add_0_root_add_57_I16/U256/ZN (XNOR2_X1)     0.16       5.10 f
+  add_0_root_add_0_root_add_57_I16/SUM[63] (BOOTHMUL_N32_DW01_add_0)
+                                                          0.00       5.10 f
+  P[63] (out)                                             0.00       5.10 f
+  data arrival time                                                  5.10
+
+  max_delay                                               5.10       5.10
+  output external delay                                   0.00       5.10
+  data required time                                                 5.10
+  --------------------------------------------------------------------------
+  data required time                                                 5.10
+  data arrival time                                                 -5.10
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: A[1] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N32       5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[1] (in)                                               0.00       0.00 f
+  r239/B[1] (BOOTHMUL_N32_DW01_sub_0)                     0.00       0.00 f
+  r239/U13/ZN (NOR2_X1)                                   0.05       0.05 r
+  r239/U12/ZN (XNOR2_X1)                                  0.06       0.11 r
+  r239/DIFF[2] (BOOTHMUL_N32_DW01_sub_0)                  0.00       0.11 r
+  U6035/ZN (INV_X1)                                       0.02       0.13 f
+  U6032/ZN (OAI222_X1)                                    0.06       0.19 r
+  add_14_root_add_57_I16/A[2] (BOOTHMUL_N32_DW01_add_4)
+                                                          0.00       0.19 r
+  add_14_root_add_57_I16/U38/ZN (AND2_X1)                 0.05       0.24 r
+  add_14_root_add_57_I16/U37/ZN (OAI21_X1)                0.03       0.27 f
+  add_14_root_add_57_I16/U36/ZN (INV_X1)                  0.03       0.30 r
+  add_14_root_add_57_I16/U39/ZN (AOI21_X1)                0.03       0.33 f
+  add_14_root_add_57_I16/U43/ZN (NOR2_X1)                 0.05       0.38 r
+  add_14_root_add_57_I16/U42/ZN (OAI21_X1)                0.04       0.42 f
+  add_14_root_add_57_I16/U46/ZN (AND2_X1)                 0.04       0.46 f
+  add_14_root_add_57_I16/U53/ZN (AOI21_X1)                0.05       0.51 r
+  add_14_root_add_57_I16/U52/ZN (XNOR2_X1)                0.06       0.57 r
+  add_14_root_add_57_I16/SUM[6] (BOOTHMUL_N32_DW01_add_4)
+                                                          0.00       0.57 r
+  add_6_root_add_57_I16/A[6] (BOOTHMUL_N32_DW01_add_2)
+                                                          0.00       0.57 r
+  add_6_root_add_57_I16/U26/ZN (INV_X1)                   0.03       0.60 f
+  add_6_root_add_57_I16/U24/ZN (OAI21_X1)                 0.04       0.63 r
+  add_6_root_add_57_I16/U23/ZN (NAND3_X1)                 0.03       0.67 f
+  add_6_root_add_57_I16/U20/ZN (NAND2_X1)                 0.03       0.70 r
+  add_6_root_add_57_I16/U19/ZN (OAI211_X1)                0.04       0.74 f
+  add_6_root_add_57_I16/U22/ZN (NAND2_X1)                 0.03       0.78 r
+  add_6_root_add_57_I16/U38/ZN (NAND2_X1)                 0.03       0.81 f
+  add_6_root_add_57_I16/U32/ZN (NAND2_X1)                 0.03       0.83 r
+  add_6_root_add_57_I16/U31/ZN (NAND2_X1)                 0.03       0.87 f
+  add_6_root_add_57_I16/U36/ZN (NAND2_X1)                 0.03       0.90 r
+  add_6_root_add_57_I16/U58/ZN (NOR2_X1)                  0.02       0.93 f
+  add_6_root_add_57_I16/U54/ZN (NOR2_X1)                  0.05       0.98 r
+  add_6_root_add_57_I16/U53/ZN (OAI21_X1)                 0.03       1.01 f
+  add_6_root_add_57_I16/U48/ZN (OAI21_X1)                 0.04       1.05 r
+  add_6_root_add_57_I16/U56/ZN (NOR2_X1)                  0.03       1.08 f
+  add_6_root_add_57_I16/U66/ZN (NOR2_X1)                  0.04       1.11 r
+  add_6_root_add_57_I16/U63/ZN (AOI21_X1)                 0.03       1.14 f
+  add_6_root_add_57_I16/U62/Z (BUF_X1)                    0.04       1.18 f
+  add_6_root_add_57_I16/U61/ZN (XNOR2_X1)                 0.06       1.24 f
+  add_6_root_add_57_I16/SUM[14] (BOOTHMUL_N32_DW01_add_2)
+                                                          0.00       1.24 f
+  add_2_root_add_57_I16/A[14] (BOOTHMUL_N32_DW01_add_1)
+                                                          0.00       1.24 f
+  add_2_root_add_57_I16/U61/ZN (NAND2_X1)                 0.04       1.28 r
+  add_2_root_add_57_I16/U179/ZN (NAND3_X1)                0.04       1.32 f
+  add_2_root_add_57_I16/U58/ZN (NAND2_X1)                 0.04       1.36 r
+  add_2_root_add_57_I16/U158/ZN (NAND3_X1)                0.04       1.40 f
+  add_2_root_add_57_I16/U66/ZN (NAND2_X1)                 0.04       1.43 r
+  add_2_root_add_57_I16/U73/ZN (NAND3_X1)                 0.04       1.47 f
+  add_2_root_add_57_I16/U318/ZN (NAND2_X1)                0.04       1.50 r
+  add_2_root_add_57_I16/U110/ZN (NAND3_X1)                0.04       1.54 f
+  add_2_root_add_57_I16/U335/ZN (NAND2_X1)                0.04       1.58 r
+  add_2_root_add_57_I16/U2/ZN (NAND3_X1)                  0.04       1.62 f
+  add_2_root_add_57_I16/U338/ZN (NAND2_X1)                0.03       1.65 r
+  add_2_root_add_57_I16/U127/ZN (NAND3_X1)                0.03       1.68 f
+  add_2_root_add_57_I16/U436/ZN (NAND2_X1)                0.04       1.72 r
+  add_2_root_add_57_I16/U50/ZN (NAND3_X1)                 0.04       1.76 f
+  add_2_root_add_57_I16/U432/ZN (NAND2_X1)                0.03       1.79 r
+  add_2_root_add_57_I16/U197/ZN (NAND3_X1)                0.03       1.83 f
+  add_2_root_add_57_I16/U431/ZN (NAND2_X1)                0.03       1.86 r
+  add_2_root_add_57_I16/U233/ZN (AND2_X1)                 0.04       1.90 r
+  add_2_root_add_57_I16/U232/ZN (NAND2_X1)                0.03       1.93 f
+  add_2_root_add_57_I16/U222/ZN (OAI21_X1)                0.04       1.96 r
+  add_2_root_add_57_I16/U12/ZN (AND2_X1)                  0.05       2.01 r
+  add_2_root_add_57_I16/U102/ZN (OAI221_X1)               0.04       2.06 f
+  add_2_root_add_57_I16/U109/ZN (INV_X1)                  0.03       2.08 r
+  add_2_root_add_57_I16/U107/ZN (AOI21_X1)                0.03       2.11 f
+  add_2_root_add_57_I16/U237/ZN (NAND2_X1)                0.03       2.14 r
+  add_2_root_add_57_I16/U223/ZN (NAND3_X1)                0.04       2.18 f
+  add_2_root_add_57_I16/U1_27/CO (FA_X1)                  0.10       2.27 f
+  add_2_root_add_57_I16/U209/ZN (NAND2_X1)                0.04       2.32 r
+  add_2_root_add_57_I16/U230/ZN (NAND3_X1)                0.04       2.36 f
+  add_2_root_add_57_I16/U262/ZN (NAND2_X1)                0.04       2.40 r
+  add_2_root_add_57_I16/U15/ZN (NAND3_X1)                 0.04       2.44 f
+  add_2_root_add_57_I16/U183/ZN (NAND2_X1)                0.03       2.47 r
+  add_2_root_add_57_I16/U90/ZN (NAND3_X1)                 0.03       2.50 f
+  add_2_root_add_57_I16/U176/ZN (NAND2_X1)                0.04       2.53 r
+  add_2_root_add_57_I16/U132/ZN (NAND3_X1)                0.04       2.57 f
+  add_2_root_add_57_I16/U166/ZN (NAND2_X1)                0.04       2.60 r
+  add_2_root_add_57_I16/U138/ZN (NAND3_X1)                0.04       2.64 f
+  add_2_root_add_57_I16/U427/ZN (NAND2_X1)                0.04       2.68 r
+  add_2_root_add_57_I16/U181/ZN (NAND3_X1)                0.04       2.72 f
+  add_2_root_add_57_I16/U401/ZN (NAND2_X1)                0.03       2.74 r
+  add_2_root_add_57_I16/U193/ZN (NAND3_X1)                0.04       2.78 f
+  add_2_root_add_57_I16/U1_35/CO (FA_X1)                  0.10       2.88 f
+  add_2_root_add_57_I16/U404/ZN (NAND2_X1)                0.04       2.92 r
+  add_2_root_add_57_I16/U258/ZN (NAND3_X1)                0.04       2.96 f
+  add_2_root_add_57_I16/U458/ZN (NAND2_X1)                0.04       2.99 r
+  add_2_root_add_57_I16/U273/ZN (NAND3_X1)                0.04       3.03 f
+  add_2_root_add_57_I16/U406/ZN (NAND2_X1)                0.04       3.06 r
+  add_2_root_add_57_I16/U250/ZN (NAND3_X1)                0.04       3.10 f
+  add_2_root_add_57_I16/U391/ZN (NAND2_X1)                0.04       3.14 r
+  add_2_root_add_57_I16/U11/ZN (NAND3_X1)                 0.04       3.18 f
+  add_2_root_add_57_I16/U198/ZN (NAND2_X1)                0.04       3.21 r
+  add_2_root_add_57_I16/U140/ZN (NAND3_X1)                0.04       3.25 f
+  add_2_root_add_57_I16/U196/ZN (NAND2_X1)                0.03       3.28 r
+  add_2_root_add_57_I16/U118/ZN (AND2_X1)                 0.04       3.31 r
+  add_2_root_add_57_I16/U115/ZN (AND2_X1)                 0.04       3.36 r
+  add_2_root_add_57_I16/U120/ZN (OR2_X1)                  0.03       3.39 r
+  add_2_root_add_57_I16/U153/ZN (OAI21_X1)                0.04       3.43 f
+  add_2_root_add_57_I16/U143/ZN (INV_X1)                  0.04       3.47 r
+  add_2_root_add_57_I16/U149/ZN (OAI211_X1)               0.04       3.51 f
+  add_2_root_add_57_I16/U147/ZN (NAND2_X1)                0.03       3.54 r
+  add_2_root_add_57_I16/U242/ZN (NAND3_X1)                0.04       3.57 f
+  add_2_root_add_57_I16/U1_46/CO (FA_X1)                  0.10       3.67 f
+  add_2_root_add_57_I16/U162/ZN (NAND2_X1)                0.04       3.71 r
+  add_2_root_add_57_I16/U53/ZN (NAND3_X1)                 0.04       3.75 f
+  add_2_root_add_57_I16/U379/ZN (NAND2_X1)                0.04       3.78 r
+  add_2_root_add_57_I16/U79/ZN (NAND3_X1)                 0.04       3.82 f
+  add_2_root_add_57_I16/U462/ZN (NAND2_X1)                0.04       3.86 r
+  add_2_root_add_57_I16/U252/ZN (NAND3_X1)                0.04       3.89 f
+  add_2_root_add_57_I16/U251/ZN (NAND2_X1)                0.03       3.92 r
+  add_2_root_add_57_I16/U93/ZN (AND3_X1)                  0.06       3.98 r
+  add_2_root_add_57_I16/U92/ZN (XNOR2_X1)                 0.04       4.02 f
+  add_2_root_add_57_I16/SUM[51] (BOOTHMUL_N32_DW01_add_1)
+                                                          0.00       4.02 f
+  add_0_root_add_0_root_add_57_I16/B[51] (BOOTHMUL_N32_DW01_add_0)
+                                                          0.00       4.02 f
+  add_0_root_add_0_root_add_57_I16/U380/ZN (NOR2_X1)      0.04       4.06 r
+  add_0_root_add_0_root_add_57_I16/U385/ZN (OAI211_X1)
+                                                          0.04       4.10 f
+  add_0_root_add_0_root_add_57_I16/U317/ZN (NAND2_X1)     0.04       4.14 r
+  add_0_root_add_0_root_add_57_I16/U333/ZN (AND2_X1)      0.05       4.19 r
+  add_0_root_add_0_root_add_57_I16/U388/ZN (OAI21_X1)     0.03       4.22 f
+  add_0_root_add_0_root_add_57_I16/U395/ZN (NAND2_X1)     0.03       4.25 r
+  add_0_root_add_0_root_add_57_I16/U4/ZN (NAND3_X1)       0.03       4.28 f
+  add_0_root_add_0_root_add_57_I16/U305/ZN (NAND2_X1)     0.04       4.32 r
+  add_0_root_add_0_root_add_57_I16/U288/ZN (NAND3_X1)     0.04       4.35 f
+  add_0_root_add_0_root_add_57_I16/U300/ZN (NAND2_X1)     0.04       4.39 r
+  add_0_root_add_0_root_add_57_I16/U126/ZN (NAND3_X1)     0.04       4.43 f
+  add_0_root_add_0_root_add_57_I16/U296/ZN (NAND2_X1)     0.04       4.46 r
+  add_0_root_add_0_root_add_57_I16/U200/ZN (NAND3_X1)     0.04       4.50 f
+  add_0_root_add_0_root_add_57_I16/U293/ZN (NAND2_X1)     0.04       4.54 r
+  add_0_root_add_0_root_add_57_I16/U206/ZN (NAND3_X1)     0.04       4.58 f
+  add_0_root_add_0_root_add_57_I16/U286/ZN (NAND2_X1)     0.03       4.61 r
+  add_0_root_add_0_root_add_57_I16/U182/ZN (NAND3_X1)     0.04       4.65 f
+  add_0_root_add_0_root_add_57_I16/U284/ZN (OAI21_X1)     0.06       4.71 r
+  add_0_root_add_0_root_add_57_I16/U281/ZN (NAND2_X1)     0.03       4.74 f
+  add_0_root_add_0_root_add_57_I16/U280/ZN (AOI21_X1)     0.04       4.78 r
+  add_0_root_add_0_root_add_57_I16/U267/ZN (NAND2_X1)     0.04       4.82 f
+  add_0_root_add_0_root_add_57_I16/U274/ZN (NAND2_X1)     0.03       4.85 r
+  add_0_root_add_0_root_add_57_I16/U271/ZN (AND3_X1)      0.05       4.90 r
+  add_0_root_add_0_root_add_57_I16/U356/ZN (NAND3_X1)     0.04       4.94 f
+  add_0_root_add_0_root_add_57_I16/U256/ZN (XNOR2_X1)     0.16       5.10 f
+  add_0_root_add_0_root_add_57_I16/SUM[63] (BOOTHMUL_N32_DW01_add_0)
+                                                          0.00       5.10 f
+  P[63] (out)                                             0.00       5.10 f
+  data arrival time                                                  5.10
+
+  max_delay                                               5.10       5.10
+  output external delay                                   0.00       5.10
+  data required time                                                 5.10
+  --------------------------------------------------------------------------
+  data required time                                                 5.10
+  data arrival time                                                 -5.10
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: A[1] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N32       5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[1] (in)                                               0.00       0.00 f
+  r239/B[1] (BOOTHMUL_N32_DW01_sub_0)                     0.00       0.00 f
+  r239/U13/ZN (NOR2_X1)                                   0.05       0.05 r
+  r239/U12/ZN (XNOR2_X1)                                  0.06       0.11 r
+  r239/DIFF[2] (BOOTHMUL_N32_DW01_sub_0)                  0.00       0.11 r
+  U6035/ZN (INV_X1)                                       0.02       0.13 f
+  U6032/ZN (OAI222_X1)                                    0.06       0.19 r
+  add_14_root_add_57_I16/A[2] (BOOTHMUL_N32_DW01_add_4)
+                                                          0.00       0.19 r
+  add_14_root_add_57_I16/U38/ZN (AND2_X1)                 0.05       0.24 r
+  add_14_root_add_57_I16/U37/ZN (OAI21_X1)                0.03       0.27 f
+  add_14_root_add_57_I16/U36/ZN (INV_X1)                  0.03       0.30 r
+  add_14_root_add_57_I16/U39/ZN (AOI21_X1)                0.03       0.33 f
+  add_14_root_add_57_I16/U43/ZN (NOR2_X1)                 0.05       0.38 r
+  add_14_root_add_57_I16/U42/ZN (OAI21_X1)                0.04       0.42 f
+  add_14_root_add_57_I16/U46/ZN (AND2_X1)                 0.04       0.46 f
+  add_14_root_add_57_I16/U53/ZN (AOI21_X1)                0.05       0.51 r
+  add_14_root_add_57_I16/U52/ZN (XNOR2_X1)                0.06       0.57 r
+  add_14_root_add_57_I16/SUM[6] (BOOTHMUL_N32_DW01_add_4)
+                                                          0.00       0.57 r
+  add_6_root_add_57_I16/A[6] (BOOTHMUL_N32_DW01_add_2)
+                                                          0.00       0.57 r
+  add_6_root_add_57_I16/U26/ZN (INV_X1)                   0.03       0.60 f
+  add_6_root_add_57_I16/U24/ZN (OAI21_X1)                 0.04       0.63 r
+  add_6_root_add_57_I16/U23/ZN (NAND3_X1)                 0.03       0.67 f
+  add_6_root_add_57_I16/U20/ZN (NAND2_X1)                 0.03       0.70 r
+  add_6_root_add_57_I16/U19/ZN (OAI211_X1)                0.04       0.74 f
+  add_6_root_add_57_I16/U22/ZN (NAND2_X1)                 0.03       0.78 r
+  add_6_root_add_57_I16/U38/ZN (NAND2_X1)                 0.03       0.81 f
+  add_6_root_add_57_I16/U32/ZN (NAND2_X1)                 0.03       0.83 r
+  add_6_root_add_57_I16/U31/ZN (NAND2_X1)                 0.03       0.87 f
+  add_6_root_add_57_I16/U36/ZN (NAND2_X1)                 0.03       0.90 r
+  add_6_root_add_57_I16/U58/ZN (NOR2_X1)                  0.02       0.93 f
+  add_6_root_add_57_I16/U54/ZN (NOR2_X1)                  0.05       0.98 r
+  add_6_root_add_57_I16/U53/ZN (OAI21_X1)                 0.03       1.01 f
+  add_6_root_add_57_I16/U48/ZN (OAI21_X1)                 0.04       1.05 r
+  add_6_root_add_57_I16/U56/ZN (NOR2_X1)                  0.03       1.08 f
+  add_6_root_add_57_I16/U66/ZN (NOR2_X1)                  0.04       1.11 r
+  add_6_root_add_57_I16/U63/ZN (AOI21_X1)                 0.03       1.14 f
+  add_6_root_add_57_I16/U62/Z (BUF_X1)                    0.04       1.18 f
+  add_6_root_add_57_I16/U61/ZN (XNOR2_X1)                 0.06       1.24 f
+  add_6_root_add_57_I16/SUM[14] (BOOTHMUL_N32_DW01_add_2)
+                                                          0.00       1.24 f
+  add_2_root_add_57_I16/A[14] (BOOTHMUL_N32_DW01_add_1)
+                                                          0.00       1.24 f
+  add_2_root_add_57_I16/U61/ZN (NAND2_X1)                 0.04       1.28 r
+  add_2_root_add_57_I16/U179/ZN (NAND3_X1)                0.04       1.32 f
+  add_2_root_add_57_I16/U58/ZN (NAND2_X1)                 0.04       1.36 r
+  add_2_root_add_57_I16/U269/ZN (NAND3_X1)                0.04       1.40 f
+  add_2_root_add_57_I16/U75/ZN (NAND2_X1)                 0.04       1.44 r
+  add_2_root_add_57_I16/U71/ZN (NAND3_X1)                 0.03       1.47 f
+  add_2_root_add_57_I16/U308/ZN (NAND2_X1)                0.04       1.50 r
+  add_2_root_add_57_I16/U110/ZN (NAND3_X1)                0.04       1.54 f
+  add_2_root_add_57_I16/U335/ZN (NAND2_X1)                0.04       1.58 r
+  add_2_root_add_57_I16/U2/ZN (NAND3_X1)                  0.04       1.62 f
+  add_2_root_add_57_I16/U338/ZN (NAND2_X1)                0.03       1.65 r
+  add_2_root_add_57_I16/U127/ZN (NAND3_X1)                0.03       1.68 f
+  add_2_root_add_57_I16/U436/ZN (NAND2_X1)                0.04       1.72 r
+  add_2_root_add_57_I16/U50/ZN (NAND3_X1)                 0.04       1.76 f
+  add_2_root_add_57_I16/U432/ZN (NAND2_X1)                0.03       1.79 r
+  add_2_root_add_57_I16/U197/ZN (NAND3_X1)                0.03       1.83 f
+  add_2_root_add_57_I16/U431/ZN (NAND2_X1)                0.03       1.86 r
+  add_2_root_add_57_I16/U233/ZN (AND2_X1)                 0.04       1.90 r
+  add_2_root_add_57_I16/U232/ZN (NAND2_X1)                0.03       1.93 f
+  add_2_root_add_57_I16/U222/ZN (OAI21_X1)                0.04       1.96 r
+  add_2_root_add_57_I16/U12/ZN (AND2_X1)                  0.05       2.01 r
+  add_2_root_add_57_I16/U102/ZN (OAI221_X1)               0.04       2.05 f
+  add_2_root_add_57_I16/U109/ZN (INV_X1)                  0.03       2.08 r
+  add_2_root_add_57_I16/U107/ZN (AOI21_X1)                0.03       2.11 f
+  add_2_root_add_57_I16/U237/ZN (NAND2_X1)                0.03       2.14 r
+  add_2_root_add_57_I16/U223/ZN (NAND3_X1)                0.04       2.18 f
+  add_2_root_add_57_I16/U1_27/CO (FA_X1)                  0.10       2.27 f
+  add_2_root_add_57_I16/U209/ZN (NAND2_X1)                0.04       2.32 r
+  add_2_root_add_57_I16/U230/ZN (NAND3_X1)                0.04       2.36 f
+  add_2_root_add_57_I16/U262/ZN (NAND2_X1)                0.04       2.40 r
+  add_2_root_add_57_I16/U15/ZN (NAND3_X1)                 0.04       2.44 f
+  add_2_root_add_57_I16/U183/ZN (NAND2_X1)                0.03       2.47 r
+  add_2_root_add_57_I16/U90/ZN (NAND3_X1)                 0.03       2.50 f
+  add_2_root_add_57_I16/U176/ZN (NAND2_X1)                0.04       2.53 r
+  add_2_root_add_57_I16/U132/ZN (NAND3_X1)                0.04       2.57 f
+  add_2_root_add_57_I16/U166/ZN (NAND2_X1)                0.04       2.60 r
+  add_2_root_add_57_I16/U138/ZN (NAND3_X1)                0.04       2.64 f
+  add_2_root_add_57_I16/U427/ZN (NAND2_X1)                0.04       2.68 r
+  add_2_root_add_57_I16/U181/ZN (NAND3_X1)                0.04       2.72 f
+  add_2_root_add_57_I16/U401/ZN (NAND2_X1)                0.03       2.74 r
+  add_2_root_add_57_I16/U193/ZN (NAND3_X1)                0.04       2.78 f
+  add_2_root_add_57_I16/U1_35/CO (FA_X1)                  0.10       2.87 f
+  add_2_root_add_57_I16/U404/ZN (NAND2_X1)                0.04       2.92 r
+  add_2_root_add_57_I16/U258/ZN (NAND3_X1)                0.04       2.96 f
+  add_2_root_add_57_I16/U458/ZN (NAND2_X1)                0.04       2.99 r
+  add_2_root_add_57_I16/U273/ZN (NAND3_X1)                0.04       3.03 f
+  add_2_root_add_57_I16/U406/ZN (NAND2_X1)                0.04       3.06 r
+  add_2_root_add_57_I16/U250/ZN (NAND3_X1)                0.04       3.10 f
+  add_2_root_add_57_I16/U391/ZN (NAND2_X1)                0.04       3.14 r
+  add_2_root_add_57_I16/U51/ZN (NAND3_X1)                 0.04       3.18 f
+  add_2_root_add_57_I16/U200/ZN (NAND2_X1)                0.04       3.22 r
+  add_2_root_add_57_I16/U140/ZN (NAND3_X1)                0.03       3.25 f
+  add_2_root_add_57_I16/U196/ZN (NAND2_X1)                0.03       3.28 r
+  add_2_root_add_57_I16/U118/ZN (AND2_X1)                 0.04       3.31 r
+  add_2_root_add_57_I16/U115/ZN (AND2_X1)                 0.04       3.36 r
+  add_2_root_add_57_I16/U120/ZN (OR2_X1)                  0.03       3.39 r
+  add_2_root_add_57_I16/U153/ZN (OAI21_X1)                0.04       3.43 f
+  add_2_root_add_57_I16/U143/ZN (INV_X1)                  0.04       3.47 r
+  add_2_root_add_57_I16/U149/ZN (OAI211_X1)               0.04       3.51 f
+  add_2_root_add_57_I16/U147/ZN (NAND2_X1)                0.03       3.54 r
+  add_2_root_add_57_I16/U242/ZN (NAND3_X1)                0.04       3.57 f
+  add_2_root_add_57_I16/U1_46/CO (FA_X1)                  0.10       3.67 f
+  add_2_root_add_57_I16/U162/ZN (NAND2_X1)                0.04       3.71 r
+  add_2_root_add_57_I16/U53/ZN (NAND3_X1)                 0.04       3.75 f
+  add_2_root_add_57_I16/U379/ZN (NAND2_X1)                0.04       3.78 r
+  add_2_root_add_57_I16/U79/ZN (NAND3_X1)                 0.04       3.82 f
+  add_2_root_add_57_I16/U462/ZN (NAND2_X1)                0.04       3.86 r
+  add_2_root_add_57_I16/U252/ZN (NAND3_X1)                0.04       3.89 f
+  add_2_root_add_57_I16/U251/ZN (NAND2_X1)                0.03       3.92 r
+  add_2_root_add_57_I16/U93/ZN (AND3_X1)                  0.06       3.98 r
+  add_2_root_add_57_I16/U92/ZN (XNOR2_X1)                 0.04       4.02 f
+  add_2_root_add_57_I16/SUM[51] (BOOTHMUL_N32_DW01_add_1)
+                                                          0.00       4.02 f
+  add_0_root_add_0_root_add_57_I16/B[51] (BOOTHMUL_N32_DW01_add_0)
+                                                          0.00       4.02 f
+  add_0_root_add_0_root_add_57_I16/U380/ZN (NOR2_X1)      0.04       4.06 r
+  add_0_root_add_0_root_add_57_I16/U385/ZN (OAI211_X1)
+                                                          0.04       4.10 f
+  add_0_root_add_0_root_add_57_I16/U317/ZN (NAND2_X1)     0.04       4.14 r
+  add_0_root_add_0_root_add_57_I16/U316/ZN (AND2_X1)      0.04       4.18 r
+  add_0_root_add_0_root_add_57_I16/U313/ZN (OAI21_X1)     0.03       4.21 f
+  add_0_root_add_0_root_add_57_I16/U310/ZN (NAND2_X1)     0.03       4.25 r
+  add_0_root_add_0_root_add_57_I16/U47/ZN (NAND3_X1)      0.04       4.29 f
+  add_0_root_add_0_root_add_57_I16/U304/ZN (NAND2_X1)     0.03       4.32 r
+  add_0_root_add_0_root_add_57_I16/U295/ZN (NAND3_X1)     0.03       4.36 f
+  add_0_root_add_0_root_add_57_I16/U299/ZN (NAND2_X1)     0.04       4.39 r
+  add_0_root_add_0_root_add_57_I16/U126/ZN (NAND3_X1)     0.04       4.43 f
+  add_0_root_add_0_root_add_57_I16/U296/ZN (NAND2_X1)     0.04       4.46 r
+  add_0_root_add_0_root_add_57_I16/U200/ZN (NAND3_X1)     0.04       4.50 f
+  add_0_root_add_0_root_add_57_I16/U293/ZN (NAND2_X1)     0.04       4.54 r
+  add_0_root_add_0_root_add_57_I16/U206/ZN (NAND3_X1)     0.04       4.58 f
+  add_0_root_add_0_root_add_57_I16/U286/ZN (NAND2_X1)     0.03       4.61 r
+  add_0_root_add_0_root_add_57_I16/U182/ZN (NAND3_X1)     0.04       4.65 f
+  add_0_root_add_0_root_add_57_I16/U284/ZN (OAI21_X1)     0.06       4.71 r
+  add_0_root_add_0_root_add_57_I16/U281/ZN (NAND2_X1)     0.03       4.74 f
+  add_0_root_add_0_root_add_57_I16/U280/ZN (AOI21_X1)     0.04       4.78 r
+  add_0_root_add_0_root_add_57_I16/U267/ZN (NAND2_X1)     0.04       4.82 f
+  add_0_root_add_0_root_add_57_I16/U274/ZN (NAND2_X1)     0.03       4.85 r
+  add_0_root_add_0_root_add_57_I16/U271/ZN (AND3_X1)      0.05       4.90 r
+  add_0_root_add_0_root_add_57_I16/U356/ZN (NAND3_X1)     0.04       4.94 f
+  add_0_root_add_0_root_add_57_I16/U256/ZN (XNOR2_X1)     0.16       5.10 f
+  add_0_root_add_0_root_add_57_I16/SUM[63] (BOOTHMUL_N32_DW01_add_0)
+                                                          0.00       5.10 f
+  P[63] (out)                                             0.00       5.10 f
+  data arrival time                                                  5.10
+
+  max_delay                                               5.10       5.10
+  output external delay                                   0.00       5.10
+  data required time                                                 5.10
+  --------------------------------------------------------------------------
+  data required time                                                 5.10
+  data arrival time                                                 -5.10
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: A[1] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N32       5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[1] (in)                                               0.00       0.00 f
+  r239/B[1] (BOOTHMUL_N32_DW01_sub_0)                     0.00       0.00 f
+  r239/U13/ZN (NOR2_X1)                                   0.05       0.05 r
+  r239/U12/ZN (XNOR2_X1)                                  0.06       0.11 r
+  r239/DIFF[2] (BOOTHMUL_N32_DW01_sub_0)                  0.00       0.11 r
+  U6035/ZN (INV_X1)                                       0.02       0.13 f
+  U6032/ZN (OAI222_X1)                                    0.06       0.19 r
+  add_14_root_add_57_I16/A[2] (BOOTHMUL_N32_DW01_add_4)
+                                                          0.00       0.19 r
+  add_14_root_add_57_I16/U38/ZN (AND2_X1)                 0.05       0.24 r
+  add_14_root_add_57_I16/U37/ZN (OAI21_X1)                0.03       0.27 f
+  add_14_root_add_57_I16/U36/ZN (INV_X1)                  0.03       0.30 r
+  add_14_root_add_57_I16/U39/ZN (AOI21_X1)                0.03       0.33 f
+  add_14_root_add_57_I16/U43/ZN (NOR2_X1)                 0.05       0.38 r
+  add_14_root_add_57_I16/U42/ZN (OAI21_X1)                0.04       0.42 f
+  add_14_root_add_57_I16/U46/ZN (AND2_X1)                 0.04       0.46 f
+  add_14_root_add_57_I16/U53/ZN (AOI21_X1)                0.05       0.51 r
+  add_14_root_add_57_I16/U52/ZN (XNOR2_X1)                0.06       0.57 r
+  add_14_root_add_57_I16/SUM[6] (BOOTHMUL_N32_DW01_add_4)
+                                                          0.00       0.57 r
+  add_6_root_add_57_I16/A[6] (BOOTHMUL_N32_DW01_add_2)
+                                                          0.00       0.57 r
+  add_6_root_add_57_I16/U26/ZN (INV_X1)                   0.03       0.60 f
+  add_6_root_add_57_I16/U24/ZN (OAI21_X1)                 0.04       0.63 r
+  add_6_root_add_57_I16/U23/ZN (NAND3_X1)                 0.03       0.67 f
+  add_6_root_add_57_I16/U20/ZN (NAND2_X1)                 0.03       0.70 r
+  add_6_root_add_57_I16/U19/ZN (OAI211_X1)                0.04       0.74 f
+  add_6_root_add_57_I16/U22/ZN (NAND2_X1)                 0.03       0.78 r
+  add_6_root_add_57_I16/U38/ZN (NAND2_X1)                 0.03       0.81 f
+  add_6_root_add_57_I16/U32/ZN (NAND2_X1)                 0.03       0.83 r
+  add_6_root_add_57_I16/U31/ZN (NAND2_X1)                 0.03       0.87 f
+  add_6_root_add_57_I16/U36/ZN (NAND2_X1)                 0.03       0.90 r
+  add_6_root_add_57_I16/U58/ZN (NOR2_X1)                  0.02       0.93 f
+  add_6_root_add_57_I16/U54/ZN (NOR2_X1)                  0.05       0.98 r
+  add_6_root_add_57_I16/U53/ZN (OAI21_X1)                 0.03       1.01 f
+  add_6_root_add_57_I16/U48/ZN (OAI21_X1)                 0.04       1.05 r
+  add_6_root_add_57_I16/U56/ZN (NOR2_X1)                  0.03       1.08 f
+  add_6_root_add_57_I16/U66/ZN (NOR2_X1)                  0.04       1.11 r
+  add_6_root_add_57_I16/U63/ZN (AOI21_X1)                 0.03       1.14 f
+  add_6_root_add_57_I16/U62/Z (BUF_X1)                    0.04       1.18 f
+  add_6_root_add_57_I16/U61/ZN (XNOR2_X1)                 0.06       1.24 f
+  add_6_root_add_57_I16/SUM[14] (BOOTHMUL_N32_DW01_add_2)
+                                                          0.00       1.24 f
+  add_2_root_add_57_I16/A[14] (BOOTHMUL_N32_DW01_add_1)
+                                                          0.00       1.24 f
+  add_2_root_add_57_I16/U61/ZN (NAND2_X1)                 0.04       1.28 r
+  add_2_root_add_57_I16/U179/ZN (NAND3_X1)                0.04       1.32 f
+  add_2_root_add_57_I16/U58/ZN (NAND2_X1)                 0.04       1.36 r
+  add_2_root_add_57_I16/U158/ZN (NAND3_X1)                0.04       1.40 f
+  add_2_root_add_57_I16/U66/ZN (NAND2_X1)                 0.04       1.43 r
+  add_2_root_add_57_I16/U73/ZN (NAND3_X1)                 0.04       1.47 f
+  add_2_root_add_57_I16/U318/ZN (NAND2_X1)                0.04       1.50 r
+  add_2_root_add_57_I16/U110/ZN (NAND3_X1)                0.04       1.54 f
+  add_2_root_add_57_I16/U335/ZN (NAND2_X1)                0.04       1.58 r
+  add_2_root_add_57_I16/U2/ZN (NAND3_X1)                  0.04       1.62 f
+  add_2_root_add_57_I16/U338/ZN (NAND2_X1)                0.03       1.65 r
+  add_2_root_add_57_I16/U127/ZN (NAND3_X1)                0.03       1.68 f
+  add_2_root_add_57_I16/U436/ZN (NAND2_X1)                0.04       1.72 r
+  add_2_root_add_57_I16/U50/ZN (NAND3_X1)                 0.04       1.76 f
+  add_2_root_add_57_I16/U432/ZN (NAND2_X1)                0.03       1.79 r
+  add_2_root_add_57_I16/U197/ZN (NAND3_X1)                0.03       1.83 f
+  add_2_root_add_57_I16/U431/ZN (NAND2_X1)                0.03       1.86 r
+  add_2_root_add_57_I16/U233/ZN (AND2_X1)                 0.04       1.90 r
+  add_2_root_add_57_I16/U232/ZN (NAND2_X1)                0.03       1.93 f
+  add_2_root_add_57_I16/U222/ZN (OAI21_X1)                0.04       1.96 r
+  add_2_root_add_57_I16/U12/ZN (AND2_X1)                  0.05       2.01 r
+  add_2_root_add_57_I16/U102/ZN (OAI221_X1)               0.04       2.06 f
+  add_2_root_add_57_I16/U109/ZN (INV_X1)                  0.03       2.08 r
+  add_2_root_add_57_I16/U107/ZN (AOI21_X1)                0.03       2.11 f
+  add_2_root_add_57_I16/U237/ZN (NAND2_X1)                0.03       2.14 r
+  add_2_root_add_57_I16/U223/ZN (NAND3_X1)                0.04       2.18 f
+  add_2_root_add_57_I16/U1_27/CO (FA_X1)                  0.10       2.27 f
+  add_2_root_add_57_I16/U209/ZN (NAND2_X1)                0.04       2.32 r
+  add_2_root_add_57_I16/U230/ZN (NAND3_X1)                0.04       2.36 f
+  add_2_root_add_57_I16/U394/ZN (NAND2_X1)                0.03       2.39 r
+  add_2_root_add_57_I16/U263/ZN (NAND3_X1)                0.04       2.43 f
+  add_2_root_add_57_I16/U39/ZN (NAND2_X1)                 0.04       2.47 r
+  add_2_root_add_57_I16/U45/ZN (NAND3_X1)                 0.04       2.51 f
+  add_2_root_add_57_I16/U170/ZN (NAND2_X1)                0.03       2.54 r
+  add_2_root_add_57_I16/U100/ZN (NAND3_X1)                0.03       2.57 f
+  add_2_root_add_57_I16/U426/ZN (NAND2_X1)                0.04       2.61 r
+  add_2_root_add_57_I16/U138/ZN (NAND3_X1)                0.04       2.64 f
+  add_2_root_add_57_I16/U427/ZN (NAND2_X1)                0.04       2.68 r
+  add_2_root_add_57_I16/U181/ZN (NAND3_X1)                0.04       2.72 f
+  add_2_root_add_57_I16/U401/ZN (NAND2_X1)                0.03       2.74 r
+  add_2_root_add_57_I16/U193/ZN (NAND3_X1)                0.04       2.78 f
+  add_2_root_add_57_I16/U1_35/CO (FA_X1)                  0.10       2.88 f
+  add_2_root_add_57_I16/U404/ZN (NAND2_X1)                0.04       2.92 r
+  add_2_root_add_57_I16/U258/ZN (NAND3_X1)                0.04       2.96 f
+  add_2_root_add_57_I16/U458/ZN (NAND2_X1)                0.04       2.99 r
+  add_2_root_add_57_I16/U273/ZN (NAND3_X1)                0.04       3.03 f
+  add_2_root_add_57_I16/U406/ZN (NAND2_X1)                0.04       3.06 r
+  add_2_root_add_57_I16/U250/ZN (NAND3_X1)                0.04       3.10 f
+  add_2_root_add_57_I16/U391/ZN (NAND2_X1)                0.04       3.14 r
+  add_2_root_add_57_I16/U51/ZN (NAND3_X1)                 0.04       3.18 f
+  add_2_root_add_57_I16/U200/ZN (NAND2_X1)                0.04       3.22 r
+  add_2_root_add_57_I16/U140/ZN (NAND3_X1)                0.03       3.25 f
+  add_2_root_add_57_I16/U196/ZN (NAND2_X1)                0.03       3.28 r
+  add_2_root_add_57_I16/U118/ZN (AND2_X1)                 0.04       3.31 r
+  add_2_root_add_57_I16/U115/ZN (AND2_X1)                 0.04       3.36 r
+  add_2_root_add_57_I16/U120/ZN (OR2_X1)                  0.03       3.39 r
+  add_2_root_add_57_I16/U153/ZN (OAI21_X1)                0.04       3.43 f
+  add_2_root_add_57_I16/U143/ZN (INV_X1)                  0.04       3.47 r
+  add_2_root_add_57_I16/U149/ZN (OAI211_X1)               0.04       3.51 f
+  add_2_root_add_57_I16/U147/ZN (NAND2_X1)                0.03       3.54 r
+  add_2_root_add_57_I16/U242/ZN (NAND3_X1)                0.04       3.57 f
+  add_2_root_add_57_I16/U1_46/CO (FA_X1)                  0.10       3.67 f
+  add_2_root_add_57_I16/U162/ZN (NAND2_X1)                0.04       3.71 r
+  add_2_root_add_57_I16/U53/ZN (NAND3_X1)                 0.04       3.75 f
+  add_2_root_add_57_I16/U379/ZN (NAND2_X1)                0.04       3.78 r
+  add_2_root_add_57_I16/U79/ZN (NAND3_X1)                 0.04       3.82 f
+  add_2_root_add_57_I16/U462/ZN (NAND2_X1)                0.04       3.86 r
+  add_2_root_add_57_I16/U252/ZN (NAND3_X1)                0.04       3.89 f
+  add_2_root_add_57_I16/U251/ZN (NAND2_X1)                0.03       3.92 r
+  add_2_root_add_57_I16/U93/ZN (AND3_X1)                  0.06       3.98 r
+  add_2_root_add_57_I16/U92/ZN (XNOR2_X1)                 0.04       4.02 f
+  add_2_root_add_57_I16/SUM[51] (BOOTHMUL_N32_DW01_add_1)
+                                                          0.00       4.02 f
+  add_0_root_add_0_root_add_57_I16/B[51] (BOOTHMUL_N32_DW01_add_0)
+                                                          0.00       4.02 f
+  add_0_root_add_0_root_add_57_I16/U380/ZN (NOR2_X1)      0.04       4.06 r
+  add_0_root_add_0_root_add_57_I16/U385/ZN (OAI211_X1)
+                                                          0.04       4.10 f
+  add_0_root_add_0_root_add_57_I16/U317/ZN (NAND2_X1)     0.04       4.14 r
+  add_0_root_add_0_root_add_57_I16/U333/ZN (AND2_X1)      0.05       4.19 r
+  add_0_root_add_0_root_add_57_I16/U388/ZN (OAI21_X1)     0.03       4.22 f
+  add_0_root_add_0_root_add_57_I16/U395/ZN (NAND2_X1)     0.03       4.25 r
+  add_0_root_add_0_root_add_57_I16/U4/ZN (NAND3_X1)       0.03       4.28 f
+  add_0_root_add_0_root_add_57_I16/U305/ZN (NAND2_X1)     0.04       4.32 r
+  add_0_root_add_0_root_add_57_I16/U288/ZN (NAND3_X1)     0.04       4.35 f
+  add_0_root_add_0_root_add_57_I16/U300/ZN (NAND2_X1)     0.04       4.39 r
+  add_0_root_add_0_root_add_57_I16/U126/ZN (NAND3_X1)     0.04       4.43 f
+  add_0_root_add_0_root_add_57_I16/U296/ZN (NAND2_X1)     0.04       4.46 r
+  add_0_root_add_0_root_add_57_I16/U200/ZN (NAND3_X1)     0.04       4.50 f
+  add_0_root_add_0_root_add_57_I16/U293/ZN (NAND2_X1)     0.04       4.54 r
+  add_0_root_add_0_root_add_57_I16/U206/ZN (NAND3_X1)     0.04       4.58 f
+  add_0_root_add_0_root_add_57_I16/U286/ZN (NAND2_X1)     0.03       4.61 r
+  add_0_root_add_0_root_add_57_I16/U182/ZN (NAND3_X1)     0.04       4.65 f
+  add_0_root_add_0_root_add_57_I16/U284/ZN (OAI21_X1)     0.06       4.71 r
+  add_0_root_add_0_root_add_57_I16/U281/ZN (NAND2_X1)     0.03       4.74 f
+  add_0_root_add_0_root_add_57_I16/U280/ZN (AOI21_X1)     0.04       4.78 r
+  add_0_root_add_0_root_add_57_I16/U267/ZN (NAND2_X1)     0.04       4.82 f
+  add_0_root_add_0_root_add_57_I16/U274/ZN (NAND2_X1)     0.03       4.85 r
+  add_0_root_add_0_root_add_57_I16/U271/ZN (AND3_X1)      0.05       4.90 r
+  add_0_root_add_0_root_add_57_I16/U356/ZN (NAND3_X1)     0.04       4.94 f
+  add_0_root_add_0_root_add_57_I16/U256/ZN (XNOR2_X1)     0.16       5.10 f
+  add_0_root_add_0_root_add_57_I16/SUM[63] (BOOTHMUL_N32_DW01_add_0)
+                                                          0.00       5.10 f
+  P[63] (out)                                             0.00       5.10 f
+  data arrival time                                                  5.10
+
+  max_delay                                               5.10       5.10
+  output external delay                                   0.00       5.10
+  data required time                                                 5.10
+  --------------------------------------------------------------------------
+  data required time                                                 5.10
+  data arrival time                                                 -5.10
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: A[1] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N32       5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[1] (in)                                               0.00       0.00 f
+  r239/B[1] (BOOTHMUL_N32_DW01_sub_0)                     0.00       0.00 f
+  r239/U13/ZN (NOR2_X1)                                   0.05       0.05 r
+  r239/U12/ZN (XNOR2_X1)                                  0.06       0.11 r
+  r239/DIFF[2] (BOOTHMUL_N32_DW01_sub_0)                  0.00       0.11 r
+  U6035/ZN (INV_X1)                                       0.02       0.13 f
+  U6032/ZN (OAI222_X1)                                    0.06       0.19 r
+  add_14_root_add_57_I16/A[2] (BOOTHMUL_N32_DW01_add_4)
+                                                          0.00       0.19 r
+  add_14_root_add_57_I16/U38/ZN (AND2_X1)                 0.05       0.24 r
+  add_14_root_add_57_I16/U37/ZN (OAI21_X1)                0.03       0.27 f
+  add_14_root_add_57_I16/U36/ZN (INV_X1)                  0.03       0.30 r
+  add_14_root_add_57_I16/U39/ZN (AOI21_X1)                0.03       0.33 f
+  add_14_root_add_57_I16/U43/ZN (NOR2_X1)                 0.05       0.38 r
+  add_14_root_add_57_I16/U42/ZN (OAI21_X1)                0.04       0.42 f
+  add_14_root_add_57_I16/U46/ZN (AND2_X1)                 0.04       0.46 f
+  add_14_root_add_57_I16/U53/ZN (AOI21_X1)                0.05       0.51 r
+  add_14_root_add_57_I16/U52/ZN (XNOR2_X1)                0.06       0.57 r
+  add_14_root_add_57_I16/SUM[6] (BOOTHMUL_N32_DW01_add_4)
+                                                          0.00       0.57 r
+  add_6_root_add_57_I16/A[6] (BOOTHMUL_N32_DW01_add_2)
+                                                          0.00       0.57 r
+  add_6_root_add_57_I16/U26/ZN (INV_X1)                   0.03       0.60 f
+  add_6_root_add_57_I16/U24/ZN (OAI21_X1)                 0.04       0.63 r
+  add_6_root_add_57_I16/U23/ZN (NAND3_X1)                 0.03       0.67 f
+  add_6_root_add_57_I16/U20/ZN (NAND2_X1)                 0.03       0.70 r
+  add_6_root_add_57_I16/U19/ZN (OAI211_X1)                0.04       0.74 f
+  add_6_root_add_57_I16/U22/ZN (NAND2_X1)                 0.03       0.78 r
+  add_6_root_add_57_I16/U38/ZN (NAND2_X1)                 0.03       0.81 f
+  add_6_root_add_57_I16/U32/ZN (NAND2_X1)                 0.03       0.83 r
+  add_6_root_add_57_I16/U31/ZN (NAND2_X1)                 0.03       0.87 f
+  add_6_root_add_57_I16/U36/ZN (NAND2_X1)                 0.03       0.90 r
+  add_6_root_add_57_I16/U58/ZN (NOR2_X1)                  0.02       0.93 f
+  add_6_root_add_57_I16/U54/ZN (NOR2_X1)                  0.05       0.98 r
+  add_6_root_add_57_I16/U53/ZN (OAI21_X1)                 0.03       1.01 f
+  add_6_root_add_57_I16/U48/ZN (OAI21_X1)                 0.04       1.05 r
+  add_6_root_add_57_I16/U56/ZN (NOR2_X1)                  0.03       1.08 f
+  add_6_root_add_57_I16/U66/ZN (NOR2_X1)                  0.04       1.11 r
+  add_6_root_add_57_I16/U63/ZN (AOI21_X1)                 0.03       1.14 f
+  add_6_root_add_57_I16/U62/Z (BUF_X1)                    0.04       1.18 f
+  add_6_root_add_57_I16/U61/ZN (XNOR2_X1)                 0.06       1.24 f
+  add_6_root_add_57_I16/SUM[14] (BOOTHMUL_N32_DW01_add_2)
+                                                          0.00       1.24 f
+  add_2_root_add_57_I16/A[14] (BOOTHMUL_N32_DW01_add_1)
+                                                          0.00       1.24 f
+  add_2_root_add_57_I16/U61/ZN (NAND2_X1)                 0.04       1.28 r
+  add_2_root_add_57_I16/U179/ZN (NAND3_X1)                0.04       1.32 f
+  add_2_root_add_57_I16/U58/ZN (NAND2_X1)                 0.04       1.36 r
+  add_2_root_add_57_I16/U158/ZN (NAND3_X1)                0.04       1.40 f
+  add_2_root_add_57_I16/U66/ZN (NAND2_X1)                 0.04       1.43 r
+  add_2_root_add_57_I16/U73/ZN (NAND3_X1)                 0.04       1.47 f
+  add_2_root_add_57_I16/U318/ZN (NAND2_X1)                0.04       1.50 r
+  add_2_root_add_57_I16/U110/ZN (NAND3_X1)                0.04       1.54 f
+  add_2_root_add_57_I16/U335/ZN (NAND2_X1)                0.04       1.58 r
+  add_2_root_add_57_I16/U2/ZN (NAND3_X1)                  0.04       1.62 f
+  add_2_root_add_57_I16/U338/ZN (NAND2_X1)                0.03       1.65 r
+  add_2_root_add_57_I16/U127/ZN (NAND3_X1)                0.03       1.68 f
+  add_2_root_add_57_I16/U436/ZN (NAND2_X1)                0.04       1.72 r
+  add_2_root_add_57_I16/U50/ZN (NAND3_X1)                 0.04       1.76 f
+  add_2_root_add_57_I16/U432/ZN (NAND2_X1)                0.03       1.79 r
+  add_2_root_add_57_I16/U197/ZN (NAND3_X1)                0.03       1.83 f
+  add_2_root_add_57_I16/U431/ZN (NAND2_X1)                0.03       1.86 r
+  add_2_root_add_57_I16/U233/ZN (AND2_X1)                 0.04       1.90 r
+  add_2_root_add_57_I16/U232/ZN (NAND2_X1)                0.03       1.93 f
+  add_2_root_add_57_I16/U222/ZN (OAI21_X1)                0.04       1.96 r
+  add_2_root_add_57_I16/U12/ZN (AND2_X1)                  0.05       2.01 r
+  add_2_root_add_57_I16/U102/ZN (OAI221_X1)               0.04       2.06 f
+  add_2_root_add_57_I16/U109/ZN (INV_X1)                  0.03       2.08 r
+  add_2_root_add_57_I16/U107/ZN (AOI21_X1)                0.03       2.11 f
+  add_2_root_add_57_I16/U237/ZN (NAND2_X1)                0.03       2.14 r
+  add_2_root_add_57_I16/U223/ZN (NAND3_X1)                0.04       2.18 f
+  add_2_root_add_57_I16/U1_27/CO (FA_X1)                  0.10       2.27 f
+  add_2_root_add_57_I16/U211/ZN (NAND2_X1)                0.04       2.32 r
+  add_2_root_add_57_I16/U246/ZN (NAND3_X1)                0.04       2.36 f
+  add_2_root_add_57_I16/U54/ZN (NAND2_X1)                 0.04       2.40 r
+  add_2_root_add_57_I16/U25/ZN (NAND3_X1)                 0.04       2.43 f
+  add_2_root_add_57_I16/U194/ZN (NAND2_X1)                0.04       2.47 r
+  add_2_root_add_57_I16/U45/ZN (NAND3_X1)                 0.04       2.51 f
+  add_2_root_add_57_I16/U170/ZN (NAND2_X1)                0.03       2.54 r
+  add_2_root_add_57_I16/U100/ZN (NAND3_X1)                0.03       2.57 f
+  add_2_root_add_57_I16/U426/ZN (NAND2_X1)                0.04       2.61 r
+  add_2_root_add_57_I16/U138/ZN (NAND3_X1)                0.04       2.64 f
+  add_2_root_add_57_I16/U427/ZN (NAND2_X1)                0.04       2.68 r
+  add_2_root_add_57_I16/U181/ZN (NAND3_X1)                0.04       2.72 f
+  add_2_root_add_57_I16/U401/ZN (NAND2_X1)                0.03       2.74 r
+  add_2_root_add_57_I16/U193/ZN (NAND3_X1)                0.04       2.78 f
+  add_2_root_add_57_I16/U1_35/CO (FA_X1)                  0.10       2.87 f
+  add_2_root_add_57_I16/U404/ZN (NAND2_X1)                0.04       2.92 r
+  add_2_root_add_57_I16/U258/ZN (NAND3_X1)                0.04       2.96 f
+  add_2_root_add_57_I16/U458/ZN (NAND2_X1)                0.04       2.99 r
+  add_2_root_add_57_I16/U273/ZN (NAND3_X1)                0.04       3.03 f
+  add_2_root_add_57_I16/U406/ZN (NAND2_X1)                0.04       3.06 r
+  add_2_root_add_57_I16/U250/ZN (NAND3_X1)                0.04       3.10 f
+  add_2_root_add_57_I16/U391/ZN (NAND2_X1)                0.04       3.14 r
+  add_2_root_add_57_I16/U11/ZN (NAND3_X1)                 0.04       3.18 f
+  add_2_root_add_57_I16/U198/ZN (NAND2_X1)                0.04       3.21 r
+  add_2_root_add_57_I16/U140/ZN (NAND3_X1)                0.04       3.25 f
+  add_2_root_add_57_I16/U196/ZN (NAND2_X1)                0.03       3.28 r
+  add_2_root_add_57_I16/U118/ZN (AND2_X1)                 0.04       3.31 r
+  add_2_root_add_57_I16/U115/ZN (AND2_X1)                 0.04       3.36 r
+  add_2_root_add_57_I16/U120/ZN (OR2_X1)                  0.03       3.39 r
+  add_2_root_add_57_I16/U153/ZN (OAI21_X1)                0.04       3.43 f
+  add_2_root_add_57_I16/U143/ZN (INV_X1)                  0.04       3.47 r
+  add_2_root_add_57_I16/U149/ZN (OAI211_X1)               0.04       3.51 f
+  add_2_root_add_57_I16/U147/ZN (NAND2_X1)                0.03       3.54 r
+  add_2_root_add_57_I16/U242/ZN (NAND3_X1)                0.04       3.57 f
+  add_2_root_add_57_I16/U1_46/CO (FA_X1)                  0.10       3.67 f
+  add_2_root_add_57_I16/U162/ZN (NAND2_X1)                0.04       3.71 r
+  add_2_root_add_57_I16/U53/ZN (NAND3_X1)                 0.04       3.75 f
+  add_2_root_add_57_I16/U379/ZN (NAND2_X1)                0.04       3.78 r
+  add_2_root_add_57_I16/U79/ZN (NAND3_X1)                 0.04       3.82 f
+  add_2_root_add_57_I16/U462/ZN (NAND2_X1)                0.04       3.86 r
+  add_2_root_add_57_I16/U252/ZN (NAND3_X1)                0.04       3.89 f
+  add_2_root_add_57_I16/U251/ZN (NAND2_X1)                0.03       3.92 r
+  add_2_root_add_57_I16/U93/ZN (AND3_X1)                  0.06       3.98 r
+  add_2_root_add_57_I16/U92/ZN (XNOR2_X1)                 0.04       4.02 f
+  add_2_root_add_57_I16/SUM[51] (BOOTHMUL_N32_DW01_add_1)
+                                                          0.00       4.02 f
+  add_0_root_add_0_root_add_57_I16/B[51] (BOOTHMUL_N32_DW01_add_0)
+                                                          0.00       4.02 f
+  add_0_root_add_0_root_add_57_I16/U380/ZN (NOR2_X1)      0.04       4.06 r
+  add_0_root_add_0_root_add_57_I16/U385/ZN (OAI211_X1)
+                                                          0.04       4.10 f
+  add_0_root_add_0_root_add_57_I16/U317/ZN (NAND2_X1)     0.04       4.14 r
+  add_0_root_add_0_root_add_57_I16/U316/ZN (AND2_X1)      0.04       4.18 r
+  add_0_root_add_0_root_add_57_I16/U313/ZN (OAI21_X1)     0.03       4.21 f
+  add_0_root_add_0_root_add_57_I16/U310/ZN (NAND2_X1)     0.03       4.25 r
+  add_0_root_add_0_root_add_57_I16/U47/ZN (NAND3_X1)      0.04       4.29 f
+  add_0_root_add_0_root_add_57_I16/U304/ZN (NAND2_X1)     0.03       4.32 r
+  add_0_root_add_0_root_add_57_I16/U295/ZN (NAND3_X1)     0.03       4.36 f
+  add_0_root_add_0_root_add_57_I16/U299/ZN (NAND2_X1)     0.04       4.39 r
+  add_0_root_add_0_root_add_57_I16/U126/ZN (NAND3_X1)     0.04       4.43 f
+  add_0_root_add_0_root_add_57_I16/U296/ZN (NAND2_X1)     0.04       4.46 r
+  add_0_root_add_0_root_add_57_I16/U200/ZN (NAND3_X1)     0.04       4.50 f
+  add_0_root_add_0_root_add_57_I16/U293/ZN (NAND2_X1)     0.04       4.54 r
+  add_0_root_add_0_root_add_57_I16/U206/ZN (NAND3_X1)     0.04       4.58 f
+  add_0_root_add_0_root_add_57_I16/U286/ZN (NAND2_X1)     0.03       4.61 r
+  add_0_root_add_0_root_add_57_I16/U182/ZN (NAND3_X1)     0.04       4.65 f
+  add_0_root_add_0_root_add_57_I16/U284/ZN (OAI21_X1)     0.06       4.71 r
+  add_0_root_add_0_root_add_57_I16/U281/ZN (NAND2_X1)     0.03       4.74 f
+  add_0_root_add_0_root_add_57_I16/U280/ZN (AOI21_X1)     0.04       4.78 r
+  add_0_root_add_0_root_add_57_I16/U267/ZN (NAND2_X1)     0.04       4.82 f
+  add_0_root_add_0_root_add_57_I16/U274/ZN (NAND2_X1)     0.03       4.85 r
+  add_0_root_add_0_root_add_57_I16/U271/ZN (AND3_X1)      0.05       4.90 r
+  add_0_root_add_0_root_add_57_I16/U356/ZN (NAND3_X1)     0.04       4.94 f
+  add_0_root_add_0_root_add_57_I16/U256/ZN (XNOR2_X1)     0.16       5.10 f
+  add_0_root_add_0_root_add_57_I16/SUM[63] (BOOTHMUL_N32_DW01_add_0)
+                                                          0.00       5.10 f
+  P[63] (out)                                             0.00       5.10 f
+  data arrival time                                                  5.10
+
+  max_delay                                               5.10       5.10
+  output external delay                                   0.00       5.10
+  data required time                                                 5.10
+  --------------------------------------------------------------------------
+  data required time                                                 5.10
+  data arrival time                                                 -5.10
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

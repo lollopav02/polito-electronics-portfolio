@@ -1,0 +1,1088 @@
+Module: DW01_sub_width33, Ports: 101, Input: 67, Output: 34, Inout: 0
+Module: DW01_sub_width33, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_sub_width33, Ports: 101, Input: 67, Output: 34, Inout: 0
+Module: DW01_sub_width33, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_sub_width32, Ports: 98, Input: 65, Output: 33, Inout: 0
+Module: DW01_sub_width32, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_sub_width32, Ports: 98, Input: 65, Output: 33, Inout: 0
+Module: DW01_sub_width32, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width36, Ports: 110, Input: 73, Output: 37, Inout: 0
+Module: DW01_add_width36, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width36, Ports: 110, Input: 73, Output: 37, Inout: 0
+Module: DW01_add_width36, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width38, Ports: 116, Input: 77, Output: 39, Inout: 0
+Module: DW01_add_width38, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width38, Ports: 116, Input: 77, Output: 39, Inout: 0
+Module: DW01_add_width38, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width40, Ports: 122, Input: 81, Output: 41, Inout: 0
+Module: DW01_add_width40, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width40, Ports: 122, Input: 81, Output: 41, Inout: 0
+Module: DW01_add_width40, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width42, Ports: 128, Input: 85, Output: 43, Inout: 0
+Module: DW01_add_width42, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width42, Ports: 128, Input: 85, Output: 43, Inout: 0
+Module: DW01_add_width42, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width44, Ports: 134, Input: 89, Output: 45, Inout: 0
+Module: DW01_add_width44, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width44, Ports: 134, Input: 89, Output: 45, Inout: 0
+Module: DW01_add_width44, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width46, Ports: 140, Input: 93, Output: 47, Inout: 0
+Module: DW01_add_width46, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width46, Ports: 140, Input: 93, Output: 47, Inout: 0
+Module: DW01_add_width46, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width48, Ports: 146, Input: 97, Output: 49, Inout: 0
+Module: DW01_add_width48, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width48, Ports: 146, Input: 97, Output: 49, Inout: 0
+Module: DW01_add_width48, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width50, Ports: 152, Input: 101, Output: 51, Inout: 0
+Module: DW01_add_width50, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width50, Ports: 152, Input: 101, Output: 51, Inout: 0
+Module: DW01_add_width50, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width52, Ports: 158, Input: 105, Output: 53, Inout: 0
+Module: DW01_add_width52, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width52, Ports: 158, Input: 105, Output: 53, Inout: 0
+Module: DW01_add_width52, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width54, Ports: 164, Input: 109, Output: 55, Inout: 0
+Module: DW01_add_width54, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width54, Ports: 164, Input: 109, Output: 55, Inout: 0
+Module: DW01_add_width54, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width56, Ports: 170, Input: 113, Output: 57, Inout: 0
+Module: DW01_add_width56, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width56, Ports: 170, Input: 113, Output: 57, Inout: 0
+Module: DW01_add_width56, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width58, Ports: 176, Input: 117, Output: 59, Inout: 0
+Module: DW01_add_width58, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width58, Ports: 176, Input: 117, Output: 59, Inout: 0
+Module: DW01_add_width58, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width60, Ports: 182, Input: 121, Output: 61, Inout: 0
+Module: DW01_add_width60, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width60, Ports: 182, Input: 121, Output: 61, Inout: 0
+Module: DW01_add_width60, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width62, Ports: 188, Input: 125, Output: 63, Inout: 0
+Module: DW01_add_width62, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width62, Ports: 188, Input: 125, Output: 63, Inout: 0
+Module: DW01_add_width62, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width64, Ports: 194, Input: 129, Output: 65, Inout: 0
+Module: DW01_add_width64, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Module: DW01_add_width64, Ports: 194, Input: 129, Output: 65, Inout: 0
+Module: DW01_add_width64, Registers: 0, Async set/reset: 0, Sync set/reset: 0
+Information: Updating design information... (UID-85)
+Warning: Design 'BOOTHMUL_N32' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 10
+        -max_paths 10
+Design : BOOTHMUL_N32
+Version: W-2024.09-SP2
+Date   : Wed Apr  8 16:30:27 2026
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: A[0] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N32       5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  sub_42/B_0 (*SUB_TC_OP_1_32_32)                         0.00       0.00 f
+  sub_42/*cell*42/B[0] (DW01_sub_width32)                 0.00       0.00 f
+  ...
+  sub_42/*cell*42/DIFF[31] (DW01_sub_width32)             0.07       0.07 r
+  sub_42/Z_31 (*SUB_TC_OP_1_32_32)                        0.00       0.07 r
+  C1221/Z_31 (*SELECT_OP_5.33_5.1_33)                     0.00       0.08 r
+  add_57_I2/A_31 (*ADD_TC_OP_33_35_36)                    0.00       0.08 r
+  add_57_I2/*cell*135/A[31] (DW01_add_width36)            0.00       0.08 r
+  ...
+  add_57_I2/*cell*135/SUM[35] (DW01_add_width36)          0.01       0.09 r
+  add_57_I2/Z_35 (*ADD_TC_OP_33_35_36)                    0.00       0.09 r
+  add_57_I3/A_35 (*ADD_TC_OP_36_37_38)                    0.00       0.09 r
+  add_57_I3/*cell*138/A[35] (DW01_add_width38)            0.00       0.09 r
+  ...
+  add_57_I3/*cell*138/SUM[37] (DW01_add_width38)          0.01       0.09 r
+  add_57_I3/Z_37 (*ADD_TC_OP_36_37_38)                    0.00       0.09 r
+  add_57_I4/A_37 (*ADD_TC_OP_38_39_40)                    0.00       0.09 r
+  add_57_I4/*cell*141/A[37] (DW01_add_width40)            0.00       0.09 r
+  ...
+  add_57_I4/*cell*141/SUM[39] (DW01_add_width40)          0.01       0.10 r
+  add_57_I4/Z_39 (*ADD_TC_OP_38_39_40)                    0.00       0.10 r
+  add_57_I5/A_39 (*ADD_TC_OP_40_41_42)                    0.00       0.10 r
+  add_57_I5/*cell*144/A[39] (DW01_add_width42)            0.00       0.10 r
+  ...
+  add_57_I5/*cell*144/SUM[41] (DW01_add_width42)          0.01       0.11 r
+  add_57_I5/Z_41 (*ADD_TC_OP_40_41_42)                    0.00       0.11 r
+  add_57_I6/A_41 (*ADD_TC_OP_42_43_44)                    0.00       0.11 r
+  add_57_I6/*cell*147/A[41] (DW01_add_width44)            0.00       0.11 r
+  ...
+  add_57_I6/*cell*147/SUM[43] (DW01_add_width44)          0.01       0.11 r
+  add_57_I6/Z_43 (*ADD_TC_OP_42_43_44)                    0.00       0.11 r
+  add_57_I7/A_43 (*ADD_TC_OP_44_45_46)                    0.00       0.11 r
+  add_57_I7/*cell*150/A[43] (DW01_add_width46)            0.00       0.11 r
+  ...
+  add_57_I7/*cell*150/SUM[45] (DW01_add_width46)          0.01       0.12 r
+  add_57_I7/Z_45 (*ADD_TC_OP_44_45_46)                    0.00       0.12 r
+  add_57_I8/A_45 (*ADD_TC_OP_46_47_48)                    0.00       0.12 r
+  add_57_I8/*cell*153/A[45] (DW01_add_width48)            0.00       0.12 r
+  ...
+  add_57_I8/*cell*153/SUM[47] (DW01_add_width48)          0.01       0.13 r
+  add_57_I8/Z_47 (*ADD_TC_OP_46_47_48)                    0.00       0.13 r
+  add_57_I9/A_47 (*ADD_TC_OP_48_49_50)                    0.00       0.13 r
+  add_57_I9/*cell*156/A[47] (DW01_add_width50)            0.00       0.13 r
+  ...
+  add_57_I9/*cell*156/SUM[49] (DW01_add_width50)          0.01       0.13 r
+  add_57_I9/Z_49 (*ADD_TC_OP_48_49_50)                    0.00       0.13 r
+  add_57_I10/A_49 (*ADD_TC_OP_50_51_52)                   0.00       0.13 r
+  add_57_I10/*cell*159/A[49] (DW01_add_width52)           0.00       0.13 r
+  ...
+  add_57_I10/*cell*159/SUM[51] (DW01_add_width52)         0.01       0.14 r
+  add_57_I10/Z_51 (*ADD_TC_OP_50_51_52)                   0.00       0.14 r
+  add_57_I11/A_51 (*ADD_TC_OP_52_53_54)                   0.00       0.14 r
+  add_57_I11/*cell*162/A[51] (DW01_add_width54)           0.00       0.14 r
+  ...
+  add_57_I11/*cell*162/SUM[53] (DW01_add_width54)         0.01       0.15 r
+  add_57_I11/Z_53 (*ADD_TC_OP_52_53_54)                   0.00       0.15 r
+  add_57_I12/A_53 (*ADD_TC_OP_54_55_56)                   0.00       0.15 r
+  add_57_I12/*cell*165/A[53] (DW01_add_width56)           0.00       0.15 r
+  ...
+  add_57_I12/*cell*165/SUM[55] (DW01_add_width56)         0.01       0.16 r
+  add_57_I12/Z_55 (*ADD_TC_OP_54_55_56)                   0.00       0.16 r
+  add_57_I13/A_55 (*ADD_TC_OP_56_57_58)                   0.00       0.16 r
+  add_57_I13/*cell*168/A[55] (DW01_add_width58)           0.00       0.16 r
+  ...
+  add_57_I13/*cell*168/SUM[57] (DW01_add_width58)         0.01       0.16 r
+  add_57_I13/Z_57 (*ADD_TC_OP_56_57_58)                   0.00       0.16 r
+  add_57_I14/A_57 (*ADD_TC_OP_58_59_60)                   0.00       0.16 r
+  add_57_I14/*cell*171/A[57] (DW01_add_width60)           0.00       0.16 r
+  ...
+  add_57_I14/*cell*171/SUM[59] (DW01_add_width60)         0.01       0.17 r
+  add_57_I14/Z_59 (*ADD_TC_OP_58_59_60)                   0.00       0.17 r
+  add_57_I15/A_59 (*ADD_TC_OP_60_61_62)                   0.00       0.17 r
+  add_57_I15/*cell*174/A[59] (DW01_add_width62)           0.00       0.17 r
+  ...
+  add_57_I15/*cell*174/SUM[61] (DW01_add_width62)         0.01       0.18 r
+  add_57_I15/Z_61 (*ADD_TC_OP_60_61_62)                   0.00       0.18 r
+  add_57_I16/A_61 (*ADD_TC_OP_62_63_64)                   0.00       0.18 r
+  add_57_I16/*cell*177/A[61] (DW01_add_width64)           0.00       0.18 r
+  ...
+  add_57_I16/*cell*177/SUM[63] (DW01_add_width64)         0.01       0.18 r
+  add_57_I16/Z_63 (*ADD_TC_OP_62_63_64)                   0.00       0.18 r
+  P[63] (out)                                             0.00       0.18 r
+  data arrival time                                                  0.18
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N32       5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  A[0] (in)                                               0.00       0.00 r
+  sub_42/B_0 (*SUB_TC_OP_1_32_32)                         0.00       0.00 r
+  sub_42/*cell*42/B[0] (DW01_sub_width32)                 0.00       0.00 r
+  ...
+  sub_42/*cell*42/DIFF[31] (DW01_sub_width32)             0.07       0.07 r
+  sub_42/Z_31 (*SUB_TC_OP_1_32_32)                        0.00       0.07 r
+  C1221/Z_31 (*SELECT_OP_5.33_5.1_33)                     0.00       0.08 r
+  add_57_I2/A_31 (*ADD_TC_OP_33_35_36)                    0.00       0.08 r
+  add_57_I2/*cell*135/A[31] (DW01_add_width36)            0.00       0.08 r
+  ...
+  add_57_I2/*cell*135/SUM[35] (DW01_add_width36)          0.01       0.09 r
+  add_57_I2/Z_35 (*ADD_TC_OP_33_35_36)                    0.00       0.09 r
+  add_57_I3/A_35 (*ADD_TC_OP_36_37_38)                    0.00       0.09 r
+  add_57_I3/*cell*138/A[35] (DW01_add_width38)            0.00       0.09 r
+  ...
+  add_57_I3/*cell*138/SUM[37] (DW01_add_width38)          0.01       0.09 r
+  add_57_I3/Z_37 (*ADD_TC_OP_36_37_38)                    0.00       0.09 r
+  add_57_I4/A_37 (*ADD_TC_OP_38_39_40)                    0.00       0.09 r
+  add_57_I4/*cell*141/A[37] (DW01_add_width40)            0.00       0.09 r
+  ...
+  add_57_I4/*cell*141/SUM[39] (DW01_add_width40)          0.01       0.10 r
+  add_57_I4/Z_39 (*ADD_TC_OP_38_39_40)                    0.00       0.10 r
+  add_57_I5/A_39 (*ADD_TC_OP_40_41_42)                    0.00       0.10 r
+  add_57_I5/*cell*144/A[39] (DW01_add_width42)            0.00       0.10 r
+  ...
+  add_57_I5/*cell*144/SUM[41] (DW01_add_width42)          0.01       0.11 r
+  add_57_I5/Z_41 (*ADD_TC_OP_40_41_42)                    0.00       0.11 r
+  add_57_I6/A_41 (*ADD_TC_OP_42_43_44)                    0.00       0.11 r
+  add_57_I6/*cell*147/A[41] (DW01_add_width44)            0.00       0.11 r
+  ...
+  add_57_I6/*cell*147/SUM[43] (DW01_add_width44)          0.01       0.11 r
+  add_57_I6/Z_43 (*ADD_TC_OP_42_43_44)                    0.00       0.11 r
+  add_57_I7/A_43 (*ADD_TC_OP_44_45_46)                    0.00       0.11 r
+  add_57_I7/*cell*150/A[43] (DW01_add_width46)            0.00       0.11 r
+  ...
+  add_57_I7/*cell*150/SUM[45] (DW01_add_width46)          0.01       0.12 r
+  add_57_I7/Z_45 (*ADD_TC_OP_44_45_46)                    0.00       0.12 r
+  add_57_I8/A_45 (*ADD_TC_OP_46_47_48)                    0.00       0.12 r
+  add_57_I8/*cell*153/A[45] (DW01_add_width48)            0.00       0.12 r
+  ...
+  add_57_I8/*cell*153/SUM[47] (DW01_add_width48)          0.01       0.13 r
+  add_57_I8/Z_47 (*ADD_TC_OP_46_47_48)                    0.00       0.13 r
+  add_57_I9/A_47 (*ADD_TC_OP_48_49_50)                    0.00       0.13 r
+  add_57_I9/*cell*156/A[47] (DW01_add_width50)            0.00       0.13 r
+  ...
+  add_57_I9/*cell*156/SUM[49] (DW01_add_width50)          0.01       0.13 r
+  add_57_I9/Z_49 (*ADD_TC_OP_48_49_50)                    0.00       0.13 r
+  add_57_I10/A_49 (*ADD_TC_OP_50_51_52)                   0.00       0.13 r
+  add_57_I10/*cell*159/A[49] (DW01_add_width52)           0.00       0.13 r
+  ...
+  add_57_I10/*cell*159/SUM[51] (DW01_add_width52)         0.01       0.14 r
+  add_57_I10/Z_51 (*ADD_TC_OP_50_51_52)                   0.00       0.14 r
+  add_57_I11/A_51 (*ADD_TC_OP_52_53_54)                   0.00       0.14 r
+  add_57_I11/*cell*162/A[51] (DW01_add_width54)           0.00       0.14 r
+  ...
+  add_57_I11/*cell*162/SUM[53] (DW01_add_width54)         0.01       0.15 r
+  add_57_I11/Z_53 (*ADD_TC_OP_52_53_54)                   0.00       0.15 r
+  add_57_I12/A_53 (*ADD_TC_OP_54_55_56)                   0.00       0.15 r
+  add_57_I12/*cell*165/A[53] (DW01_add_width56)           0.00       0.15 r
+  ...
+  add_57_I12/*cell*165/SUM[55] (DW01_add_width56)         0.01       0.16 r
+  add_57_I12/Z_55 (*ADD_TC_OP_54_55_56)                   0.00       0.16 r
+  add_57_I13/A_55 (*ADD_TC_OP_56_57_58)                   0.00       0.16 r
+  add_57_I13/*cell*168/A[55] (DW01_add_width58)           0.00       0.16 r
+  ...
+  add_57_I13/*cell*168/SUM[57] (DW01_add_width58)         0.01       0.16 r
+  add_57_I13/Z_57 (*ADD_TC_OP_56_57_58)                   0.00       0.16 r
+  add_57_I14/A_57 (*ADD_TC_OP_58_59_60)                   0.00       0.16 r
+  add_57_I14/*cell*171/A[57] (DW01_add_width60)           0.00       0.16 r
+  ...
+  add_57_I14/*cell*171/SUM[59] (DW01_add_width60)         0.01       0.17 r
+  add_57_I14/Z_59 (*ADD_TC_OP_58_59_60)                   0.00       0.17 r
+  add_57_I15/A_59 (*ADD_TC_OP_60_61_62)                   0.00       0.17 r
+  add_57_I15/*cell*174/A[59] (DW01_add_width62)           0.00       0.17 r
+  ...
+  add_57_I15/*cell*174/SUM[61] (DW01_add_width62)         0.01       0.18 r
+  add_57_I15/Z_61 (*ADD_TC_OP_60_61_62)                   0.00       0.18 r
+  add_57_I16/A_61 (*ADD_TC_OP_62_63_64)                   0.00       0.18 r
+  add_57_I16/*cell*177/A[61] (DW01_add_width64)           0.00       0.18 r
+  ...
+  add_57_I16/*cell*177/SUM[63] (DW01_add_width64)         0.01       0.18 r
+  add_57_I16/Z_63 (*ADD_TC_OP_62_63_64)                   0.00       0.18 r
+  P[63] (out)                                             0.00       0.18 r
+  data arrival time                                                  0.18
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N32       5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  sub_42/B_0 (*SUB_TC_OP_1_32_32)                         0.00       0.00 f
+  sub_42/*cell*42/B[0] (DW01_sub_width32)                 0.00       0.00 f
+  ...
+  sub_42/*cell*42/DIFF[31] (DW01_sub_width32)             0.07       0.07 r
+  sub_42/Z_31 (*SUB_TC_OP_1_32_32)                        0.00       0.07 r
+  C1221/Z_31 (*SELECT_OP_5.33_5.1_33)                     0.00       0.08 r
+  add_57_I2/A_31 (*ADD_TC_OP_33_35_36)                    0.00       0.08 r
+  add_57_I2/*cell*135/A[31] (DW01_add_width36)            0.00       0.08 r
+  ...
+  add_57_I2/*cell*135/SUM[35] (DW01_add_width36)          0.01       0.09 r
+  add_57_I2/Z_35 (*ADD_TC_OP_33_35_36)                    0.00       0.09 r
+  add_57_I3/A_35 (*ADD_TC_OP_36_37_38)                    0.00       0.09 r
+  add_57_I3/*cell*138/A[35] (DW01_add_width38)            0.00       0.09 r
+  ...
+  add_57_I3/*cell*138/SUM[37] (DW01_add_width38)          0.01       0.09 r
+  add_57_I3/Z_37 (*ADD_TC_OP_36_37_38)                    0.00       0.09 r
+  add_57_I4/A_37 (*ADD_TC_OP_38_39_40)                    0.00       0.09 r
+  add_57_I4/*cell*141/A[37] (DW01_add_width40)            0.00       0.09 r
+  ...
+  add_57_I4/*cell*141/SUM[39] (DW01_add_width40)          0.01       0.10 r
+  add_57_I4/Z_39 (*ADD_TC_OP_38_39_40)                    0.00       0.10 r
+  add_57_I5/A_39 (*ADD_TC_OP_40_41_42)                    0.00       0.10 r
+  add_57_I5/*cell*144/A[39] (DW01_add_width42)            0.00       0.10 r
+  ...
+  add_57_I5/*cell*144/SUM[41] (DW01_add_width42)          0.01       0.11 r
+  add_57_I5/Z_41 (*ADD_TC_OP_40_41_42)                    0.00       0.11 r
+  add_57_I6/A_41 (*ADD_TC_OP_42_43_44)                    0.00       0.11 r
+  add_57_I6/*cell*147/A[41] (DW01_add_width44)            0.00       0.11 r
+  ...
+  add_57_I6/*cell*147/SUM[43] (DW01_add_width44)          0.01       0.11 r
+  add_57_I6/Z_43 (*ADD_TC_OP_42_43_44)                    0.00       0.11 r
+  add_57_I7/A_43 (*ADD_TC_OP_44_45_46)                    0.00       0.11 r
+  add_57_I7/*cell*150/A[43] (DW01_add_width46)            0.00       0.11 r
+  ...
+  add_57_I7/*cell*150/SUM[45] (DW01_add_width46)          0.01       0.12 r
+  add_57_I7/Z_45 (*ADD_TC_OP_44_45_46)                    0.00       0.12 r
+  add_57_I8/A_45 (*ADD_TC_OP_46_47_48)                    0.00       0.12 r
+  add_57_I8/*cell*153/A[45] (DW01_add_width48)            0.00       0.12 r
+  ...
+  add_57_I8/*cell*153/SUM[47] (DW01_add_width48)          0.01       0.13 r
+  add_57_I8/Z_47 (*ADD_TC_OP_46_47_48)                    0.00       0.13 r
+  add_57_I9/A_47 (*ADD_TC_OP_48_49_50)                    0.00       0.13 r
+  add_57_I9/*cell*156/A[47] (DW01_add_width50)            0.00       0.13 r
+  ...
+  add_57_I9/*cell*156/SUM[49] (DW01_add_width50)          0.01       0.13 r
+  add_57_I9/Z_49 (*ADD_TC_OP_48_49_50)                    0.00       0.13 r
+  add_57_I10/A_49 (*ADD_TC_OP_50_51_52)                   0.00       0.13 r
+  add_57_I10/*cell*159/A[49] (DW01_add_width52)           0.00       0.13 r
+  ...
+  add_57_I10/*cell*159/SUM[51] (DW01_add_width52)         0.01       0.14 r
+  add_57_I10/Z_51 (*ADD_TC_OP_50_51_52)                   0.00       0.14 r
+  add_57_I11/A_51 (*ADD_TC_OP_52_53_54)                   0.00       0.14 r
+  add_57_I11/*cell*162/A[51] (DW01_add_width54)           0.00       0.14 r
+  ...
+  add_57_I11/*cell*162/SUM[53] (DW01_add_width54)         0.01       0.15 f
+  add_57_I11/Z_53 (*ADD_TC_OP_52_53_54)                   0.00       0.15 f
+  add_57_I12/A_53 (*ADD_TC_OP_54_55_56)                   0.00       0.15 f
+  add_57_I12/*cell*165/A[53] (DW01_add_width56)           0.00       0.15 f
+  ...
+  add_57_I12/*cell*165/SUM[55] (DW01_add_width56)         0.01       0.16 r
+  add_57_I12/Z_55 (*ADD_TC_OP_54_55_56)                   0.00       0.16 r
+  add_57_I13/A_55 (*ADD_TC_OP_56_57_58)                   0.00       0.16 r
+  add_57_I13/*cell*168/A[55] (DW01_add_width58)           0.00       0.16 r
+  ...
+  add_57_I13/*cell*168/SUM[57] (DW01_add_width58)         0.01       0.16 r
+  add_57_I13/Z_57 (*ADD_TC_OP_56_57_58)                   0.00       0.16 r
+  add_57_I14/A_57 (*ADD_TC_OP_58_59_60)                   0.00       0.16 r
+  add_57_I14/*cell*171/A[57] (DW01_add_width60)           0.00       0.16 r
+  ...
+  add_57_I14/*cell*171/SUM[59] (DW01_add_width60)         0.01       0.17 r
+  add_57_I14/Z_59 (*ADD_TC_OP_58_59_60)                   0.00       0.17 r
+  add_57_I15/A_59 (*ADD_TC_OP_60_61_62)                   0.00       0.17 r
+  add_57_I15/*cell*174/A[59] (DW01_add_width62)           0.00       0.17 r
+  ...
+  add_57_I15/*cell*174/SUM[61] (DW01_add_width62)         0.01       0.18 r
+  add_57_I15/Z_61 (*ADD_TC_OP_60_61_62)                   0.00       0.18 r
+  add_57_I16/A_61 (*ADD_TC_OP_62_63_64)                   0.00       0.18 r
+  add_57_I16/*cell*177/A[61] (DW01_add_width64)           0.00       0.18 r
+  ...
+  add_57_I16/*cell*177/SUM[63] (DW01_add_width64)         0.01       0.18 r
+  add_57_I16/Z_63 (*ADD_TC_OP_62_63_64)                   0.00       0.18 r
+  P[63] (out)                                             0.00       0.18 r
+  data arrival time                                                  0.18
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N32       5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  sub_42/B_0 (*SUB_TC_OP_1_32_32)                         0.00       0.00 f
+  sub_42/*cell*42/B[0] (DW01_sub_width32)                 0.00       0.00 f
+  ...
+  sub_42/*cell*42/DIFF[31] (DW01_sub_width32)             0.07       0.07 r
+  sub_42/Z_31 (*SUB_TC_OP_1_32_32)                        0.00       0.07 r
+  C1221/Z_31 (*SELECT_OP_5.33_5.1_33)                     0.00       0.08 r
+  add_57_I2/A_31 (*ADD_TC_OP_33_35_36)                    0.00       0.08 r
+  add_57_I2/*cell*135/A[31] (DW01_add_width36)            0.00       0.08 r
+  ...
+  add_57_I2/*cell*135/SUM[35] (DW01_add_width36)          0.01       0.09 r
+  add_57_I2/Z_35 (*ADD_TC_OP_33_35_36)                    0.00       0.09 r
+  add_57_I3/A_35 (*ADD_TC_OP_36_37_38)                    0.00       0.09 r
+  add_57_I3/*cell*138/A[35] (DW01_add_width38)            0.00       0.09 r
+  ...
+  add_57_I3/*cell*138/SUM[37] (DW01_add_width38)          0.01       0.09 r
+  add_57_I3/Z_37 (*ADD_TC_OP_36_37_38)                    0.00       0.09 r
+  add_57_I4/A_37 (*ADD_TC_OP_38_39_40)                    0.00       0.09 r
+  add_57_I4/*cell*141/A[37] (DW01_add_width40)            0.00       0.09 r
+  ...
+  add_57_I4/*cell*141/SUM[39] (DW01_add_width40)          0.01       0.10 r
+  add_57_I4/Z_39 (*ADD_TC_OP_38_39_40)                    0.00       0.10 r
+  add_57_I5/A_39 (*ADD_TC_OP_40_41_42)                    0.00       0.10 r
+  add_57_I5/*cell*144/A[39] (DW01_add_width42)            0.00       0.10 r
+  ...
+  add_57_I5/*cell*144/SUM[41] (DW01_add_width42)          0.01       0.11 r
+  add_57_I5/Z_41 (*ADD_TC_OP_40_41_42)                    0.00       0.11 r
+  add_57_I6/A_41 (*ADD_TC_OP_42_43_44)                    0.00       0.11 r
+  add_57_I6/*cell*147/A[41] (DW01_add_width44)            0.00       0.11 r
+  ...
+  add_57_I6/*cell*147/SUM[43] (DW01_add_width44)          0.01       0.11 r
+  add_57_I6/Z_43 (*ADD_TC_OP_42_43_44)                    0.00       0.11 r
+  add_57_I7/A_43 (*ADD_TC_OP_44_45_46)                    0.00       0.11 r
+  add_57_I7/*cell*150/A[43] (DW01_add_width46)            0.00       0.11 r
+  ...
+  add_57_I7/*cell*150/SUM[45] (DW01_add_width46)          0.01       0.12 r
+  add_57_I7/Z_45 (*ADD_TC_OP_44_45_46)                    0.00       0.12 r
+  add_57_I8/A_45 (*ADD_TC_OP_46_47_48)                    0.00       0.12 r
+  add_57_I8/*cell*153/A[45] (DW01_add_width48)            0.00       0.12 r
+  ...
+  add_57_I8/*cell*153/SUM[47] (DW01_add_width48)          0.01       0.13 r
+  add_57_I8/Z_47 (*ADD_TC_OP_46_47_48)                    0.00       0.13 r
+  add_57_I9/A_47 (*ADD_TC_OP_48_49_50)                    0.00       0.13 r
+  add_57_I9/*cell*156/A[47] (DW01_add_width50)            0.00       0.13 r
+  ...
+  add_57_I9/*cell*156/SUM[49] (DW01_add_width50)          0.01       0.13 r
+  add_57_I9/Z_49 (*ADD_TC_OP_48_49_50)                    0.00       0.13 r
+  add_57_I10/A_49 (*ADD_TC_OP_50_51_52)                   0.00       0.13 r
+  add_57_I10/*cell*159/A[49] (DW01_add_width52)           0.00       0.13 r
+  ...
+  add_57_I10/*cell*159/SUM[51] (DW01_add_width52)         0.01       0.14 r
+  add_57_I10/Z_51 (*ADD_TC_OP_50_51_52)                   0.00       0.14 r
+  add_57_I11/A_51 (*ADD_TC_OP_52_53_54)                   0.00       0.14 r
+  add_57_I11/*cell*162/A[51] (DW01_add_width54)           0.00       0.14 r
+  ...
+  add_57_I11/*cell*162/SUM[53] (DW01_add_width54)         0.01       0.15 r
+  add_57_I11/Z_53 (*ADD_TC_OP_52_53_54)                   0.00       0.15 r
+  add_57_I12/A_53 (*ADD_TC_OP_54_55_56)                   0.00       0.15 r
+  add_57_I12/*cell*165/A[53] (DW01_add_width56)           0.00       0.15 r
+  ...
+  add_57_I12/*cell*165/SUM[55] (DW01_add_width56)         0.01       0.16 f
+  add_57_I12/Z_55 (*ADD_TC_OP_54_55_56)                   0.00       0.16 f
+  add_57_I13/A_55 (*ADD_TC_OP_56_57_58)                   0.00       0.16 f
+  add_57_I13/*cell*168/A[55] (DW01_add_width58)           0.00       0.16 f
+  ...
+  add_57_I13/*cell*168/SUM[57] (DW01_add_width58)         0.01       0.16 r
+  add_57_I13/Z_57 (*ADD_TC_OP_56_57_58)                   0.00       0.16 r
+  add_57_I14/A_57 (*ADD_TC_OP_58_59_60)                   0.00       0.16 r
+  add_57_I14/*cell*171/A[57] (DW01_add_width60)           0.00       0.16 r
+  ...
+  add_57_I14/*cell*171/SUM[59] (DW01_add_width60)         0.01       0.17 r
+  add_57_I14/Z_59 (*ADD_TC_OP_58_59_60)                   0.00       0.17 r
+  add_57_I15/A_59 (*ADD_TC_OP_60_61_62)                   0.00       0.17 r
+  add_57_I15/*cell*174/A[59] (DW01_add_width62)           0.00       0.17 r
+  ...
+  add_57_I15/*cell*174/SUM[61] (DW01_add_width62)         0.01       0.18 r
+  add_57_I15/Z_61 (*ADD_TC_OP_60_61_62)                   0.00       0.18 r
+  add_57_I16/A_61 (*ADD_TC_OP_62_63_64)                   0.00       0.18 r
+  add_57_I16/*cell*177/A[61] (DW01_add_width64)           0.00       0.18 r
+  ...
+  add_57_I16/*cell*177/SUM[63] (DW01_add_width64)         0.01       0.18 r
+  add_57_I16/Z_63 (*ADD_TC_OP_62_63_64)                   0.00       0.18 r
+  P[63] (out)                                             0.00       0.18 r
+  data arrival time                                                  0.18
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N32       5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  sub_42/B_0 (*SUB_TC_OP_1_32_32)                         0.00       0.00 f
+  sub_42/*cell*42/B[0] (DW01_sub_width32)                 0.00       0.00 f
+  ...
+  sub_42/*cell*42/DIFF[31] (DW01_sub_width32)             0.07       0.07 r
+  sub_42/Z_31 (*SUB_TC_OP_1_32_32)                        0.00       0.07 r
+  C1221/Z_31 (*SELECT_OP_5.33_5.1_33)                     0.00       0.08 r
+  add_57_I2/A_31 (*ADD_TC_OP_33_35_36)                    0.00       0.08 r
+  add_57_I2/*cell*135/A[31] (DW01_add_width36)            0.00       0.08 r
+  ...
+  add_57_I2/*cell*135/SUM[35] (DW01_add_width36)          0.01       0.09 r
+  add_57_I2/Z_35 (*ADD_TC_OP_33_35_36)                    0.00       0.09 r
+  add_57_I3/A_35 (*ADD_TC_OP_36_37_38)                    0.00       0.09 r
+  add_57_I3/*cell*138/A[35] (DW01_add_width38)            0.00       0.09 r
+  ...
+  add_57_I3/*cell*138/SUM[37] (DW01_add_width38)          0.01       0.09 r
+  add_57_I3/Z_37 (*ADD_TC_OP_36_37_38)                    0.00       0.09 r
+  add_57_I4/A_37 (*ADD_TC_OP_38_39_40)                    0.00       0.09 r
+  add_57_I4/*cell*141/A[37] (DW01_add_width40)            0.00       0.09 r
+  ...
+  add_57_I4/*cell*141/SUM[39] (DW01_add_width40)          0.01       0.10 r
+  add_57_I4/Z_39 (*ADD_TC_OP_38_39_40)                    0.00       0.10 r
+  add_57_I5/A_39 (*ADD_TC_OP_40_41_42)                    0.00       0.10 r
+  add_57_I5/*cell*144/A[39] (DW01_add_width42)            0.00       0.10 r
+  ...
+  add_57_I5/*cell*144/SUM[41] (DW01_add_width42)          0.01       0.11 r
+  add_57_I5/Z_41 (*ADD_TC_OP_40_41_42)                    0.00       0.11 r
+  add_57_I6/A_41 (*ADD_TC_OP_42_43_44)                    0.00       0.11 r
+  add_57_I6/*cell*147/A[41] (DW01_add_width44)            0.00       0.11 r
+  ...
+  add_57_I6/*cell*147/SUM[43] (DW01_add_width44)          0.01       0.11 r
+  add_57_I6/Z_43 (*ADD_TC_OP_42_43_44)                    0.00       0.11 r
+  add_57_I7/A_43 (*ADD_TC_OP_44_45_46)                    0.00       0.11 r
+  add_57_I7/*cell*150/A[43] (DW01_add_width46)            0.00       0.11 r
+  ...
+  add_57_I7/*cell*150/SUM[45] (DW01_add_width46)          0.01       0.12 r
+  add_57_I7/Z_45 (*ADD_TC_OP_44_45_46)                    0.00       0.12 r
+  add_57_I8/A_45 (*ADD_TC_OP_46_47_48)                    0.00       0.12 r
+  add_57_I8/*cell*153/A[45] (DW01_add_width48)            0.00       0.12 r
+  ...
+  add_57_I8/*cell*153/SUM[47] (DW01_add_width48)          0.01       0.13 r
+  add_57_I8/Z_47 (*ADD_TC_OP_46_47_48)                    0.00       0.13 r
+  add_57_I9/A_47 (*ADD_TC_OP_48_49_50)                    0.00       0.13 r
+  add_57_I9/*cell*156/A[47] (DW01_add_width50)            0.00       0.13 r
+  ...
+  add_57_I9/*cell*156/SUM[49] (DW01_add_width50)          0.01       0.13 r
+  add_57_I9/Z_49 (*ADD_TC_OP_48_49_50)                    0.00       0.13 r
+  add_57_I10/A_49 (*ADD_TC_OP_50_51_52)                   0.00       0.13 r
+  add_57_I10/*cell*159/A[49] (DW01_add_width52)           0.00       0.13 r
+  ...
+  add_57_I10/*cell*159/SUM[51] (DW01_add_width52)         0.01       0.14 r
+  add_57_I10/Z_51 (*ADD_TC_OP_50_51_52)                   0.00       0.14 r
+  add_57_I11/A_51 (*ADD_TC_OP_52_53_54)                   0.00       0.14 r
+  add_57_I11/*cell*162/A[51] (DW01_add_width54)           0.00       0.14 r
+  ...
+  add_57_I11/*cell*162/SUM[53] (DW01_add_width54)         0.01       0.15 r
+  add_57_I11/Z_53 (*ADD_TC_OP_52_53_54)                   0.00       0.15 r
+  add_57_I12/A_53 (*ADD_TC_OP_54_55_56)                   0.00       0.15 r
+  add_57_I12/*cell*165/A[53] (DW01_add_width56)           0.00       0.15 r
+  ...
+  add_57_I12/*cell*165/SUM[55] (DW01_add_width56)         0.01       0.16 r
+  add_57_I12/Z_55 (*ADD_TC_OP_54_55_56)                   0.00       0.16 r
+  add_57_I13/A_55 (*ADD_TC_OP_56_57_58)                   0.00       0.16 r
+  add_57_I13/*cell*168/A[55] (DW01_add_width58)           0.00       0.16 r
+  ...
+  add_57_I13/*cell*168/SUM[57] (DW01_add_width58)         0.01       0.16 f
+  add_57_I13/Z_57 (*ADD_TC_OP_56_57_58)                   0.00       0.16 f
+  add_57_I14/A_57 (*ADD_TC_OP_58_59_60)                   0.00       0.16 f
+  add_57_I14/*cell*171/A[57] (DW01_add_width60)           0.00       0.16 f
+  ...
+  add_57_I14/*cell*171/SUM[59] (DW01_add_width60)         0.01       0.17 r
+  add_57_I14/Z_59 (*ADD_TC_OP_58_59_60)                   0.00       0.17 r
+  add_57_I15/A_59 (*ADD_TC_OP_60_61_62)                   0.00       0.17 r
+  add_57_I15/*cell*174/A[59] (DW01_add_width62)           0.00       0.17 r
+  ...
+  add_57_I15/*cell*174/SUM[61] (DW01_add_width62)         0.01       0.18 r
+  add_57_I15/Z_61 (*ADD_TC_OP_60_61_62)                   0.00       0.18 r
+  add_57_I16/A_61 (*ADD_TC_OP_62_63_64)                   0.00       0.18 r
+  add_57_I16/*cell*177/A[61] (DW01_add_width64)           0.00       0.18 r
+  ...
+  add_57_I16/*cell*177/SUM[63] (DW01_add_width64)         0.01       0.18 r
+  add_57_I16/Z_63 (*ADD_TC_OP_62_63_64)                   0.00       0.18 r
+  P[63] (out)                                             0.00       0.18 r
+  data arrival time                                                  0.18
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N32       5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  sub_42/B_0 (*SUB_TC_OP_1_32_32)                         0.00       0.00 f
+  sub_42/*cell*42/B[0] (DW01_sub_width32)                 0.00       0.00 f
+  ...
+  sub_42/*cell*42/DIFF[31] (DW01_sub_width32)             0.07       0.07 r
+  sub_42/Z_31 (*SUB_TC_OP_1_32_32)                        0.00       0.07 r
+  C1221/Z_31 (*SELECT_OP_5.33_5.1_33)                     0.00       0.08 r
+  add_57_I2/A_31 (*ADD_TC_OP_33_35_36)                    0.00       0.08 r
+  add_57_I2/*cell*135/A[31] (DW01_add_width36)            0.00       0.08 r
+  ...
+  add_57_I2/*cell*135/SUM[35] (DW01_add_width36)          0.01       0.09 r
+  add_57_I2/Z_35 (*ADD_TC_OP_33_35_36)                    0.00       0.09 r
+  add_57_I3/A_35 (*ADD_TC_OP_36_37_38)                    0.00       0.09 r
+  add_57_I3/*cell*138/A[35] (DW01_add_width38)            0.00       0.09 r
+  ...
+  add_57_I3/*cell*138/SUM[37] (DW01_add_width38)          0.01       0.09 r
+  add_57_I3/Z_37 (*ADD_TC_OP_36_37_38)                    0.00       0.09 r
+  add_57_I4/A_37 (*ADD_TC_OP_38_39_40)                    0.00       0.09 r
+  add_57_I4/*cell*141/A[37] (DW01_add_width40)            0.00       0.09 r
+  ...
+  add_57_I4/*cell*141/SUM[39] (DW01_add_width40)          0.01       0.10 r
+  add_57_I4/Z_39 (*ADD_TC_OP_38_39_40)                    0.00       0.10 r
+  add_57_I5/A_39 (*ADD_TC_OP_40_41_42)                    0.00       0.10 r
+  add_57_I5/*cell*144/A[39] (DW01_add_width42)            0.00       0.10 r
+  ...
+  add_57_I5/*cell*144/SUM[41] (DW01_add_width42)          0.01       0.11 r
+  add_57_I5/Z_41 (*ADD_TC_OP_40_41_42)                    0.00       0.11 r
+  add_57_I6/A_41 (*ADD_TC_OP_42_43_44)                    0.00       0.11 r
+  add_57_I6/*cell*147/A[41] (DW01_add_width44)            0.00       0.11 r
+  ...
+  add_57_I6/*cell*147/SUM[43] (DW01_add_width44)          0.01       0.11 r
+  add_57_I6/Z_43 (*ADD_TC_OP_42_43_44)                    0.00       0.11 r
+  add_57_I7/A_43 (*ADD_TC_OP_44_45_46)                    0.00       0.11 r
+  add_57_I7/*cell*150/A[43] (DW01_add_width46)            0.00       0.11 r
+  ...
+  add_57_I7/*cell*150/SUM[45] (DW01_add_width46)          0.01       0.12 r
+  add_57_I7/Z_45 (*ADD_TC_OP_44_45_46)                    0.00       0.12 r
+  add_57_I8/A_45 (*ADD_TC_OP_46_47_48)                    0.00       0.12 r
+  add_57_I8/*cell*153/A[45] (DW01_add_width48)            0.00       0.12 r
+  ...
+  add_57_I8/*cell*153/SUM[47] (DW01_add_width48)          0.01       0.13 r
+  add_57_I8/Z_47 (*ADD_TC_OP_46_47_48)                    0.00       0.13 r
+  add_57_I9/A_47 (*ADD_TC_OP_48_49_50)                    0.00       0.13 r
+  add_57_I9/*cell*156/A[47] (DW01_add_width50)            0.00       0.13 r
+  ...
+  add_57_I9/*cell*156/SUM[49] (DW01_add_width50)          0.01       0.13 r
+  add_57_I9/Z_49 (*ADD_TC_OP_48_49_50)                    0.00       0.13 r
+  add_57_I10/A_49 (*ADD_TC_OP_50_51_52)                   0.00       0.13 r
+  add_57_I10/*cell*159/A[49] (DW01_add_width52)           0.00       0.13 r
+  ...
+  add_57_I10/*cell*159/SUM[51] (DW01_add_width52)         0.01       0.14 r
+  add_57_I10/Z_51 (*ADD_TC_OP_50_51_52)                   0.00       0.14 r
+  add_57_I11/A_51 (*ADD_TC_OP_52_53_54)                   0.00       0.14 r
+  add_57_I11/*cell*162/A[51] (DW01_add_width54)           0.00       0.14 r
+  ...
+  add_57_I11/*cell*162/SUM[53] (DW01_add_width54)         0.01       0.15 r
+  add_57_I11/Z_53 (*ADD_TC_OP_52_53_54)                   0.00       0.15 r
+  add_57_I12/A_53 (*ADD_TC_OP_54_55_56)                   0.00       0.15 r
+  add_57_I12/*cell*165/A[53] (DW01_add_width56)           0.00       0.15 r
+  ...
+  add_57_I12/*cell*165/SUM[55] (DW01_add_width56)         0.01       0.16 r
+  add_57_I12/Z_55 (*ADD_TC_OP_54_55_56)                   0.00       0.16 r
+  add_57_I13/A_55 (*ADD_TC_OP_56_57_58)                   0.00       0.16 r
+  add_57_I13/*cell*168/A[55] (DW01_add_width58)           0.00       0.16 r
+  ...
+  add_57_I13/*cell*168/SUM[57] (DW01_add_width58)         0.01       0.16 r
+  add_57_I13/Z_57 (*ADD_TC_OP_56_57_58)                   0.00       0.16 r
+  add_57_I14/A_57 (*ADD_TC_OP_58_59_60)                   0.00       0.16 r
+  add_57_I14/*cell*171/A[57] (DW01_add_width60)           0.00       0.16 r
+  ...
+  add_57_I14/*cell*171/SUM[59] (DW01_add_width60)         0.01       0.17 f
+  add_57_I14/Z_59 (*ADD_TC_OP_58_59_60)                   0.00       0.17 f
+  add_57_I15/A_59 (*ADD_TC_OP_60_61_62)                   0.00       0.17 f
+  add_57_I15/*cell*174/A[59] (DW01_add_width62)           0.00       0.17 f
+  ...
+  add_57_I15/*cell*174/SUM[61] (DW01_add_width62)         0.01       0.18 r
+  add_57_I15/Z_61 (*ADD_TC_OP_60_61_62)                   0.00       0.18 r
+  add_57_I16/A_61 (*ADD_TC_OP_62_63_64)                   0.00       0.18 r
+  add_57_I16/*cell*177/A[61] (DW01_add_width64)           0.00       0.18 r
+  ...
+  add_57_I16/*cell*177/SUM[63] (DW01_add_width64)         0.01       0.18 r
+  add_57_I16/Z_63 (*ADD_TC_OP_62_63_64)                   0.00       0.18 r
+  P[63] (out)                                             0.00       0.18 r
+  data arrival time                                                  0.18
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N32       5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  sub_42/B_0 (*SUB_TC_OP_1_32_32)                         0.00       0.00 f
+  sub_42/*cell*42/B[0] (DW01_sub_width32)                 0.00       0.00 f
+  ...
+  sub_42/*cell*42/DIFF[31] (DW01_sub_width32)             0.07       0.07 r
+  sub_42/Z_31 (*SUB_TC_OP_1_32_32)                        0.00       0.07 r
+  C1221/Z_31 (*SELECT_OP_5.33_5.1_33)                     0.00       0.08 r
+  add_57_I2/A_31 (*ADD_TC_OP_33_35_36)                    0.00       0.08 r
+  add_57_I2/*cell*135/A[31] (DW01_add_width36)            0.00       0.08 r
+  ...
+  add_57_I2/*cell*135/SUM[35] (DW01_add_width36)          0.01       0.09 r
+  add_57_I2/Z_35 (*ADD_TC_OP_33_35_36)                    0.00       0.09 r
+  add_57_I3/A_35 (*ADD_TC_OP_36_37_38)                    0.00       0.09 r
+  add_57_I3/*cell*138/A[35] (DW01_add_width38)            0.00       0.09 r
+  ...
+  add_57_I3/*cell*138/SUM[37] (DW01_add_width38)          0.01       0.09 r
+  add_57_I3/Z_37 (*ADD_TC_OP_36_37_38)                    0.00       0.09 r
+  add_57_I4/A_37 (*ADD_TC_OP_38_39_40)                    0.00       0.09 r
+  add_57_I4/*cell*141/A[37] (DW01_add_width40)            0.00       0.09 r
+  ...
+  add_57_I4/*cell*141/SUM[39] (DW01_add_width40)          0.01       0.10 r
+  add_57_I4/Z_39 (*ADD_TC_OP_38_39_40)                    0.00       0.10 r
+  add_57_I5/A_39 (*ADD_TC_OP_40_41_42)                    0.00       0.10 r
+  add_57_I5/*cell*144/A[39] (DW01_add_width42)            0.00       0.10 r
+  ...
+  add_57_I5/*cell*144/SUM[41] (DW01_add_width42)          0.01       0.11 r
+  add_57_I5/Z_41 (*ADD_TC_OP_40_41_42)                    0.00       0.11 r
+  add_57_I6/A_41 (*ADD_TC_OP_42_43_44)                    0.00       0.11 r
+  add_57_I6/*cell*147/A[41] (DW01_add_width44)            0.00       0.11 r
+  ...
+  add_57_I6/*cell*147/SUM[43] (DW01_add_width44)          0.01       0.11 r
+  add_57_I6/Z_43 (*ADD_TC_OP_42_43_44)                    0.00       0.11 r
+  add_57_I7/A_43 (*ADD_TC_OP_44_45_46)                    0.00       0.11 r
+  add_57_I7/*cell*150/A[43] (DW01_add_width46)            0.00       0.11 r
+  ...
+  add_57_I7/*cell*150/SUM[45] (DW01_add_width46)          0.01       0.12 r
+  add_57_I7/Z_45 (*ADD_TC_OP_44_45_46)                    0.00       0.12 r
+  add_57_I8/A_45 (*ADD_TC_OP_46_47_48)                    0.00       0.12 r
+  add_57_I8/*cell*153/A[45] (DW01_add_width48)            0.00       0.12 r
+  ...
+  add_57_I8/*cell*153/SUM[47] (DW01_add_width48)          0.01       0.13 r
+  add_57_I8/Z_47 (*ADD_TC_OP_46_47_48)                    0.00       0.13 r
+  add_57_I9/A_47 (*ADD_TC_OP_48_49_50)                    0.00       0.13 r
+  add_57_I9/*cell*156/A[47] (DW01_add_width50)            0.00       0.13 r
+  ...
+  add_57_I9/*cell*156/SUM[49] (DW01_add_width50)          0.01       0.13 r
+  add_57_I9/Z_49 (*ADD_TC_OP_48_49_50)                    0.00       0.13 r
+  add_57_I10/A_49 (*ADD_TC_OP_50_51_52)                   0.00       0.13 r
+  add_57_I10/*cell*159/A[49] (DW01_add_width52)           0.00       0.13 r
+  ...
+  add_57_I10/*cell*159/SUM[51] (DW01_add_width52)         0.01       0.14 r
+  add_57_I10/Z_51 (*ADD_TC_OP_50_51_52)                   0.00       0.14 r
+  add_57_I11/A_51 (*ADD_TC_OP_52_53_54)                   0.00       0.14 r
+  add_57_I11/*cell*162/A[51] (DW01_add_width54)           0.00       0.14 r
+  ...
+  add_57_I11/*cell*162/SUM[53] (DW01_add_width54)         0.01       0.15 r
+  add_57_I11/Z_53 (*ADD_TC_OP_52_53_54)                   0.00       0.15 r
+  add_57_I12/A_53 (*ADD_TC_OP_54_55_56)                   0.00       0.15 r
+  add_57_I12/*cell*165/A[53] (DW01_add_width56)           0.00       0.15 r
+  ...
+  add_57_I12/*cell*165/SUM[55] (DW01_add_width56)         0.01       0.16 r
+  add_57_I12/Z_55 (*ADD_TC_OP_54_55_56)                   0.00       0.16 r
+  add_57_I13/A_55 (*ADD_TC_OP_56_57_58)                   0.00       0.16 r
+  add_57_I13/*cell*168/A[55] (DW01_add_width58)           0.00       0.16 r
+  ...
+  add_57_I13/*cell*168/SUM[57] (DW01_add_width58)         0.01       0.16 r
+  add_57_I13/Z_57 (*ADD_TC_OP_56_57_58)                   0.00       0.16 r
+  add_57_I14/A_57 (*ADD_TC_OP_58_59_60)                   0.00       0.16 r
+  add_57_I14/*cell*171/A[57] (DW01_add_width60)           0.00       0.16 r
+  ...
+  add_57_I14/*cell*171/SUM[59] (DW01_add_width60)         0.01       0.17 r
+  add_57_I14/Z_59 (*ADD_TC_OP_58_59_60)                   0.00       0.17 r
+  add_57_I15/A_59 (*ADD_TC_OP_60_61_62)                   0.00       0.17 r
+  add_57_I15/*cell*174/A[59] (DW01_add_width62)           0.00       0.17 r
+  ...
+  add_57_I15/*cell*174/SUM[61] (DW01_add_width62)         0.01       0.18 f
+  add_57_I15/Z_61 (*ADD_TC_OP_60_61_62)                   0.00       0.18 f
+  add_57_I16/A_61 (*ADD_TC_OP_62_63_64)                   0.00       0.18 f
+  add_57_I16/*cell*177/A[61] (DW01_add_width64)           0.00       0.18 f
+  ...
+  add_57_I16/*cell*177/SUM[63] (DW01_add_width64)         0.01       0.18 r
+  add_57_I16/Z_63 (*ADD_TC_OP_62_63_64)                   0.00       0.18 r
+  P[63] (out)                                             0.00       0.18 r
+  data arrival time                                                  0.18
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N32       5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  sub_42/B_0 (*SUB_TC_OP_1_32_32)                         0.00       0.00 f
+  sub_42/*cell*42/B[0] (DW01_sub_width32)                 0.00       0.00 f
+  ...
+  sub_42/*cell*42/DIFF[31] (DW01_sub_width32)             0.07       0.07 r
+  sub_42/Z_31 (*SUB_TC_OP_1_32_32)                        0.00       0.07 r
+  C1221/Z_31 (*SELECT_OP_5.33_5.1_33)                     0.00       0.08 r
+  add_57_I2/A_31 (*ADD_TC_OP_33_35_36)                    0.00       0.08 r
+  add_57_I2/*cell*135/A[31] (DW01_add_width36)            0.00       0.08 r
+  ...
+  add_57_I2/*cell*135/SUM[35] (DW01_add_width36)          0.01       0.09 r
+  add_57_I2/Z_35 (*ADD_TC_OP_33_35_36)                    0.00       0.09 r
+  add_57_I3/A_35 (*ADD_TC_OP_36_37_38)                    0.00       0.09 r
+  add_57_I3/*cell*138/A[35] (DW01_add_width38)            0.00       0.09 r
+  ...
+  add_57_I3/*cell*138/SUM[37] (DW01_add_width38)          0.01       0.09 r
+  add_57_I3/Z_37 (*ADD_TC_OP_36_37_38)                    0.00       0.09 r
+  add_57_I4/A_37 (*ADD_TC_OP_38_39_40)                    0.00       0.09 r
+  add_57_I4/*cell*141/A[37] (DW01_add_width40)            0.00       0.09 r
+  ...
+  add_57_I4/*cell*141/SUM[39] (DW01_add_width40)          0.01       0.10 r
+  add_57_I4/Z_39 (*ADD_TC_OP_38_39_40)                    0.00       0.10 r
+  add_57_I5/A_39 (*ADD_TC_OP_40_41_42)                    0.00       0.10 r
+  add_57_I5/*cell*144/A[39] (DW01_add_width42)            0.00       0.10 r
+  ...
+  add_57_I5/*cell*144/SUM[41] (DW01_add_width42)          0.01       0.11 r
+  add_57_I5/Z_41 (*ADD_TC_OP_40_41_42)                    0.00       0.11 r
+  add_57_I6/A_41 (*ADD_TC_OP_42_43_44)                    0.00       0.11 r
+  add_57_I6/*cell*147/A[41] (DW01_add_width44)            0.00       0.11 r
+  ...
+  add_57_I6/*cell*147/SUM[43] (DW01_add_width44)          0.01       0.11 r
+  add_57_I6/Z_43 (*ADD_TC_OP_42_43_44)                    0.00       0.11 r
+  add_57_I7/A_43 (*ADD_TC_OP_44_45_46)                    0.00       0.11 r
+  add_57_I7/*cell*150/A[43] (DW01_add_width46)            0.00       0.11 r
+  ...
+  add_57_I7/*cell*150/SUM[45] (DW01_add_width46)          0.01       0.12 r
+  add_57_I7/Z_45 (*ADD_TC_OP_44_45_46)                    0.00       0.12 r
+  add_57_I8/A_45 (*ADD_TC_OP_46_47_48)                    0.00       0.12 r
+  add_57_I8/*cell*153/A[45] (DW01_add_width48)            0.00       0.12 r
+  ...
+  add_57_I8/*cell*153/SUM[47] (DW01_add_width48)          0.01       0.13 r
+  add_57_I8/Z_47 (*ADD_TC_OP_46_47_48)                    0.00       0.13 r
+  add_57_I9/A_47 (*ADD_TC_OP_48_49_50)                    0.00       0.13 r
+  add_57_I9/*cell*156/A[47] (DW01_add_width50)            0.00       0.13 r
+  ...
+  add_57_I9/*cell*156/SUM[49] (DW01_add_width50)          0.01       0.13 r
+  add_57_I9/Z_49 (*ADD_TC_OP_48_49_50)                    0.00       0.13 r
+  add_57_I10/A_49 (*ADD_TC_OP_50_51_52)                   0.00       0.13 r
+  add_57_I10/*cell*159/A[49] (DW01_add_width52)           0.00       0.13 r
+  ...
+  add_57_I10/*cell*159/SUM[51] (DW01_add_width52)         0.01       0.14 r
+  add_57_I10/Z_51 (*ADD_TC_OP_50_51_52)                   0.00       0.14 r
+  add_57_I11/A_51 (*ADD_TC_OP_52_53_54)                   0.00       0.14 r
+  add_57_I11/*cell*162/A[51] (DW01_add_width54)           0.00       0.14 r
+  ...
+  add_57_I11/*cell*162/SUM[53] (DW01_add_width54)         0.01       0.15 r
+  add_57_I11/Z_53 (*ADD_TC_OP_52_53_54)                   0.00       0.15 r
+  add_57_I12/A_53 (*ADD_TC_OP_54_55_56)                   0.00       0.15 r
+  add_57_I12/*cell*165/A[53] (DW01_add_width56)           0.00       0.15 r
+  ...
+  add_57_I12/*cell*165/SUM[55] (DW01_add_width56)         0.01       0.16 r
+  add_57_I12/Z_55 (*ADD_TC_OP_54_55_56)                   0.00       0.16 r
+  add_57_I13/A_55 (*ADD_TC_OP_56_57_58)                   0.00       0.16 r
+  add_57_I13/*cell*168/A[55] (DW01_add_width58)           0.00       0.16 r
+  ...
+  add_57_I13/*cell*168/SUM[57] (DW01_add_width58)         0.01       0.16 r
+  add_57_I13/Z_57 (*ADD_TC_OP_56_57_58)                   0.00       0.16 r
+  add_57_I14/A_57 (*ADD_TC_OP_58_59_60)                   0.00       0.16 r
+  add_57_I14/*cell*171/A[57] (DW01_add_width60)           0.00       0.16 r
+  ...
+  add_57_I14/*cell*171/SUM[59] (DW01_add_width60)         0.01       0.17 f
+  add_57_I14/Z_59 (*ADD_TC_OP_58_59_60)                   0.00       0.17 f
+  add_57_I15/A_59 (*ADD_TC_OP_60_61_62)                   0.00       0.17 f
+  add_57_I15/*cell*174/A[59] (DW01_add_width62)           0.00       0.17 f
+  ...
+  add_57_I15/*cell*174/SUM[61] (DW01_add_width62)         0.01       0.18 f
+  add_57_I15/Z_61 (*ADD_TC_OP_60_61_62)                   0.00       0.18 f
+  add_57_I16/A_61 (*ADD_TC_OP_62_63_64)                   0.00       0.18 f
+  add_57_I16/*cell*177/A[61] (DW01_add_width64)           0.00       0.18 f
+  ...
+  add_57_I16/*cell*177/SUM[63] (DW01_add_width64)         0.01       0.18 r
+  add_57_I16/Z_63 (*ADD_TC_OP_62_63_64)                   0.00       0.18 r
+  P[63] (out)                                             0.00       0.18 r
+  data arrival time                                                  0.18
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N32       5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  sub_42/B_0 (*SUB_TC_OP_1_32_32)                         0.00       0.00 f
+  sub_42/*cell*42/B[0] (DW01_sub_width32)                 0.00       0.00 f
+  ...
+  sub_42/*cell*42/DIFF[31] (DW01_sub_width32)             0.07       0.07 r
+  sub_42/Z_31 (*SUB_TC_OP_1_32_32)                        0.00       0.07 r
+  C1221/Z_31 (*SELECT_OP_5.33_5.1_33)                     0.00       0.08 r
+  add_57_I2/A_31 (*ADD_TC_OP_33_35_36)                    0.00       0.08 r
+  add_57_I2/*cell*135/A[31] (DW01_add_width36)            0.00       0.08 r
+  ...
+  add_57_I2/*cell*135/SUM[35] (DW01_add_width36)          0.01       0.09 r
+  add_57_I2/Z_35 (*ADD_TC_OP_33_35_36)                    0.00       0.09 r
+  add_57_I3/A_35 (*ADD_TC_OP_36_37_38)                    0.00       0.09 r
+  add_57_I3/*cell*138/A[35] (DW01_add_width38)            0.00       0.09 r
+  ...
+  add_57_I3/*cell*138/SUM[37] (DW01_add_width38)          0.01       0.09 r
+  add_57_I3/Z_37 (*ADD_TC_OP_36_37_38)                    0.00       0.09 r
+  add_57_I4/A_37 (*ADD_TC_OP_38_39_40)                    0.00       0.09 r
+  add_57_I4/*cell*141/A[37] (DW01_add_width40)            0.00       0.09 r
+  ...
+  add_57_I4/*cell*141/SUM[39] (DW01_add_width40)          0.01       0.10 r
+  add_57_I4/Z_39 (*ADD_TC_OP_38_39_40)                    0.00       0.10 r
+  add_57_I5/A_39 (*ADD_TC_OP_40_41_42)                    0.00       0.10 r
+  add_57_I5/*cell*144/A[39] (DW01_add_width42)            0.00       0.10 r
+  ...
+  add_57_I5/*cell*144/SUM[41] (DW01_add_width42)          0.01       0.11 r
+  add_57_I5/Z_41 (*ADD_TC_OP_40_41_42)                    0.00       0.11 r
+  add_57_I6/A_41 (*ADD_TC_OP_42_43_44)                    0.00       0.11 r
+  add_57_I6/*cell*147/A[41] (DW01_add_width44)            0.00       0.11 r
+  ...
+  add_57_I6/*cell*147/SUM[43] (DW01_add_width44)          0.01       0.11 r
+  add_57_I6/Z_43 (*ADD_TC_OP_42_43_44)                    0.00       0.11 r
+  add_57_I7/A_43 (*ADD_TC_OP_44_45_46)                    0.00       0.11 r
+  add_57_I7/*cell*150/A[43] (DW01_add_width46)            0.00       0.11 r
+  ...
+  add_57_I7/*cell*150/SUM[45] (DW01_add_width46)          0.01       0.12 r
+  add_57_I7/Z_45 (*ADD_TC_OP_44_45_46)                    0.00       0.12 r
+  add_57_I8/A_45 (*ADD_TC_OP_46_47_48)                    0.00       0.12 r
+  add_57_I8/*cell*153/A[45] (DW01_add_width48)            0.00       0.12 r
+  ...
+  add_57_I8/*cell*153/SUM[47] (DW01_add_width48)          0.01       0.13 r
+  add_57_I8/Z_47 (*ADD_TC_OP_46_47_48)                    0.00       0.13 r
+  add_57_I9/A_47 (*ADD_TC_OP_48_49_50)                    0.00       0.13 r
+  add_57_I9/*cell*156/A[47] (DW01_add_width50)            0.00       0.13 r
+  ...
+  add_57_I9/*cell*156/SUM[49] (DW01_add_width50)          0.01       0.13 r
+  add_57_I9/Z_49 (*ADD_TC_OP_48_49_50)                    0.00       0.13 r
+  add_57_I10/A_49 (*ADD_TC_OP_50_51_52)                   0.00       0.13 r
+  add_57_I10/*cell*159/A[49] (DW01_add_width52)           0.00       0.13 r
+  ...
+  add_57_I10/*cell*159/SUM[51] (DW01_add_width52)         0.01       0.14 r
+  add_57_I10/Z_51 (*ADD_TC_OP_50_51_52)                   0.00       0.14 r
+  add_57_I11/A_51 (*ADD_TC_OP_52_53_54)                   0.00       0.14 r
+  add_57_I11/*cell*162/A[51] (DW01_add_width54)           0.00       0.14 r
+  ...
+  add_57_I11/*cell*162/SUM[53] (DW01_add_width54)         0.01       0.15 r
+  add_57_I11/Z_53 (*ADD_TC_OP_52_53_54)                   0.00       0.15 r
+  add_57_I12/A_53 (*ADD_TC_OP_54_55_56)                   0.00       0.15 r
+  add_57_I12/*cell*165/A[53] (DW01_add_width56)           0.00       0.15 r
+  ...
+  add_57_I12/*cell*165/SUM[55] (DW01_add_width56)         0.01       0.16 r
+  add_57_I12/Z_55 (*ADD_TC_OP_54_55_56)                   0.00       0.16 r
+  add_57_I13/A_55 (*ADD_TC_OP_56_57_58)                   0.00       0.16 r
+  add_57_I13/*cell*168/A[55] (DW01_add_width58)           0.00       0.16 r
+  ...
+  add_57_I13/*cell*168/SUM[57] (DW01_add_width58)         0.01       0.16 r
+  add_57_I13/Z_57 (*ADD_TC_OP_56_57_58)                   0.00       0.16 r
+  add_57_I14/A_57 (*ADD_TC_OP_58_59_60)                   0.00       0.16 r
+  add_57_I14/*cell*171/A[57] (DW01_add_width60)           0.00       0.16 r
+  ...
+  add_57_I14/*cell*171/SUM[59] (DW01_add_width60)         0.01       0.17 r
+  add_57_I14/Z_59 (*ADD_TC_OP_58_59_60)                   0.00       0.17 r
+  add_57_I15/A_59 (*ADD_TC_OP_60_61_62)                   0.00       0.17 r
+  add_57_I15/*cell*174/A[59] (DW01_add_width62)           0.00       0.17 r
+  ...
+  add_57_I15/*cell*174/SUM[61] (DW01_add_width62)         0.01       0.18 r
+  add_57_I15/Z_61 (*ADD_TC_OP_60_61_62)                   0.00       0.18 r
+  add_57_I16/A_61 (*ADD_TC_OP_62_63_64)                   0.00       0.18 r
+  add_57_I16/*cell*177/A[61] (DW01_add_width64)           0.00       0.18 r
+  ...
+  add_57_I16/*cell*177/SUM[63] (DW01_add_width64)         0.01       0.18 f
+  add_57_I16/Z_63 (*ADD_TC_OP_62_63_64)                   0.00       0.18 f
+  P[63] (out)                                             0.00       0.18 f
+  data arrival time                                                  0.18
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[0] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL_N32       5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  sub_42/B_0 (*SUB_TC_OP_1_32_32)                         0.00       0.00 f
+  sub_42/*cell*42/B[0] (DW01_sub_width32)                 0.00       0.00 f
+  ...
+  sub_42/*cell*42/DIFF[31] (DW01_sub_width32)             0.07       0.07 r
+  sub_42/Z_31 (*SUB_TC_OP_1_32_32)                        0.00       0.07 r
+  C1221/Z_31 (*SELECT_OP_5.33_5.1_33)                     0.00       0.08 r
+  add_57_I2/A_31 (*ADD_TC_OP_33_35_36)                    0.00       0.08 r
+  add_57_I2/*cell*135/A[31] (DW01_add_width36)            0.00       0.08 r
+  ...
+  add_57_I2/*cell*135/SUM[35] (DW01_add_width36)          0.01       0.09 r
+  add_57_I2/Z_35 (*ADD_TC_OP_33_35_36)                    0.00       0.09 r
+  add_57_I3/A_35 (*ADD_TC_OP_36_37_38)                    0.00       0.09 r
+  add_57_I3/*cell*138/A[35] (DW01_add_width38)            0.00       0.09 r
+  ...
+  add_57_I3/*cell*138/SUM[37] (DW01_add_width38)          0.01       0.09 r
+  add_57_I3/Z_37 (*ADD_TC_OP_36_37_38)                    0.00       0.09 r
+  add_57_I4/A_37 (*ADD_TC_OP_38_39_40)                    0.00       0.09 r
+  add_57_I4/*cell*141/A[37] (DW01_add_width40)            0.00       0.09 r
+  ...
+  add_57_I4/*cell*141/SUM[39] (DW01_add_width40)          0.01       0.10 r
+  add_57_I4/Z_39 (*ADD_TC_OP_38_39_40)                    0.00       0.10 r
+  add_57_I5/A_39 (*ADD_TC_OP_40_41_42)                    0.00       0.10 r
+  add_57_I5/*cell*144/A[39] (DW01_add_width42)            0.00       0.10 r
+  ...
+  add_57_I5/*cell*144/SUM[41] (DW01_add_width42)          0.01       0.11 r
+  add_57_I5/Z_41 (*ADD_TC_OP_40_41_42)                    0.00       0.11 r
+  add_57_I6/A_41 (*ADD_TC_OP_42_43_44)                    0.00       0.11 r
+  add_57_I6/*cell*147/A[41] (DW01_add_width44)            0.00       0.11 r
+  ...
+  add_57_I6/*cell*147/SUM[43] (DW01_add_width44)          0.01       0.11 r
+  add_57_I6/Z_43 (*ADD_TC_OP_42_43_44)                    0.00       0.11 r
+  add_57_I7/A_43 (*ADD_TC_OP_44_45_46)                    0.00       0.11 r
+  add_57_I7/*cell*150/A[43] (DW01_add_width46)            0.00       0.11 r
+  ...
+  add_57_I7/*cell*150/SUM[45] (DW01_add_width46)          0.01       0.12 r
+  add_57_I7/Z_45 (*ADD_TC_OP_44_45_46)                    0.00       0.12 r
+  add_57_I8/A_45 (*ADD_TC_OP_46_47_48)                    0.00       0.12 r
+  add_57_I8/*cell*153/A[45] (DW01_add_width48)            0.00       0.12 r
+  ...
+  add_57_I8/*cell*153/SUM[47] (DW01_add_width48)          0.01       0.13 r
+  add_57_I8/Z_47 (*ADD_TC_OP_46_47_48)                    0.00       0.13 r
+  add_57_I9/A_47 (*ADD_TC_OP_48_49_50)                    0.00       0.13 r
+  add_57_I9/*cell*156/A[47] (DW01_add_width50)            0.00       0.13 r
+  ...
+  add_57_I9/*cell*156/SUM[49] (DW01_add_width50)          0.01       0.13 r
+  add_57_I9/Z_49 (*ADD_TC_OP_48_49_50)                    0.00       0.13 r
+  add_57_I10/A_49 (*ADD_TC_OP_50_51_52)                   0.00       0.13 r
+  add_57_I10/*cell*159/A[49] (DW01_add_width52)           0.00       0.13 r
+  ...
+  add_57_I10/*cell*159/SUM[51] (DW01_add_width52)         0.01       0.14 r
+  add_57_I10/Z_51 (*ADD_TC_OP_50_51_52)                   0.00       0.14 r
+  add_57_I11/A_51 (*ADD_TC_OP_52_53_54)                   0.00       0.14 r
+  add_57_I11/*cell*162/A[51] (DW01_add_width54)           0.00       0.14 r
+  ...
+  add_57_I11/*cell*162/SUM[53] (DW01_add_width54)         0.01       0.15 r
+  add_57_I11/Z_53 (*ADD_TC_OP_52_53_54)                   0.00       0.15 r
+  add_57_I12/A_53 (*ADD_TC_OP_54_55_56)                   0.00       0.15 r
+  add_57_I12/*cell*165/A[53] (DW01_add_width56)           0.00       0.15 r
+  ...
+  add_57_I12/*cell*165/SUM[55] (DW01_add_width56)         0.01       0.16 r
+  add_57_I12/Z_55 (*ADD_TC_OP_54_55_56)                   0.00       0.16 r
+  add_57_I13/A_55 (*ADD_TC_OP_56_57_58)                   0.00       0.16 r
+  add_57_I13/*cell*168/A[55] (DW01_add_width58)           0.00       0.16 r
+  ...
+  add_57_I13/*cell*168/SUM[57] (DW01_add_width58)         0.01       0.16 r
+  add_57_I13/Z_57 (*ADD_TC_OP_56_57_58)                   0.00       0.16 r
+  add_57_I14/A_57 (*ADD_TC_OP_58_59_60)                   0.00       0.16 r
+  add_57_I14/*cell*171/A[57] (DW01_add_width60)           0.00       0.16 r
+  ...
+  add_57_I14/*cell*171/SUM[59] (DW01_add_width60)         0.01       0.17 r
+  add_57_I14/Z_59 (*ADD_TC_OP_58_59_60)                   0.00       0.17 r
+  add_57_I15/A_59 (*ADD_TC_OP_60_61_62)                   0.00       0.17 r
+  add_57_I15/*cell*174/A[59] (DW01_add_width62)           0.00       0.17 r
+  ...
+  add_57_I15/*cell*174/SUM[61] (DW01_add_width62)         0.01       0.18 f
+  add_57_I15/Z_61 (*ADD_TC_OP_60_61_62)                   0.00       0.18 f
+  add_57_I16/A_61 (*ADD_TC_OP_62_63_64)                   0.00       0.18 f
+  add_57_I16/*cell*177/A[61] (DW01_add_width64)           0.00       0.18 f
+  ...
+  add_57_I16/*cell*177/SUM[63] (DW01_add_width64)         0.01       0.18 f
+  add_57_I16/Z_63 (*ADD_TC_OP_62_63_64)                   0.00       0.18 f
+  P[63] (out)                                             0.00       0.18 f
+  data arrival time                                                  0.18
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

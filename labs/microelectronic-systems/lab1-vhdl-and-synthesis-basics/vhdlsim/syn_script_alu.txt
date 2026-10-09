@@ -1,0 +1,10 @@
+analyze -library WORK -format vhdl {constants.vhd alu_types.vhd alu.vhd}
+
+elaborate ALU -architecture BEHAVIOR -library WORK
+
+compile -exact_map
+
+report_area > alu_area_beh.txt
+report_timing > alu_timing_beh.txt
+
+write -format vhdl -hierarchy -output alu_netlist.vhd

@@ -1,0 +1,15 @@
+analyze -library WORK -format vhdl {registerfile.vhd}
+
+elaborate register_file -architecture A -library WORK -parameters {BIT_WIDTH = 64,ADDR_WIDTH= 5,REG_NUMBER=32}
+
+compile
+
+report_timing > timing_report_noCLK.txt
+report_area > area_report_noCLK.txt
+
+create_clock -name "CLK" -period 2 CLK
+
+compile
+
+report_timing > timing_report_CLK.txt
+report_area > area_report_CLK.txt
