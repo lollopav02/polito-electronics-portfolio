@@ -32,7 +32,5 @@ All projects and labs were carried out in student teams; teammates are credited 
 Files provided by the courses (templates, board libraries) are marked as such, and proprietary
 technology libraries are not included.
 
-## Contact
-
-<!-- TODO: add your LinkedIn URL and e-mail -->
-LinkedIn: _add link_ · E-mail: _add address_
+## Contacts
+LinkedIn: https://www.linkedin.com/in/lorenzo-pavone-46259a1b9/ · E-mail: lollopav02@gmail.com 
